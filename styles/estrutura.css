@@ -33,6 +33,10 @@
     outline: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Lato', sans;
     margin: 1em 0 0;
@@ -204,8 +208,8 @@ section h2 {
     width: 80px;
     padding: 15px;
     border-radius: 50%;
-    background-color: var(--projeto-borda);
-    opacity: 0.1;
+    background-color: var(--bg-geral);
+    opacity: 0.2;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     z-index: 100; 
@@ -213,6 +217,7 @@ section h2 {
 
 #arrow-left:hover,#arrow-right:hover {
     opacity: 1;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
 }
 
 #arrow-left {
