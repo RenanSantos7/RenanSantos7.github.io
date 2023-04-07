@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/estrutura.css">
+    <link rel="stylesheet" href="styles/anim.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Portifólio</title>
+</head>
+
+<body>
+    <nav class="margem-lateral">
+        <a id="contate-me" href="mailto:renansantos.jus@gmail.com">
+            <img class="icone" src="assets/contact_phone_FILL1_wght400_GRAD0_opsz48.png">
+            <p>Contate-me</p>
+        </a>
+        <div id="redes-sociais">
+            <a href="#sobre-mim">Sobre mim</a>
+            <a id="LinkedIn">
+                <img class="icone"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" />
+            </a>
+            <a id="github" href="https://github.com/RenanSantos7">
+                <img class="icone"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+            </a>
+        </div>
+    </nav>
+
+    <header id="home__header" class="margem-lateral">
+        <div id="header__dados">
+            <h1>Renan Santos</h1>
+            <p><span id="saudacao">Olá</span>, meu nome é Renan, tenho <span id="idade">30</span> anos e sou um
+                desenvolvedor Front-End em formação.</p>
+            <div id="linguagens--imagens">
+                <figure>
+                    <img alt="HTML5"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
+                    <figcaption>HTML5</figcaption>
+                </figure>
+                <figure>
+                    <img alt="CSS3"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
+                    <figcaption>CSS3</figcaption>
+                </figure>
+                <figure>
+                    <img alt="JavaScript"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <figcaption>Javascript</figcaption>
+                </figure>
+
+                <!--- Para mais ícones buscar em https://devicon.dev/ --->
+            </div>
+        </div>
+        <figure id="header__figuras">
+            <img src="assets/foto-perfil.png">
+        </figure>
+    </header>
+
+    <!-- % PARTE PRINCIPAL     -->
+    <main>
+        <section id="sobre-mim" class="margem-lateral bg-section">
+            <h2>Sobre mim</h2>
+            <p>Sou formado em <strong>Direito</strong> pela Universidade Estadual do Piauí e advogo desde 2012, mas
+                recentemente surgiu em mim uma vontade de mudar de carreira.</p>
+            <p>E acabei escolhendo algo que eu tinha começado a aprender por <i>hobby</i>: o desenvolvimento para web.
+                Assim que me formei comecei a aprender a mexer com HTML para criar uma <i><a
+                        href="projetos/vade-mecum.html">Vade Mecum</a></i> ("aquele tomo de leis que estudantes de
+                Direito carregam para lá e para cá"), pois não queria mais comprar um todo ano se eu podia simplesmente
+                armazená-los no meu PC. Foi então que fui gradativamente me aprofundando no assunto e descobrindo a
+                magia do CSS e do Javascript.</p>
+            <p>Mas só em 2023</p>
+        </section>
+
+        <!-- % PROJETOS -->
+        <section id="projetos" class="margem-lateral">
+            <h2>Meus Projetos</h2>
+            <div id="projetos__slider">
+                <div id="div-controles">
+                    <span class="material-symbols-outlined controle" id="arrow-left">west</span>
+                    <span class="material-symbols-outlined controle" id="arrow-right">east</span>
+                </div>
+                <div id="projetos__wrap">
+                    <div id="projetos__carrossel">
+                        <article class="projeto projeto-exibido">
+                            <h3>Vade Mecum</h3>
+                            <a href="projetos/vade-mecum.html">
+                                <figure>
+                                    <img class="projeto__screenshot" src="assets/vade-mecum.png">
+                                </figure>
+                                <p>Um projeto de <em>Vade Mecum</em>, o famoso compêndio de leis usados por estudantes e
+                                    profissionais de Direito.</p>
+                                <p>Tem navegação simples e utiliza conceitos de HTML5, CSS3 e JavaScript para criar uma
+                                    experiência de usuário única, preocupada com a legibilidade e acessibilidade.</p>
+                            </a>
+                        </article>
+
+                        <article class="projeto">
+                            <h3>Cardápio para Pizzaria</h3>
+                            <a href="projetos/cardapio.html">
+                                <figure>
+                                    <img class="projeto__screenshot" src="assets/Captura-Cardapio.jpeg">
+                                </figure>
+                                <p>Um cardápio de pizzaria para ser usado com QRCode.</p>
+                            </a>
+                        </article>
+
+                        <article class="projeto">
+                            <h3>Calculadora simples com JavaScript</h3>
+                            <a href="projetos/calculadora.html">
+                                <figure>
+                                    <img class="projeto__screenshot" src="assets/calculadora.png">
+                                </figure>
+                                <p>Uma calculadora simples usando conceitos moderos de CSS3 e JavaScript.</p>
+                            </a>
+                        </article>
+
+                        <article class="projeto">
+                            <h3>Lista de Afazeres</h3>
+                            <a href="projetos/todo-list.html">
+                                <figure>
+                                    <img class="projeto__screenshot" src="assets/todo.png">
+                                </figure>
+                                <p>Uma lista de afazeres simples usando conceitos moderos de CSS3 e JavaScript.</p>
+                            </a>
+                        </article>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- % FRASE -->
+        <section id="frase" class="bg-section margem-lateral">
+            <article>
+                <quote>Is studying computer science the best way to prepare to be a programmer? No. the best way to
+                    prepare is to write programs, and to study great programs that other people have written.</quote>
+                <span class="quote-author">Bill Gates</span>
+            </article>
+        </section>
+
+        <!-- % LINGUAGENS -->
+        <section id="linguagens" class="margem-lateral">
+            <h2>Linguagens Dominadas</h2>
+            <div id="linguagens--imagens">
+                <figure>
+                    <img alt="HTML5"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
+                    <figcaption>HTML5</figcaption>
+                </figure>
+                <figure>
+                    <img alt="CSS3"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
+                    <figcaption>CSS3</figcaption>
+                </figure>
+                <figure>
+                    <img alt="JavaScript"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <figcaption>Javascript</figcaption>
+                </figure>
+
+                <!--- Para mais ícones buscar em https://devicon.dev/ --->
+            </div>
+        </section>
+    </main>
+
+    <footer class="margem-lateral">
+        <a href="mailto:renansantos.jus@gmail.com" class="footer__contato">
+            <img class="icone" src="assets/mail_FILL1_wght400_GRAD0_opsz48.png">
+            <p>Email</p>
+        </a>
+        <a class="footer__contato" id="footer__LinkedIn">
+            <img class="icone" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" />
+            <p>Linkedin</p>
+        </a>
+        <a class="footer__contato" id="footer__github" href="https://github.com/RenanSantos7">
+            <img class="icone" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+            <p>Github</p>
+        </a>
+    </footer>
+</body>
+<script src="scritps/main.js"></script>
+
+</html>

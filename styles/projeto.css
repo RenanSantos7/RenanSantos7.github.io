@@ -1,0 +1,46 @@
+:root {
+    --margin-bt: 2rem;
+}
+
+.projeto__header h1 {
+    font-size: 4rem;
+    font-weight: 500;
+    margin: 4rem 0 5rem;
+}
+
+#titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#titulo a {
+    border-bottom: 1px dotted inherit;
+}
+
+figure {
+    width: 100%;
+    margin-bottom: var(--margin-bt);
+}
+
+p + figure {
+    margin-top: 2rem;
+}
+
+main img {
+    max-width: 100%;
+    max-height: 80vh;
+    border: 5px solid var(--img-borda);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+}
+
+.projeto__main {
+    margin-bottom: 250px;
+}
+
+figcaption {
+    margin-top: .5rem;
+    font-weight: 300;
+    font-style: italic;
+}
