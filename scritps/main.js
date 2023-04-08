@@ -1,6 +1,6 @@
 // % SAUDAÇÃO
 const nascimento = new Date(1990, 02, 08);
-const hoje = new Date(2023, 01, 01);
+const hoje = new Date();
 const idade = hoje.getFullYear() - nascimento.getFullYear();
 const spanIdade = document.getElementById('idade');
 const spanSaudacao = document.getElementById('saudacao');
@@ -9,11 +9,11 @@ spanIdade.textContent = idade;
 
 var saudacao = "";
 if (hoje.getHours < 12) {
-    var saudacao = "Bom dia";
+    saudacao = "Bom dia";
 } else if (12 <= hoje.getHours() < 18) {
-    var saudacao = "Boa tarde";
+    saudacao = "Boa tarde";
 } else {
-    var saudacao = "Boa noite"
+    saudacao = "Boa noite"
 }
 
 spanSaudacao.textContent = saudacao;
