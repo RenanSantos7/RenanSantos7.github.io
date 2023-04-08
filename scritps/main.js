@@ -25,9 +25,8 @@ const numProjetos = projetos.length;
 let projetoExibido = 0;
 
 controles.forEach(controle => {
-    controle.addEventListener('click',function(){
-        const isLeft = controle.classList.contains('arrow-left');
-        if(isLeft) {
+    controle.addEventListener('click', function () {
+        if (controle.id == "arrow-left") {
             projetoExibido -= 1;
         } else {
             projetoExibido += 1;

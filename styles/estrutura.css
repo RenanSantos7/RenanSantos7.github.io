@@ -202,7 +202,7 @@ section h2 {
 
 #arrow-left, #arrow-right {
     position: relative;
-    top: 350px;
+    top: 300px;
     font-size: 50px;
     color: var(--texto);
     width: 80px;
@@ -217,7 +217,7 @@ section h2 {
 
 #arrow-left:hover,#arrow-right:hover {
     opacity: 1;
-    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.5);
 }
 
 #arrow-left {
