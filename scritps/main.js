@@ -46,9 +46,86 @@ controles.forEach(controle => {
 
         projetos[projetoExibido].scrollIntoView({
             inline: "center",
+            block: "center",
             behavior: "smooth"
         });
 
         projetos[projetoExibido].classList.add('projeto-exibido');
     });
 });
+
+// % TROCAR FRASE
+
+const frases = [
+    "Is studying computer science the best way to prepare to be a programmer? No. the best way to prepare is to write programs, and to study great programs that other people have written.",
+    "Software is like sex; it's better when it's free.",
+    "I never in my wildest dreams would have predicted the evolution of the Internet and I never would've predicted the degree to which corporate influence over the Internet has changed its character over time.",
+    "You've got to start with the customer experience and work back toward the technology — not the other way around",
+    "Professionalism has no place in art, and hacking is art. Software Engineering might be science; but that's not what I do. I'm a hacker, not an engineer.",
+    "Em qualquer era da historia todo dia sai alguém procurando o trouxa da vez. Apenas se certifique de que o trouxa não é você"
+];
+
+const autores = [
+    "Bill Gates",
+    "Linus Torvalds",
+    "L Peter Deutsch",
+    "Steve Jobs",
+    "Jamie Zawinski",
+    "Fabio Akita"
+];
+
+// const frases2 = {
+//     "frase1": {
+//         "frase": "Is studying computer science the best way to prepare to be a programmer? No. the best way to prepare is to write programs, and to study great programs that other people have written.",
+//         "autor": "Bill Gates"
+//     },
+
+//     "frase2": {
+//         "frase": "Software is like sex; it's better when it's free.",
+//         "autor": "Linus Torvalds"
+//     },
+
+//     "frase3": {
+//         "frase": "I never in my wildest dreams would have predicted the evolution of the Internet and I never would've predicted the degree to which corporate influence over the Internet has changed its character over time.",
+//         "autor": "L Peter Deutsch"
+//     },
+
+//     "frase4": {
+//         "frase": "You've got to start with the customer experience and work back toward the technology — not the other way around",
+//         "autor": "Steve Jobs"
+//     },
+
+//     "frase5": {
+//         "frase": "Professionalism has no place in art, and hacking is art. Software Engineering might be science; but that's not what I do. I'm a hacker, not an engineer.",
+//         "autor":"Jamie Zawinski"
+//     },
+
+//     "frase6": {
+//         "frase": "Em qualquer era da historia todo dia sai alguém procurando o trouxa da vez. Apenas se certifique de que o trouxa não é você",
+//         "autor": "Fabio Akita"
+//     }
+// }
+
+const citacao = document.querySelector('#citacao');
+const autor = document.querySelector('#autor');
+
+function geraInteiroAleatorio(min, max) { //esta função exclui o valor máximo
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min) + min);
+}
+
+function mudaFrase() {
+    let i = geraInteiroAleatorio(0, frases.length);
+    citacao.textContent = frases[i];
+    autor.textContent = autores[i];
+}
+
+// function mudaFraseDois() {
+//     let i = geraInteiroAleatorio(0, frases.length);
+//     citacao.textContent = frases2[i].frase;
+//     autor.textContent = frases2[i].autor;
+//     console.log('frase mudou');
+// }
+
+document.addEventListener('load', mudaFrase());
