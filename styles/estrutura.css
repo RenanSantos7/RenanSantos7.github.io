@@ -56,7 +56,7 @@ a, a:visited {
     color: var(--texto)
 }
 
-p, quote, .quote-author, li {
+p, quote, cite, li {
     font-size: 1.3rem;
     line-height: 1.5;
     color: var(--texto)
@@ -149,7 +149,27 @@ nav {
     border: 12px solid var(--img-borda);
     box-shadow: var(--shadow);
     /* object-fit: fill; */
-} 
+}
+
+#linguagens--imagens {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 3rem;
+}
+
+#linguagens--imagens figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#linguagens--imagens figcaption {
+    margin-top: .5rem;
+}
+
+#linguagens--imagens img {
+    width: 50px;
+}
 
 section {
     margin: 5rem 0;
@@ -251,6 +271,10 @@ section h2 {
     box-shadow: 2px 2px 8px rgba(0,0,0,0.3)
 }
 
+#frase {
+    padding-left: 25%;
+}
+
 quote::before {
     content: "\“";
     display: block;
@@ -271,34 +295,14 @@ quote {
     margin-bottom: 1rem;
 }
 
-.quote-author {
+cite {
     display: block;
     text-align: right;
 }
 
-#frase {
-    padding-left: 25%;
-}
-
-#linguagens--imagens {
-    display: flex;
-    flex-flow: row wrap;
-    gap: 3rem;
-}
-
-#linguagens--imagens figure {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#linguagens--imagens figcaption {
-    margin-top: .5rem;
-}
-
-#linguagens--imagens img {
-    width: 50px;
-}
+/* #blog {
+    min-height: 100vh;
+} */
 
 footer {
     display: flex;
@@ -333,6 +337,12 @@ footer p {
     nav {
         margin-bottom: 5rem;
     }
+
+    .margem-lateral {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
     #home__header {
         flex-direction: column-reverse;
         height: unset;
@@ -343,11 +353,24 @@ footer p {
         font-size: 3rem;
     }
 
-    p, quote, .quote-author, li{
+    p, quote, cite, li{
         font-size: 1.1rem;
     }
 
     section h2{
         font-size: 1.6rem;
+    }
+
+    .projeto {
+        width: 100%;
+        height: unset;
+    }
+
+    #frase {
+        padding-left: 20%;
+    }
+
+    quote::before {
+        left: 5vw;
     }
 }
