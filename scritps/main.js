@@ -68,8 +68,9 @@ const frases = [
     "Programadores e artistas são os únicos profissionais que tem como hobby a própria profissão.",
     "Saber não é o bastante, devemos aplicar. Disposição não é o suficiente, devemos fazer.",
     "Nossos fracassos, às vezes, são mais frutíferos do que os êxitos.",
-    "Não se preocupe se não funcionar corretamente. Se tudo acontecesse, você ficaria sem emprego.",
-    "Faça como um programador. Quando tudo está errado e confuso, apague tudo e recomece do zero."
+    "Não se preocupe se não funcionar corretamente. Se tudo corresse bem, você ficaria sem emprego.",
+    "Faça como um programador. Quando tudo está errado e confuso, apague tudo e recomece do zero.",
+    "The purpose of computing is insight, not numbers.",
 ];
 
 const autores = [
@@ -85,40 +86,9 @@ const autores = [
     "Johann Wolfgang von Goethe",
     "Henry Ford",
     "Lei de Mosher",
-    "Orlando Cordeiro"
+    "Orlando Cordeiro",
+    "Richard Hamming",
 ];
-
-// const frases2 = {
-//     "frase1": {
-//         "frase": "Is studying computer science the best way to prepare to be a programmer? No. the best way to prepare is to write programs, and to study great programs that other people have written.",
-//         "autor": "Bill Gates"
-//     },
-
-//     "frase2": {
-//         "frase": "Software is like sex; it's better when it's free.",
-//         "autor": "Linus Torvalds"
-//     },
-
-//     "frase3": {
-//         "frase": "I never in my wildest dreams would have predicted the evolution of the Internet and I never would've predicted the degree to which corporate influence over the Internet has changed its character over time.",
-//         "autor": "L Peter Deutsch"
-//     },
-
-//     "frase4": {
-//         "frase": "You've got to start with the customer experience and work back toward the technology — not the other way around",
-//         "autor": "Steve Jobs"
-//     },
-
-//     "frase5": {
-//         "frase": "Professionalism has no place in art, and hacking is art. Software Engineering might be science; but that's not what I do. I'm a hacker, not an engineer.",
-//         "autor":"Jamie Zawinski"
-//     },
-
-//     "frase6": {
-//         "frase": "Em qualquer era da historia todo dia sai alguém procurando o trouxa da vez. Apenas se certifique de que o trouxa não é você",
-//         "autor": "Fabio Akita"
-//     }
-// }
 
 const citacao = document.querySelector('#citacao');
 const autor = document.querySelector('#autor');
@@ -134,12 +104,5 @@ function mudaFrase() {
     citacao.textContent = frases[i];
     autor.textContent = autores[i];
 }
-
-// function mudaFraseDois() {
-//     let i = geraInteiroAleatorio(0, frases.length);
-//     citacao.textContent = frases2[i].frase;
-//     autor.textContent = frases2[i].autor;
-//     console.log('frase mudou');
-// }
 
 document.addEventListener('load', mudaFrase());
