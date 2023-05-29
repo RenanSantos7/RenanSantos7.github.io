@@ -42,13 +42,11 @@ body {
     margin: 1em 0 0;
     scroll-behavior: smooth;
     background-color: var(--bg-geral);
-    /* margin-left: 15%;
-    margin-right: 15%; */
+
 }
 
 .margem-lateral {
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-inline: max(15vw, calc(50vw - 700px));
 }
 
 a, a:visited {
@@ -336,8 +334,7 @@ footer p {
     }
 
     .margem-lateral {
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-inline: 5vw;
     }
 
     #home__header {
