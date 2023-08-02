@@ -58,8 +58,13 @@ const frases = [
     {
         frase: "Really good programs live forever.",
         autor: "Charles Simonyi"
+    },
+    {
+        frase: "Whenever I have to think to understand what the code is doing, I ask myself if I can refactor the code to make that understanding more immediately apparent.",
+        autor: "Martin Fowler"
     }
 ]
+
 
 const citacao = document.querySelector('#citacao');
 const autorCitacao = document.querySelector('#autor');
@@ -73,7 +78,7 @@ function geraInteiroAleatorio(min, max) { //esta função exclui o valor máximo
 function mudaFrase() {
     let i = geraInteiroAleatorio(0, frases.length);
     citacao.textContent = frases[i].frase;
-    autor.textContent = frases[i].autor;
+    autorCitacao.textContent = frases[i].autor;
 }
 
 document.addEventListener('load', mudaFrase());
