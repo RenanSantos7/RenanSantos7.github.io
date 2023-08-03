@@ -1,7 +1,15 @@
 // % SAUDAÇÃO
-const nascimento = new Date(1990, 02, 08);
-const hoje = new Date();
-const idade = hoje.getFullYear() - nascimento.getFullYear();
+function encontraIdade(nascimento) {
+    const hoje = new Date();
+    const age = hoje.getFullYear() - nascimento.getFullYear();
+    const mes = hoje.getMonth() - nascimento.getMonth();
+    if (mes < 0 || (mes === 0 && hoje.getDate() < nascimento.getDate())) {
+      age--;
+    }
+    return age;
+}
+  
+const idade = encontraIdade(new Date(1990, 02, 08));
 const spanIdade = document.getElementById('idade');
 const spanSaudacao = document.getElementById('saudacao');
 

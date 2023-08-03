@@ -37,19 +37,19 @@ const frases = [
     },
     {
         frase: "Saber não é o bastante, devemos aplicar. Disposição não é o suficiente, devemos fazer.",
-        autor: "Johann Wolfgang von Goethe",
+        autor: "Johann Wolfgang von Goethe"
     },
     {
         frase: "Nossos fracassos, às vezes, são mais frutíferos do que os êxitos.",
-        autor: "Henry Ford",
+        autor: "Henry Ford"
     },
     {
         frase: "Não se preocupe se não funcionar corretamente. Se tudo acontecesse, você ficaria sem emprego.",
-        autor: "Lei de Mosher",
+        autor: "Lei de Mosher"
     },
     {
         frase: "Faça como um programador. Quando tudo está errado e confuso, apague tudo e recomece do zero.",
-        autor: "Orlando Cordeiro",
+        autor: "Orlando Cordeiro"
     },
     {
         frase: "Most programming languages contain good parts and bad parts. I discovered that I could be better programmer by using only the good parts and avoiding the bad parts.",
@@ -64,7 +64,6 @@ const frases = [
         autor: "Martin Fowler"
     }
 ]
-
 
 const citacao = document.querySelector('#citacao');
 const autorCitacao = document.querySelector('#autor');
