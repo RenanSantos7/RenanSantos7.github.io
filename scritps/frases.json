@@ -62,5 +62,9 @@
     {
         "frase": "Whenever I have to think to understand what the code is doing, I ask myself if I can refactor the code to make that understanding more immediately apparent.",
         "autor": "Martin Fowler"
+    },
+    {
+        "frase": "Falar é fácil, me mostre o código.",
+        "autor": "Linus Torvalds"
     }
 ]
