@@ -1,6 +1,7 @@
 // % SAUDAÇÃO
+const hoje = new Date();
+
 function encontraIdade(nascimento) {
-    const hoje = new Date();
     const age = hoje.getFullYear() - nascimento.getFullYear();
     const mes = hoje.getMonth() - nascimento.getMonth();
     if (mes < 0 || (mes === 0 && hoje.getDate() < nascimento.getDate())) {
@@ -26,38 +27,12 @@ if (hoje.getHours < 12) {
 
 spanSaudacao.textContent = saudacao;
 
-// % CARROSSEL
-const controles = document.querySelectorAll('.controle');
-const projetos = document.querySelectorAll('.projeto');
-const numProjetos = projetos.length;
-let projetoExibido = 0;
+// % PROJETOS
 
-controles.forEach(controle => {
-    controle.addEventListener('click', function () {
-        if (controle.id == "arrow-left") {
-            projetoExibido -= 1;
-        } else {
-            projetoExibido += 1;
-        }
+const projetosLinks = document.querySelectorAll('.projeto__link');
 
-        if (projetoExibido >= numProjetos) {
-            projetoExibido = 0;
-        }
-
-        if (projetoExibido < 0) {
-            projetoExibido = numProjetos - 1;
-        }
-
-        projetos.forEach(projeto => {
-            projeto.classList.remove('projeto-exibido');
-        });
-
-        projetos[projetoExibido].scrollIntoView({
-            inline: "center",
-            block: "center",
-            behavior: "smooth"
-        });
-
-        projetos[projetoExibido].classList.add('projeto-exibido');
-    });
-});
+projetosLinks.forEach((link) => {
+    link.addEventListener('click', (ev) => {
+        localStorage.setItem("projetoID", link.dataset.pagina)
+    })
+}) 

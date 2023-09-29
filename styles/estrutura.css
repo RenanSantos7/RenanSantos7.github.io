@@ -9,7 +9,7 @@
     --texto: #2b2b2b;
     --titulo: #3e3e3e;
     --projeto-borda: #ccc;
-    --shadow: 1px 1px 12px rgba(0,0,0,0.3)
+    --shadow: rgba(124, 138, 151, 0.2);
 }
 
 @media screen and (prefers-color-scheme: dark) {
@@ -151,7 +151,7 @@ nav img {
     width: 250px;
     border-radius: 100%;
     border: 12px solid var(--cor3);
-    box-shadow: var(--shadow);
+    box-shadow: 1px 1px 15px 2px var(--shadow);
     /* object-fit: fill; */
 }
 
@@ -197,86 +197,54 @@ section h2 {
     justify-content: center;
 }
 
-#div-controles {
-    height: 0;
-}
-
-#projetos__wrap {
-    overflow-x: hidden;
-}
-
-#projetos__carrossel {
+#projetos-container {
     display: flex;
-    flex-flow: row nowrap;
-    gap: 20px;
+    flex-flow: row-reverse wrap;
+    gap: 45px;
+    justify-content: start;
 }
 
 .projeto {
-    width: 750px;
-    height: 650px;
-    flex-shrink: 0;
+    width: 400px;
+    height: 550px;
     border: 1px solid var(--projeto-borda);
-    padding: 2rem;
     border-radius: 18px;
-    opacity: 0.6;
-    filter: blur(2px);
-    transition: all 0.6s ease-in-out;
+    overflow: hidden;
 }
 
-.projeto-exibido {
-    opacity: 1;
-    filter: blur(0);
+.projeto:hover {
+    box-shadow: 0 0 15px var(--shadow);
 }
 
-#arrow-left, #arrow-right {
-    position: relative;
-    top: 300px;
-    font-size: 50px;
-    color: var(--texto);
-    width: 80px;
-    padding: 15px;
-    border-radius: 50%;
-    background-color: var(--bg-geral);
-    opacity: 0.2;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-    z-index: 100; 
-}
-
-#arrow-left:hover,#arrow-right:hover {
-    opacity: 1;
-    box-shadow: 2px 2px 15px rgba(0,0,0,0.5);
-}
-
-#arrow-left {
-    left: -2.5vw;
-}
-
-#arrow-right {
-    position: relative;
-    left: 62.5vw;
-}
-
-.projeto h3 {
-    margin-top: 0;
-    font-weight: 400;
-    font-size: 1.6rem;
-    margin-bottom: 2rem;
-}
-
-.projeto figure {
+.projeto__imagem {
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 2rem;
+    overflow: hidden;    
 }
 
 .projeto img {
     height: 300px;
     width: 100%;
-    object-fit:cover;
-    box-shadow: 2px 2px 8px rgba(0,0,0,0.3)
+    object-fit: cover;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+    transition: all 0.6s ease-in-out;
+}
+
+.projeto:hover img {
+    transform: scale(1.15);
+}
+
+.projeto__texto {
+    padding: 1.2em;
+}
+
+.projeto__texto h3 {
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.projeto__texto p {
+    font-size: 1rem;
 }
 
 #frase {
