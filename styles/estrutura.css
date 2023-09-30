@@ -24,10 +24,6 @@
         --titulo: #f0f0f0;
         --projeto-borda: #5a5a5a;
     }
-
-    .icone {
-        filter: invert(100%);
-    }
 }
 
 * {
@@ -47,7 +43,6 @@ body {
     margin: 1em 0 0;
     scroll-behavior: smooth;
     background-color: var(--bg-geral);
-
 }
 
 .margem-lateral {
@@ -69,7 +64,11 @@ b, strong {
     color: var(--cor1);
 }
 
-h1, h2, h3 {
+.fa-solid, .fa-brands {
+    font-size: 1.3em;
+}
+
+h1, h2 {
     color: var(--titulo)
 }
 
@@ -154,7 +153,7 @@ nav img {
 #header__figuras img {
     width: 250px;
     border-radius: 100%;
-    border: 12px solid var(--cor3);
+    border: 12px solid #b2b2b2;
     box-shadow: 1px 1px 15px 2px var(--shadow);
     /* object-fit: fill; */
 }
@@ -245,11 +244,12 @@ section h2 {
 .projeto__texto h3 {
     font-weight: 400;
     font-size: 1.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .projeto__texto p {
-    font-size: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.5;
 }
 
 #frase {
@@ -303,16 +303,20 @@ footer p {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.footer__contato img {
-    width: 20px;
-    margin-right: .8rem;
+    gap: .5rem;
 }
 
 @media (width<700px) {
+    p, quote, cite, li{
+        font-size: 1rem;
+    }
+
     nav {
         margin-bottom: 5rem;
+    }
+
+    .nav-link {
+        font-size: .9rem;
     }
 
     .margem-lateral {
@@ -327,10 +331,6 @@ footer p {
 
     #home__header h1 {
         font-size: 3rem;
-    }
-
-    p, quote, cite, li{
-        font-size: 1.1rem;
     }
 
     section h2{
