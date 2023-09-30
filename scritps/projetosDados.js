@@ -26,7 +26,7 @@ const projetosDados = [
     {
         "nome": "Gerador de Tabelas",
         "link": "https://github.com/RenanSantos7/Gerador-de-tabelas",
-        "img": "../assets/gerador-tabelas1.png",
+        "img": "../assets/gerador-tabela1.png",
         "alt": "Gerador de tabelas",
         "descricao": "<p>Sabe quando você precisa criar uma tabela em HTML? Não dá um trabalhão digitar TRs e TDs? Esse projeto te ajuda a simplificar esse processo. Basta definir o número de linhas e colunas e a tabela é gerada.</p><h2>Como Usar</h2><p>É muito simples usar o Gerador de Tabelas. Primeiro, defina o número de linhas e colunas e clique no botão 'Gerar!'</p><p>Depois, uma tabela é gerada na página. Basta clicar em cada célular para editar seu conteúdo.</p><figure><img alt='Tela 1' src='assets/gerador-tabela2.png'></figure><p>Nessa tela você deve ainda selecionar se a tabela é no sentido vertical (com os títulos da tabela na primeira linha) ou horizontal (com os títulos na primeira coluna). O padrão é o sentido vertical.</p><p>Por fim, quando você clicar no botão 'Gerar código', o código é exibido para você. Você pode selecionar o texto e copiá-lo ou clicar em &quot;Copiar&quot;.</p><figure><img alt='Tela 2' src='assets/gerador-tabela3.png'></figure><h2>Github Pages</h2><p>O projeto está disponível através do <a href='https://renansantos7.github.io/Gerador-de-tabelas/'>Github Pages</a>.</p>"
     },
