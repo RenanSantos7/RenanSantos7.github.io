@@ -20,7 +20,7 @@
 
 figure {
     width: 100%;
-    margin-bottom: var(--margin-bt);
+    margin-bottom: 80px;
 }
 
 p + figure {
@@ -37,6 +37,11 @@ main img {
 
 .projeto__main {
     margin-bottom: 250px;
+}
+
+#projeto__descrição {
+    margin: 0;
+    padding: 0;
 }
 
 figcaption {
