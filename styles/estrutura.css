@@ -1,14 +1,15 @@
 :root {
     --cor1: #0b5498;
-    --cor2: #3c6997;
+    --cor2: #3084c4;
     --cor3: #fe9000;
 
-    --bg-geral: #fafafa;
+    --bg-geral: #f7f7f7;
     --bg-section: #e0eefa;
+    --bg-card: #ffffff;
     --bg-footer: #dedede;
     --texto: #2b2b2b;
     --titulo: #3e3e3e;
-    --projeto-borda: #ccc;
+    --borda: #ccc;
     --shadow: rgba(124, 138, 151, 0.5);
 }
 
@@ -19,7 +20,9 @@
 
         --bg-geral: #2b2b2b; 
         --bg-section: #3c699725;
+        --bg-card: #3c3c3c;
         --bg-footer: #262626;
+        --borda: #5d5d5d;
         --texto: #eee;
         --titulo: #f0f0f0;
         --projeto-borda: #5a5a5a;
@@ -40,7 +43,7 @@ html {
 
 body {
     font-family: 'Lato', sans;
-    margin: 1em 0 0;
+    margin-top: 1em;
     scroll-behavior: smooth;
     background-color: var(--bg-geral);
 }
@@ -91,6 +94,10 @@ figure {
     justify-content: center;
 }
 
+img {
+    max-width: 100%;
+}
+
 figcaption {
     color: var(--texto)
 }
@@ -109,10 +116,6 @@ nav p {
 
 .nav-link {
     font-size: 1rem;
-}
-
-nav img {
-    height: 25px;
 }
 
 #contate-me {
@@ -206,26 +209,26 @@ section h2 {
     gap: 40px;
 }
 
-.projeto {
+.card {
     width: 400px;
     height: 450px;
-    border: 1px solid var(--projeto-borda);
+    border: 1px solid var(--borda);
     border-radius: 18px;
+    background-color: var(--bg-card);
     overflow: hidden;
     transition: all 0.6s ease-in-out;
 }
 
-.projeto:hover {
+.card:hover {
     box-shadow: 0 0 25px var(--shadow);
-    transform: rotate(-2deg);
 }
 
-.projeto__imagem {
+.card__imagem {
     width: 100%;
     overflow: hidden;    
 }
 
-.projeto img {
+.card img {
     height: 250px;
     width: 100%;
     object-fit: cover;
@@ -233,21 +236,21 @@ section h2 {
     transition: all 0.6s ease-in-out;
 }
 
-.projeto:hover img {
+.card:hover img {
     transform: scale(1.15);
 }
 
-.projeto__texto {
+.card__texto {
     padding: 1.3em;
 }
 
-.projeto__texto h3 {
+.card__texto h3 {
     font-weight: 400;
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 
-.projeto__texto p {
+.card__texto p {
     font-size: 1.1rem;
     line-height: 1.5;
 }
@@ -288,11 +291,10 @@ cite {
 footer {
     display: flex;
     justify-content: center;
+    gap: 3rem;
     background-color: var(--bg-footer);
     width: 100%;
-    margin: 0 0;
     padding: 64px 0 25px;
-    gap: 3rem;
 }
 
 footer p {
