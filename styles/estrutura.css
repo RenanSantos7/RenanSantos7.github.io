@@ -17,6 +17,7 @@
     :root {
         --cor1: #79BAF6;
         --cor2: #6D99C5;
+        --cor3: #da9b48;
 
         --bg-geral: #2b2b2b; 
         --bg-section: #3c699725;
@@ -64,7 +65,7 @@ p, quote, cite, li {
 }
 
 b, strong {
-    color: var(--cor1);
+    color: var(--cor3);
 }
 
 .fa-solid, .fa-brands {
@@ -182,8 +183,8 @@ nav p {
 }
 
 section {
-    margin: 5rem 0;
-    padding: 5rem 0;
+    margin-block: 5rem;
+    padding-block: 5rem;
 }
 
 .bg-section {
@@ -284,9 +285,9 @@ cite {
     text-align: right;
 }
 
-/* #blog {
+#blog {
     min-height: 100vh;
-} */
+}
 
 footer {
     display: flex;
@@ -313,8 +314,13 @@ footer p {
         font-size: 1rem;
     }
 
-    nav {
-        margin-bottom: 5rem;
+    .cabecalho {
+        position: relative;
+    }
+
+    #contate-me,
+    #redes-sociais {
+        gap: .5rem;
     }
 
     .nav-link {
@@ -326,6 +332,7 @@ footer p {
     }
 
     #home__header {
+        margin-top: 4rem;
         flex-direction: column-reverse;
         height: unset;
         gap: 40px
@@ -333,6 +340,11 @@ footer p {
 
     #home__header h1 {
         font-size: 3rem;
+    }
+
+    section {
+        margin-block: 1rem;
+        padding-block: 4rem;
     }
 
     section h2{
