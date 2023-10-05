@@ -2,14 +2,10 @@ body {
     min-height: 100vh;
 }
 
-.cabecalho {
-    padding-block: 3rem;
-}
-
 .blog-post {
     background-image: url("https://images.unsplash.com/photo-1579600161224-cac5a2971069");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
 }
 
 .blog-post::after {
