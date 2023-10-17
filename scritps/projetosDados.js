@@ -37,4 +37,4 @@ const projetosDados = [
         "alt": "Número Secreto. Chute reconhecido",
         "descricao": "<p>Um projeto feito para o curso &quot;<strong>JavaScript: validações e reconhecimento de voz</strong>&quot; da #Alura com o professor Guilherme Lima.</p><p>Trata-se de um jogo bastante divertido em que se usa a Web Speech API para reconhecimento de voz. Você fala um número até acertar o número secreto que ele sorteou!</p><p>Aproveite e divirta-se!</p><p>O projeto está disponível pelo <a href='https://numero-secreto-git-main-renansantos7.vercel.app/'>Vercel</a>.</p>"
     }
-];
+]
