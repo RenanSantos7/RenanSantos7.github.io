@@ -126,6 +126,10 @@ nav p {
     gap: 1rem;
 }
 
+.cabecalho-home #contate-me {
+    opacity: 0;
+}
+
 #redes-sociais {
     display: flex;
     align-items: center;
@@ -160,6 +164,19 @@ nav p {
     border: 12px solid #b2b2b2;
     box-shadow: 1px 1px 15px 2px var(--shadow);
     /* object-fit: fill; */
+}
+
+.botao-contato {
+    padding: 1rem 1.5rem;
+    background: linear-gradient(145deg, var(--cor2) 0%, var(--cor2) 50%, var(--cor1) 100%);
+    border-radius: 18px;
+    color: white;
+    transition: all .8s ease;
+    /* transition: background .8s ease; */
+}
+
+.botao-contato:hover {
+    box-shadow:  0 0 24px var(--cor2);
 }
 
 #linguagens--imagens {
