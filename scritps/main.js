@@ -10,7 +10,7 @@ function encontraIdade(nascimento) {
     return age;
 }
   
-const idade = encontraIdade(new Date(1990, 02, 08));
+const idade = encontraIdade(new Date("1990-03-08"));
 const spanIdade = document.getElementById('idade');
 const spanSaudacao = document.getElementById('saudacao');
 
@@ -32,7 +32,7 @@ spanSaudacao.textContent = saudacao;
 const projetosLinks = document.querySelectorAll('.projeto__link');
 
 projetosLinks.forEach((link) => {
-    link.addEventListener('click', (ev) => {
+    link.addEventListener('click', () => {
         localStorage.setItem("projetoID", link.dataset.pagina)
     })
 }) 
