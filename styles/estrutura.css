@@ -46,6 +46,12 @@ section {
     padding-block: 5rem;
 }
 
+section h2 {
+    font-size: 2.1rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
 a, a:visited {
     text-decoration: none;
     color: var(--cor1);
@@ -95,6 +101,7 @@ img {
 figcaption {
     color: var(--texto)
 }
+
 /* % Classes genéricas */
 
 .margem-lateral {
@@ -207,16 +214,10 @@ nav p {
     width: 50px;
 }
 
-section h2 {
-    font-size: 2.1rem;
-    font-weight: 500;
-    margin-bottom: 2rem;
-}
-
 /* % SEÇÃO "SOBRE MIM" */
 
 #sobre-mim {
-    min-height: calc(100vh-50px);
+    min-height: calc(100vh - 50px);
     display: flex;
     flex-direction: column;
     justify-content: center;
