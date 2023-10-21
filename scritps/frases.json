@@ -44,7 +44,7 @@
         "autor": "Henry Ford"
     },
     {
-        "frase": "Não se preocupe se não funcionar corretamente. Se tudo acontecesse, você ficaria sem emprego.",
+        "frase": "Não se preocupe se não funcionar corretamente. Se tudo desse certo, você ficaria sem emprego.",
         "autor": "Lei de Mosher"
     },
     {
@@ -66,5 +66,9 @@
     {
         "frase": "Falar é fácil, me mostre o código.",
         "autor": "Linus Torvalds"
+    },
+    {
+        "frase":"Se você não trabalha por seus próprios sonhos, alguém irá te contratar para que trabalhe pelos deles.",
+        "autor": "Steve Jobs"
     }
 ]
