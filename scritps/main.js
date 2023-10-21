@@ -36,3 +36,6 @@ projetosLinks.forEach((link) => {
         localStorage.setItem("projetoID", link.dataset.pagina)
     })
 }) 
+
+// % Menu muda quando rola
+

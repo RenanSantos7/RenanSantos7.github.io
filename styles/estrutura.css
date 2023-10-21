@@ -30,6 +30,8 @@
     }
 }
 
+/* % RESET */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -42,15 +44,13 @@ html {
     scroll-behavior: smooth;
 }
 
+/* % REGRAS GERAIS */
+
 body {
     font-family: 'Lato', sans;
     margin-top: 1em;
     scroll-behavior: smooth;
     background-color: var(--bg-geral);
-}
-
-.margem-lateral {
-    padding-inline: max(15vw, calc(50vw - 700px));
 }
 
 a, a:visited {
@@ -64,12 +64,12 @@ p, quote, cite, li {
     color: var(--texto)
 }
 
-b, strong {
-    color: var(--cor3);
-}
-
 .fa-solid, .fa-brands {
     font-size: 1.3em;
+}
+
+b, strong {
+    color: var(--cor3);
 }
 
 h1, h2 {
@@ -103,12 +103,43 @@ figcaption {
     color: var(--texto)
 }
 
-nav {
+/* % Classes genéricas */
+
+.flex-center {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circulo {
+    border-radius: 50%;
+}
+
+.quadrado {
+    width: var(--tamanho);
+    height: var(--tamanho);
+}
+
+.margem-lateral {
+    padding-inline: max(15vw, calc(50vw - 700px));
+}
+
+/* % CABEÇALHO */
+
+.cabecalho {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
-    height: 5vh;
+    width: 100vw;
+    height: 12vh;
+    position: fixed;
+    top: 0;
+    padding-block: 1rem;
+    background-color: var(--bg-geral);
+}
+
+.menu-scroll {
+    box-shadow: 0 0 15px var(--shadow);
 }
 
 nav p {
@@ -117,13 +148,6 @@ nav p {
 
 .nav-link {
     font-size: 1rem;
-}
-
-#contate-me {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 1rem;
 }
 
 .cabecalho-home #contate-me {
@@ -135,6 +159,8 @@ nav p {
     align-items: center;
     gap: 1.5rem;
 }
+
+/* % HEADER */
 
 #home__header {
     display: flex;
@@ -167,12 +193,12 @@ nav p {
 }
 
 .botao-contato {
+    display: inline-block;
     padding: 1rem 1.5rem;
     background: linear-gradient(145deg, var(--cor2) 0%, var(--cor2) 50%, var(--cor1) 100%);
     border-radius: 18px;
     color: white;
     transition: all .8s ease;
-    /* transition: background .8s ease; */
 }
 
 .botao-contato:hover {
