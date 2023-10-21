@@ -1,0 +1,56 @@
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    line-height: 1;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.flex-center {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circulo {
+    border-radius: 50%;
+}
+
+.quadrado {
+    width: var(--tamanho);
+    height: var(--tamanho);
+}
+
+.transparente {
+    opacity: 0;
+}
+
+.oculto {
+    display: none;
+}
