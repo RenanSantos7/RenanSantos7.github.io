@@ -1,3 +1,5 @@
+import projetosDados from "./projetosDados.js";
+
 var pagina = parseInt(localStorage.getItem('projetoID'))
 
 montaPagina(projetosDados[pagina])
