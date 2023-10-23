@@ -9,9 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap">
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/estrutura.css">
-    <link rel="stylesheet" href="styles/anim.css">
+    <link rel="stylesheet" href="styles/base.css">
     <link rel="icon" href="assets/AREmoji.png">
     <title>Portifólio</title>
     <meta description="Portifólio de Dev Front-End de Renan Santos">
@@ -23,7 +21,7 @@
 <body>
     <!-- % Cabeçalho -->
     <nav class="cabecalho margem-lateral cabecalho-home">
-        <a id="contate-me" class="transparente" href="mailto:renansantos7@proton.me">Contate-me</a>
+        <a id="contate-me" href="mailto:renansantos7@proton.me">Contate-me</a>
         <div id="redes-sociais">
             <a class="nav-link" href="#sobre-mim">Sobre mim</a>
             <a class="nav-link" href="#projetos">Projetos</a>
@@ -42,9 +40,16 @@
         <div id="header__dados">
             <h1>Renan Santos</h1>
             <p><span id="saudacao">Olá</span>, meu nome é Renan, tenho <span id="idade">30</span> anos e sou um desenvolvedor Front-End em formação.</p>
-            <a class="botao-contato" href="mailto:renansantos7@proton.me" target="_blank">Contate-me</a>
+
+            <div class="tecnologias">
+                <img src="assets/tecnologias-html.svg" alt="html" title="HTML5">
+                <img src="assets/tecnologias-css.svg" alt="html" title="CSS3">
+                <img src="assets/tecnologias-sass.svg" alt="html" title="SASS">
+                <img src="assets/tecnologias-javascript.svg" alt="html" title="JavaScript">
+            </div>
+
         </div>
-        <figure id="header__figuras">
+        <figure class="minha-foto">
             <img alt="Foto de perfil" src="assets/foto-perfil.png">
         </figure>
     </header>
@@ -62,6 +67,56 @@
             
             <p>Atualmente, estudo JavaScript na Alura e pretendo ainda aprender TypeScript, Angular, C, C++ e o que mais puder me ajudar a me tornar um desenvolvedor web competente e criativo, capaz de criar soluções inovadoras e eficientes.</p>
         </section>
+
+        <!-- % TECNOLOGIAS 
+        <section id="tecnologias" class="margem-lateral">
+            <h2>Tecnologias dominadas</h2>
+            <div class="tecnologias__container">
+                <figure class="tecnologias__figure">
+                    <div class="img-container">
+                        <img src="assets/tecnologias-html.svg" alt="html">
+                    </div>
+                    <figcaption>
+                        <h3 aria-hidden="true">HTML5</h3>
+                        <h5 aria-hidden="true">Hypertext Markup Language</h5>
+                        <p aria-hidden="true">A linguagem de marcação que gera a internet.</p>
+                    </figcaption>
+                </figure>
+                
+                <figure class="tecnologias__figure">
+                    <div class="img-container">
+                        <img src="assets/tecnologias-css.svg" alt="CSS">
+                    </div>
+                    <figcaption>
+                        <h3 aria-hidden="true">CSS3</h3>
+                        <h5 aria-hidden="true">Cascading Stylesheet</h5>
+                        <p aria-hidden="true">Folhas de estilo em cascata. Serve para estilizar as pastas.</p>
+                    </figcaption>
+                </figure>
+                
+                <figure class="tecnologias__figure">
+                    <div class="img-container">
+                        <img src="assets/tecnologias-sass.svg" alt="SASS">
+                    </div>
+                    <figcaption>
+                        <h3 aria-hidden="true">SASS</h3>
+                        <h5 aria-hidden="true">Semantic Awesome Stylesheets!</h5>
+                        <p aria-hidden="true">O CSS com superpoderes.</p>
+                    </figcaption>
+                </figure>
+                
+                <figure class="tecnologias__figure">
+                    <div class="img-container"> 
+                        <img src="assets/tecnologias-javascript.svg" alt="JavaScript">
+                    </div>
+                    <figcaption>
+                        <h3 aria-hidden="true">JavaScript</h3>
+                        <h5 aria-hidden="true">A linguagem de programação da web.</h5>
+                        <p aria-hidden="true">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>-->
 
         <!-- % PROJETOS -->
         <section id="projetos" class="margem-lateral">

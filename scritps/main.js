@@ -54,14 +54,14 @@ window.addEventListener('scroll', () => {
 });
 // ! - - - - - - -
 
-const botaoContato = document.querySelector("#contate-me")
+// const botaoContato = document.querySelector("#contate-me")
 
-window.addEventListener('scroll', () => {
-  const currentPosition = window.scrollY
+// window.addEventListener('scroll', () => {
+//   const currentPosition = window.scrollY
 
-  if (currentPosition >= 300) {
-    botaoContato.classList.remove('transparente')
-  } else {
-    botaoContato.classList.add('transparente')
-  }
-});
+//   if (currentPosition >= 300) {
+//     botaoContato.classList.remove('transparente')
+//   } else {
+//     botaoContato.classList.add('transparente')
+//   }
+// });
