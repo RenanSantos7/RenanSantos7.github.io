@@ -1,6 +1,4 @@
-*, 
-*:after,
-*:before {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -30,6 +28,10 @@ table {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+img {
+    object-fit: cover;
 }
 
 .flex-center {
