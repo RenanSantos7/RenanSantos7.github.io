@@ -124,7 +124,7 @@ figcaption {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80vh;
+    height: 100vh;
     gap: 5vw;
 }
 
@@ -147,7 +147,7 @@ figcaption {
 
 .tecnologias {
     display: flex;
-    height: 40px;
+    height: 2rem;
     width: 50%;
     gap: 2em;
     margin-block: .8rem 1.75rem;
@@ -178,11 +178,11 @@ figcaption {
 /* % SEÇÃO "SOBRE MIM" */
 
 #sobre-mim {
-    min-height: 90vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-block: 3rem;
+    padding-block: 5rem;
 }
 
 /* % SEÇÃO PROJETOS */
@@ -331,6 +331,11 @@ footer p {
 
     #home__header h1 {
         font-size: 3rem;
+    }
+
+    .tecnologias {
+        justify-content: center;
+        width: 100%;
     }
 
     section {
