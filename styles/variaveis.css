@@ -16,9 +16,9 @@
 
 @media screen and (prefers-color-scheme: dark) {
     :root {
-        --cor1: #79BAF6;
-        --cor2: #6D99C5;
-        --cor3: #da9b48;
+        --cor1: hsl(209, 87%, 72%);
+        --cor2: hsl(210, 43%, 60%);
+        --cor3: hsl(34, 66%, 57%);
 
         --bg-geral: hsl(0, 0%, 25%); 
         --bg-section: hsla(210, 43%, 41%, 0.145);
