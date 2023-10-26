@@ -150,6 +150,7 @@ figcaption {
 }
 
 .tecnologias img {
+    width: unset;
     filter: grayscale();
     transition: all .6s ease .3s;
 }
