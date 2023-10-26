@@ -36,6 +36,13 @@ const projetosDados = [
         "img": "https://github.com/RenanSantos7/numero-secreto/raw/main/screenshots/tela-jogo.jpg",
         "alt": "Número Secreto. Chute reconhecido",
         "descricao": "<p>Um projeto feito para o curso &quot;<strong>JavaScript: validações e reconhecimento de voz</strong>&quot; da #Alura com o professor Guilherme Lima.</p><p>Trata-se de um jogo bastante divertido em que se usa a Web Speech API para reconhecimento de voz. Você fala um número até acertar o número secreto que ele sorteou!</p><p>Aproveite e divirta-se!</p><p>O projeto está disponível pelo <a href='https://numero-secreto-git-main-renansantos7.vercel.app/'>Vercel</a>.</p>"
+    },
+    {
+        "nome": "Alura Play",
+        "link": "https://github.com/RenanSantos7/curso-requisi-es-javascript-alura",
+        "img": "https://camo.githubusercontent.com/265a1c9f8574dcf63c1a9de7c86d5d414a9ceec5c424c43ba21aa556c2a38c03/68747470733a2f2f696d6775722e636f6d2f61796d784573682e706e67",
+        "alt": "Interface principal do alurapplay",
+        "descricao": "<p>Projeto criado para o curso &quot;<b>JavaScript: criando requisições</b>&quot; da Alura.</p><p>Contém página inicial e formulário de cadastro de vídeos da AluraPlay, uma plataforma de compartilhamento de vídeos.</p><p>Tecnologias utilizadas durante o curso:</p><ul><li>Javascript</li><li>NodeJS</li><li>Json-server</li></ul><p>Tecnologias utilizadas no projeto</p><ul><li>HTML</li><li>CSS</li></ul><p>Tecnologia que eu acrescentei ao projeot</p><ul><li>ESLint</li></ul>"
     }
 ]
 

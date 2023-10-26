@@ -64,10 +64,6 @@ figure {
     justify-content: center;
 }
 
-img {
-    max-width: 100%;
-}
-
 figcaption {
     color: var(--texto)
 }
@@ -204,7 +200,8 @@ figcaption {
 }
 
 .card:hover {
-    box-shadow: 0 0 15px var(--shadow), 0px 0px 12px #a0acb856 inset;
+    box-shadow: 0 0 15px var(--shadow);
+    transform: translate(-15px, -15px)
 }
 
 .card__imagem {
