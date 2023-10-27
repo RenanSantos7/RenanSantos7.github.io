@@ -31,6 +31,7 @@ a {
 }
 
 img {
+	width: 100%;
     object-fit: cover;
 }
 
@@ -55,4 +56,8 @@ img {
 
 .oculto {
     display: none;
+}
+
+.trans-ease {
+	transition: all .6s ease;
 }
