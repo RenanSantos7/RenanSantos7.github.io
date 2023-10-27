@@ -187,11 +187,11 @@ figcaption {
 #projetos-container {
     display: flex;
     flex-flow: row wrap;
-    gap: 50px max(20px, calc(50% - 600px));
+    gap: max(20px, calc(50% - 600px));
 }
 
 .card {
-    width: 400px;
+    width: clamp(250px, 22vw, 400px);
     height: 450px;
     border: 1px solid var(--borda);
     border-radius: 18px;

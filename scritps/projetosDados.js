@@ -43,6 +43,13 @@ const projetosDados = [
         "img": "https://camo.githubusercontent.com/265a1c9f8574dcf63c1a9de7c86d5d414a9ceec5c424c43ba21aa556c2a38c03/68747470733a2f2f696d6775722e636f6d2f61796d784573682e706e67",
         "alt": "Interface principal do alurapplay",
         "descricao": "<p>Projeto criado para o curso &quot;<b>JavaScript: criando requisições</b>&quot; da Alura.</p><p>Contém página inicial e formulário de cadastro de vídeos da AluraPlay, uma plataforma de compartilhamento de vídeos.</p><p>Tecnologias utilizadas durante o curso:</p><ul><li>Javascript</li><li>NodeJS</li><li>Json-server</li></ul><p>Tecnologias utilizadas no projeto</p><ul><li>HTML</li><li>CSS</li></ul><p>Tecnologia que eu acrescentei ao projeot</p><ul><li>ESLint</li></ul>"
+    },
+    {
+        "nome": "Alura SPA",
+        "link": "https://github.com/RenanSantos7/alura-spa",
+        "img": "https://github.com/RenanSantos7/alura-spa/blob/main/screenshots/Screenshot%201.png?raw=true",
+        "alt": "Tela Principal",
+        "descricao": "<p>Um projeto criado para o curso <i>SASS: CSS sintaticamente espetacular</i> da Alura.</p><p>SASSS é um pré-processador de CSS, o que significa que ele ajuda você a desenvolver os estilos de uma página web e gera o código CSS que irá de fato ser lido pelo navegador.</p><p>Sua utilidade é meio polêmica e eu me filio a corrente de que ele não é necessário se você já conhece bastante de CSS. De qualquer forma, muitas vezes a escolha pelo uso dessa tecnologia não será sua e sim da equipe, então é sempre bom conhecê-la.</p><figure><img src=\"https://github.com/RenanSantos7/alura-spa/blob/main/screenshots/Screenshot%202.png?raw=true\" alt=\"página web Alura Spa\"></figure>"
     }
 ]
 
