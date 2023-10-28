@@ -1,3 +1,56 @@
-.projeto {
-    
+/* % BORDA ANIMADA */
+.nav-link {
+    position: relative;
+}
+
+.nav-link::after {
+    content: " ";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    border-radius: 3px;
+    background-color: var(--cor1);
+    clip-path: circle(0 at 50% 50%);
+    transition: all .3s ease-in;
+}
+
+.nav-link:hover::after {
+    clip-path: circle(100% at 50% 50%);
+}
+
+/* % BOTÃO CONTATO */
+#contate-me {
+    position: relative;
+}
+
+#contate-me::after {
+    content: 'CONTATE-ME';
+    position: absolute;
+    top: -25%;
+    left: -5%;
+    width: 100%;
+    height: 120%;
+    padding: .3rem;
+    background-color: var(--cor1);
+    color: white;
+    border-radius: 8px;
+    clip-path: circle(0 at 50% 50%);
+    transition: all .3s ease-in;
+}
+
+#contate-me:hover::after {
+    clip-path: circle(100% at 50% 50%);
+}
+
+/* % TECNOLOGIAS */
+
+.tecnologias img {
+    filter: grayscale();
+    transition: all .6s ease .3s;
+}
+
+.tecnologias img:hover {
+    filter: none;
 }

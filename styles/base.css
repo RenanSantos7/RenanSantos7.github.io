@@ -108,7 +108,7 @@ figcaption {
     font-size: 1rem;
 }
 
-#redes-sociais {
+.links {
     display: flex;
     align-items: center;
     gap: 1.5rem;
@@ -151,12 +151,6 @@ figcaption {
 
 .tecnologias img {
     width: unset;
-    filter: grayscale();
-    transition: all .6s ease .3s;
-}
-
-.tecnologias img:hover {
-    filter: none;
 }
 
 .botao-contato {
@@ -207,7 +201,8 @@ figcaption {
 
 .card__imagem {
     width: 100%;
-    overflow: hidden;    
+    overflow: hidden;
+    border-bottom: 1px solid var(--cinza2);
 }
 
 .card img {
