@@ -45,6 +45,8 @@ img {
 
 .circulo {
     border-radius: 50%;
+    width: var(--tamanho);
+    height: var(--tamanho);
 }
 
 .quadrado {
