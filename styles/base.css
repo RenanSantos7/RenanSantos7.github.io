@@ -9,6 +9,7 @@ body {
     margin-top: 1em;
     scroll-behavior: smooth;
     background-color: var(--bg-geral);
+    width: 100vw;
 }
 
 section {
@@ -254,7 +255,7 @@ quote::before {
 quote {
     display: block;
     font-weight: 300;
-    font-size: 2em;
+    font-size: 48px;
     margin-bottom: 1rem;
 }
 
@@ -270,6 +271,14 @@ cite {
     margin-bottom: 0;
     padding-bottom: 10rem;
 }
+
+.posts-container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: max(20px, calc(50% - 600px));
+}
+
+/* % FOOTER */
 
 footer {
     display: flex;
@@ -293,7 +302,7 @@ footer p {
 
 /* % MEDIA QUERIES */
 
-@media (width<700px) {
+@media (width < 700px) {
     p, quote, cite, li{
         font-size: 1rem;
     }
@@ -340,7 +349,7 @@ footer p {
         font-size: 1.6rem;
     }
 
-    .projeto {
+    .card {
         width: 100%;
         height: unset;
     }
