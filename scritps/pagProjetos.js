@@ -8,7 +8,6 @@ function montaPagina(projeto) {
     const header = document.querySelector(".projeto__header")
     const projetoDescricao = document.querySelector("#projeto__descrição")
 
-    
     header.innerHTML = `
         <div id="titulo">
             <h1>${projeto.nome}</h1>
@@ -18,5 +17,5 @@ function montaPagina(projeto) {
             <img src="${projeto.img}" alt="Vade Mecum Tela Principal">
         </figure>
     `
-    projetoDescricao.innerHTML = projeto.descricao
+    projetoDescricao.innerHTML = projeto.texto
 }
