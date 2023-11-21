@@ -50,6 +50,13 @@ const projetosDados = [
         "img": "https://github.com/RenanSantos7/alura-spa/blob/main/screenshots/Screenshot%201.png?raw=true",
         "alt": "Tela Principal",
         "descricao": "<p>Um projeto criado para o curso <i>SASS: CSS sintaticamente espetacular</i> da Alura.</p><p>SASSS é um pré-processador de CSS, o que significa que ele ajuda você a desenvolver os estilos de uma página web e gera o código CSS que irá de fato ser lido pelo navegador.</p><p>Sua utilidade é meio polêmica e eu me filio a corrente de que ele não é necessário se você já conhece bastante de CSS. De qualquer forma, muitas vezes a escolha pelo uso dessa tecnologia não será sua e sim da equipe, então é sempre bom conhecê-la.</p><figure><img src=\"https://github.com/RenanSantos7/alura-spa/blob/main/screenshots/Screenshot%202.png?raw=true\" alt=\"página web Alura Spa\"></figure>"
+    },
+    {
+        "nome": "Organo APP",
+        "link": "https://github.com/RenanSantos7/organo-app",
+        "img": "./assets/organo-app.jpg",
+        "alt": "",
+        "descricao": "<p>Um projeto criado para o curso <i>SASS: CSS sintaticamente espetacular</i> da Alura.</p><p>SASSS é um pré-processador de CSS, o que significa que ele ajuda você a desenvolver os estilos de uma página web e gera o código CSS que irá de fato ser lido pelo navegador.</p><p>Sua utilidade é meio polêmica e eu me filio a corrente de que ele não é necessário se você já conhece bastante de CSS. De qualquer forma, muitas vezes a escolha pelo uso dessa tecnologia não será sua e sim da equipe, então é sempre bom conhecê-la.</p><figure><img src=\"https://github.com/RenanSantos7/alura-spa/blob/main/screenshots/Screenshot%202.png?raw=true\" alt=\"página web Alura Spa\"></figure>"
     }
 ]
 
