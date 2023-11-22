@@ -20,17 +20,26 @@
     align-items: baseline;
 }
 
-#titulo a {
-    border-bottom: 1px dotted inherit;
+a:hover {
+    border-bottom: 1px solid;
 }
 
 figure {
     width: 100%;
-    margin-bottom: 80px;
+    margin-block: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
 }
 
-p + figure {
-    margin-top: 2rem;
+figure img {
+    width: min(100%, 1000px);
+}
+
+figcaption {
+    font-weight: 300;
+    font-style: italic;
 }
 
 main img {
@@ -48,10 +57,4 @@ main img {
 #projeto__descrição {
     margin: 0;
     padding: 0;
-}
-
-figcaption {
-    margin-top: .5rem;
-    font-weight: 300;
-    font-style: italic;
 }
