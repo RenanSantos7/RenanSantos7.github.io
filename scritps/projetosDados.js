@@ -15,7 +15,7 @@ const projetosDados = [
         link: 'https://github.com/RenanSantos7/Cardapio-QRCODE',
         img: 'assets/Captura-Cardapio.jpeg',
         alt: 'Vade Mecum Tela Principal',
-        descrição: 'p>Um cardápio de pizzaria para ser usado com QRCode.</p>',
+        descrição: '<p>Um cardápio de pizzaria para ser usado com QRCode.</p>',
         texto: '<p>Um cardápio de pizzaria para ser usado com QRCode.</p><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates, fuga. Assumenda accusamus et secum iure quidem, aliquid facilis corporis nostrum a deserunt ipsa, aliquam ea iusto natus nisi.</p>'
     },
 
@@ -75,7 +75,7 @@ const projetosDados = [
         link: 'https://github.com/RenanSantos7/organo-app',
         img: './assets/organo-app.jpg',
         alt: 'Tela do Organao App',
-        descrição: '<p>Um aplicativo desenvolvido em React para o curso "React: desenvolvendo com JavaScript" da #alura.</p><p>Trata-se de um app React com o objetivo de cadastrar os colaboradores da Alura. Alguns já está cadastrados por padrão, mas você pode colocar mais se quiser.</p>',
+        descrição: '<p>Um aplicativo desenvolvido em React para o curso "React: desenvolvendo com JavaScript" da #alura. Trata-se de um app React com o objetivo de cadastrar os colaboradores da Alura.</p>',
         texto: '<p>Esse é meu primeiro projeto usando React.js, o mais famoso framework de Javascript da atualidade. Foi muito interessante desenvolvê-lo pela curiosidade de aprender uma nova tecnologia. Além disso a didático do Professor Vinicios Neves foi muito boa, dando dicas muito legais de desenvolvimento e de uso do VSCode, sem contar sua participação ativa no Fórum do curso, sempre respondendo perguntas e dando <em>feedback</em> sobre a nossa evolução.</p><figure><img src="./assets//organo-app2.jpg" alt="Colabores cadastrados no Organo App"><figcaption>Colabores cadastrados no Organo App</figcaption></figure><p>Trata-se de um app React com o objetivo de cadastrar os colaboradores da Alura. Alguns já está cadastrados por padrão, mas você pode colocar mais se quiser.</p><p>O projeto está disponível em <a href="https://react-organo-app.vercel.app/">https://react-organo-app.vercel.app/</a> (Deploy pelo Vercel)</p>'
     }
 ]
