@@ -63,9 +63,10 @@
 }
 
 .blog-post__corpo {
-    margin: 2rem auto;
+    margin: 4rem auto;
     width: min(100%, 800px);
     text-align: justify;
+    min-height: 100vh;
 }
 
 footer {
