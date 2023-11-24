@@ -56,7 +56,8 @@ const projetosDados = [
         img: 'https://camo.githubusercontent.com/265a1c9f8574dcf63c1a9de7c86d5d414a9ceec5c424c43ba21aa556c2a38c03/68747470733a2f2f696d6775722e636f6d2f61796d784573682e706e67',
         alt: 'Interface principal do alurapplay',
         descrição: '<p>Um projeto criado para o curso <i>"JavaScript: criando requisições"</i> da Alura.</p>',
-        texto: '<p>Projeto criado para o curso &quot;<b>JavaScript: criando requisições</b>&quot; da Alura.</p><p>Contém página inicial e formulário de cadastro de vídeos da AluraPlay, uma plataforma de compartilhamento de vídeos.</p><p>Tecnologias utilizadas durante o curso:</p><ul><li>Javascript</li><li>NodeJS</li><li>Json-server</li></ul><p>Tecnologias utilizadas no projeto</p><ul><li>HTML</li><li>CSS</li></ul><p>Tecnologia que eu acrescentei ao projeot</p><ul><li>ESLint</li></ul>'
+        texto: '<p>Projeto criado para o curso &quot;<b>JavaScript: criando requisições</b>&quot; da Alura.</p><p>Contém página inicial e formulário de cadastro de vídeos da AluraPlay, uma plataforma de compartilhamento de vídeos.</p><p>Tecnologias utilizadas durante o curso:</p><ul><li>Javascript</li><li>NodeJS</li><li>Json-server</li></ul><p>Tecnologias utilizadas no projeto</p><ul><li>HTML</li><li>CSS</li></ul><p>Tecnologia que eu acrescentei ao projeot</p><ul><li>ESLint</li></ul>',
+        data: '2023-10-20'
     },
 
     {
@@ -66,7 +67,8 @@ const projetosDados = [
         img: 'https://github.com/RenanSantos7/alura-spa/blob/main/screenshots/Screenshot%201.png?raw=true',
         descrição: '<p>Um projeto criado para o curso "SASS: CSS sintaticamente espetacular" da Alura.</p>',
         alt: 'Tela Principal',
-        texto: '<p>Um projeto criado para o curso <i>SASS: CSS sintaticamente espetacular</i> da Alura.</p><p>SASSS é um pré-processador de CSS, o que significa que ele ajuda você a desenvolver os estilos de uma página web e gera o código CSS que irá de fato ser lido pelo navegador.</p><p>Sua utilidade é meio polêmica e eu me filio a corrente de que ele não é necessário se você já conhece bastante de CSS. De qualquer forma, muitas vezes a escolha pelo uso dessa tecnologia não será sua e sim da equipe, então é sempre bom conhecê-la.</p><figure><img src="https://github.com/RenanSantos7/alura-spa/blob/main/screenshots/Screenshot%202.png?raw=true" alt="página web Alura Spa"></figure>'
+        texto: '<p>Um projeto criado para o curso <i>SASS: CSS sintaticamente espetacular</i> da Alura.</p><p>SASSS é um pré-processador de CSS, o que significa que ele ajuda você a desenvolver os estilos de uma página web e gera o código CSS que irá de fato ser lido pelo navegador.</p><p>Sua utilidade é meio polêmica e eu me filio a corrente de que ele não é necessário se você já conhece bastante de CSS. De qualquer forma, muitas vezes a escolha pelo uso dessa tecnologia não será sua e sim da equipe, então é sempre bom conhecê-la.</p><figure><img src="https://github.com/RenanSantos7/alura-spa/blob/main/screenshots/Screenshot%202.png?raw=true" alt="página web Alura Spa"></figure>',
+        data: '2023-10-25'
     },
 
     {
@@ -76,7 +78,8 @@ const projetosDados = [
         img: './assets/organo-app.jpg',
         alt: 'Tela do Organao App',
         descrição: '<p>Um aplicativo desenvolvido em React para o curso "React: desenvolvendo com JavaScript" da #alura.</p>',
-        texto: '<p>Esse é meu primeiro projeto usando React.js, o mais famoso framework de Javascript da atualidade. Foi muito interessante desenvolvê-lo pela curiosidade de aprender uma nova tecnologia. Além disso a didático do Professor Vinicios Neves foi muito boa, dando dicas muito legais de desenvolvimento e de uso do VSCode, sem contar sua participação ativa no Fórum do curso, sempre respondendo perguntas e dando <em>feedback</em> sobre a nossa evolução.</p><figure><img src="./assets//organo-app2.jpg" alt="Colabores cadastrados no Organo App"><figcaption>Colabores cadastrados no Organo App</figcaption></figure><p>Trata-se de um app React com o objetivo de cadastrar os colaboradores da Alura. Alguns já está cadastrados por padrão, mas você pode colocar mais se quiser.</p><p>O projeto está disponível em <a href="https://react-organo-app.vercel.app/">https://react-organo-app.vercel.app/</a> (Deploy pelo Vercel)</p>'
+        texto: '<p>Esse é meu primeiro projeto usando React.js, o mais famoso framework de Javascript da atualidade. Foi muito interessante desenvolvê-lo pela curiosidade de aprender uma nova tecnologia. Além disso a didático do Professor Vinicios Neves foi muito boa, dando dicas muito legais de desenvolvimento e de uso do VSCode, sem contar sua participação ativa no Fórum do curso, sempre respondendo perguntas e dando <em>feedback</em> sobre a nossa evolução.</p><figure><img src="./assets//organo-app2.jpg" alt="Colabores cadastrados no Organo App"><figcaption>Colabores cadastrados no Organo App</figcaption></figure><p>Trata-se de um app React com o objetivo de cadastrar os colaboradores da Alura. Alguns já está cadastrados por padrão, mas você pode colocar mais se quiser.</p><p>O projeto está disponível em <a href="https://react-organo-app.vercel.app/">https://react-organo-app.vercel.app/</a> (Deploy pelo Vercel)</p>',
+        data: '2023-11-22'
     }
 ]
 

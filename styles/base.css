@@ -1,4 +1,5 @@
 /* arquivo: estrutura.css */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 @import url('reset.css');
 @import url('variaveis.css');
 
@@ -298,6 +299,18 @@ footer p {
     align-items: center;
     justify-content: center;
     gap: .5rem;
+}
+
+noscript {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+noscript img {
+    width: 100px;
 }
 
 /* % MEDIA QUERIES */
