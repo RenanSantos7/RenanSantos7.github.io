@@ -21,7 +21,7 @@ function montaPagina(post) {
         `<span class="tag">#${tag}</span>`
     })
 
-    elPost.innerHTML = post.text.map(paragrafo => `<p>${paragrafo}</p>`)
+    elPost.innerHTML = post.text
 }
 
 function formatarData(dataStr) {

@@ -12,7 +12,7 @@ posts.map(post => secPosts.innerHTML += `
             </figure>
             <div class="card__texto">
                 <h3>${post.title}</h3>
-                <p>${post.text[0].substring(0,99)}...</p>
+                <p>${post.text.substring(0,99)}...</p>
             </div>
         </a>
     </article>
