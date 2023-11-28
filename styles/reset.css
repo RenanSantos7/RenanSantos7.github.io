@@ -64,3 +64,7 @@ img {
 .trans-ease {
 	transition: all .6s ease;
 }
+
+.erro {
+	color: red;
+}
