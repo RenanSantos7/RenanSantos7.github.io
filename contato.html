@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
-    <link rel="stylesheet" href="styles/projeto.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/contato.css">
     <link rel="icon" href="assets/AREmoji.png">
     <title>Portifólio</title>
     <meta name="description" content="Portifólio de Dev Front-End de Renan Santos">
     <script src="scritps/animMenu.js" defer></script>
-    <script src="scritps/pagProjetos.js" defer type="module"></script>
+    <script src="scritps/contato.js" defer type="module"></script>
     <script src="https://kit.fontawesome.com/40a462bca1.js" crossorigin="anonymous" defer></script>
 </head>
 <body>
@@ -32,19 +32,18 @@
     </nav>
     <!--%-->
 
-    <main class="projeto__main margem-lateral">
-        <header class="projeto__header">
-            <div id="titulo">
-                <h1 id="titulo-H1"></h1>
-                <a href="">Visitar projeto</a>
+    <!-- % Formulário -->
+    <main class="margem-lateral">
+        <h2 class="contato__header">Me envie uma mensagem</h2>
+        <form action="https://formsubmit.co/renansantos7@proton.me" method="POST">
+            <input class="form__input" type="text" name="nome" required placeholder="Digite aqui seu nome"/>
+            <input class="form__input" type="email" name="email" required placeholder="Digite aqui seu email" />
+            <textarea class="form__input" name="mensagem" required placeholder="Deixe aqui sua mensagem"></textarea>
+            <div class="button-container">
+                <button class="bt-submit" type="submit">Enviar</button>
             </div>
-            <figure>
-                <img src="" alt="">
-            </figure>
-        </header>
-        <section id="projeto__descrição">
-            
-        </section>
+           
+        </form>
     </main>
 
     <!-- % Rodapé -->

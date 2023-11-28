@@ -1,0 +1,54 @@
+main {
+    margin-top: 160px;
+    min-height: 90vh;
+}
+
+.cabecalho {
+    height: 80px;
+    z-index: 100;
+}
+
+.contato__header {
+    font-size: 2.1rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form__input {
+    padding: 1rem;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: var(--texto);
+    font-family: 'Lato', sans-serif;
+    border: 1px solid var(--borda);
+    background-color: var(--bg-card);
+}
+
+.form__input:focus{
+    border-color: var(--cor2)
+}
+
+textarea {
+    min-height: 25ch;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bt-submit {
+    font-size: 1.2rem;
+    padding: .8rem 1.8rem;
+    border-radius: 18px;
+    color: white;
+    background-color: var(--cor3);
+}

@@ -1,30 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap">
-    <link rel="stylesheet" href="../styles/blog.css">
-    <link rel="icon" href="../assets/AREmoji.png">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/anim.css">
+    <link rel="stylesheet" href="styles/blog.css">
+    <link rel="icon" href="assets/AREmoji.png">
     <title>Portifólio</title>
+    <meta name="description" content="Portifólio de Dev Front-End de Renan Santos">
+    <script src="scritps/animMenu.js" defer></script>
+    <script src="scritps/blog.js" defer type="module"></script>
     <script src="https://kit.fontawesome.com/40a462bca1.js" crossorigin="anonymous" defer></script>
 </head>
-
 <body>
     <!-- % Cacabeçalho -->
     <nav class="cabecalho margem-lateral">
-        <a id="contate-me" href="mailto:renansantos.jus@gmail.com">
-            <i class="fa-solid fa-address-card"></i>
-            <p>Contate-me</p>
-        </a>
-        <a href="../index.html">Início</a>
-        <div id="redes-sociais">
-            <a href="../index.html#blog">Blog</a>
+        <a id="contate-me" href="contato.html">Contate-me</a>
+        <a href="index.html">Início</a>
+        <div class="links">
             <a href="../index.html#sobre-mim">Sobre mim</a>
             <a href="https://www.linkedin.com/in/renan-santos-7332b5255/" id="LinkedIn" title="LinkedIn">
                 <i class="fa-brands fa-linkedin"></i>
@@ -34,29 +31,21 @@
             </a>
         </div>
     </nav>
+    <!--%-->
 
     <!-- % Post -->
-    <main class="blog-post margem-lateral" style="background-position: 0 50%;">
+    <main class="blog-post">
         <div class="blog-post__header">
-            <h1>Olá mundo</h1>
-            <div id="list-tags">
-                <span>#geral</span>
+            <div class="blog-post__header__wrapper">
+                <h1 class="blog-post__title"></h1>
+                <time class="blog-post__publication"></time>
+                <div class="list-tags"></div>
             </div>
         </div>
 
-        <div class="blog-post__corpo">
-
-            <p>Seguindo a velha regra da informática de que ao começar algo novo, se deve começar com essa mensagem, lá vai:</p>
-    
-            <p>Olá Mundo!</p>
-    
-            <p>Esse é um blog em que eu estarei mais preocupado em escrever do que em ser lido. Mas se por um acaso você estiver lendo, não se sinta tímido para enviar seu feedback. No rodapé da página tem meu email.</p>
-    
-            <p>A verdade é que esse blog é mais um desafio para eu aprender a desenvolver para a web, pois ele está sendo feito todo do <b>zero</b>, sem uma plataforma para ajudar como Blogger ou Wordpress.</p>
-    
-            <p>Por quê? A pergunta certa não é "por quê?". É: "por que não?"</p>
-        </div>
+        <div class="blog-post__corpo"></div>
     </main>
+
 
     <!-- % Rodapé -->
     <footer>
@@ -73,4 +62,5 @@
             Github
         </a>
     </footer>
+</body>
 </html>

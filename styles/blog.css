@@ -1,35 +1,39 @@
 @import url('base.css');
 
-body {
-    min-height: 100vh;
+.blog-post b,
+.blog-post strong {
+    color: var(--cor3)
 }
 
-.blog-post {
-    background-image: url("https://images.unsplash.com/photo-1579600161224-cac5a2971069");
-    background-size: cover;
-    background-repeat:no-repeat;
-}
-
-.blog-post::after {
-  /* Cria um pseudo-elemento como último filho de body */
-  content: '';
-  
-  /* Faz o pseudo-elemento cobrir todo o body */
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  
-  /* Adiciona o gradiente ao pseudo-elemento */
-  background-image: linear-gradient(to bottom, rgba(255,0,0,0) 0%, var(--bg-geral) 50%);
-
-  z-index: 1;
+.cabecalho {
+    height: 50px;
+    z-index: 100;
 }
 
 .blog-post__header {
-    padding-block: 4rem;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: 0 50%;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: end;
+    justify-content: center;
     position: relative;
+    z-index: 0;
+}
+
+.blog-post__header::after {
+    content: '';
+    position: absolute;
+    inset: 0 0 0 0;
+    background: linear-gradient(to top, #1d1d1d 0%, transparent 50%);
+    z-index: 1;
+}
+
+.blog-post__header__wrapper {
+    width: min(100%, 800px);
+    margin-bottom: 6rem;
     z-index: 2;
 }
 
@@ -39,34 +43,30 @@ body {
     margin-bottom: 1rem;
 }
 
-.blog-post b,
-.blog-post strong {
-    color: var(--cor3)
-}
-
-
-#list-tags {
+.list-tags {
     display: flex;
     flex-flow: row wrap;
     gap: 1rem
 }
 
-#list-tags span {
+.list-tags .tag {
     background-color: var(--cor2);
     color: white;
     padding: .3rem .5rem;
     border-radius: 1rem;
 }
 
+.blog-post__publication {
+    color: var(--texto);
+    font-size: 1rem;
+    opacity: .75;
+}
+
 .blog-post__corpo {
-    position: relative;
-    margin-block: 3rem 5rem;
-    background-color: var(--bg-card);
-    border: 1px solid var(--borda);
-    padding: 1.5rem;
-    padding-bottom: 5rem;
-    border-radius: 18px;
-    z-index: 4;
+    margin: 4rem auto;
+    width: min(100%, 800px);
+    text-align: justify;
+    min-height: 100vh;
 }
 
 footer {
