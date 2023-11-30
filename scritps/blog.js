@@ -1,33 +1,19 @@
-import blogPosts from './blogdb.js'
+import cabecalho from './componentes/cabecalho.js'
+import rodape from './componentes/rodape.js'
+import animaMenu from './animMenu.js'
 
-const pagina = parseInt(localStorage.getItem('blogID'))
+// % Compoonentes
+cabecalho()
+rodape()
+animaMenu()
 
-montaPagina(blogPosts[pagina])
+//% Tag List
+const elTagList = document.querySelector('.list-tags')
+elTagList.innerHTML = tagList.map(tag => {
+    `<a class="tag">#${tag}</a>`
+})
 
-function montaPagina(post) {
-
-    const header = document.querySelector('.blog-post__header')
-    const title = document.querySelector('.blog-post__title')
-    const elPublicationDate = document.querySelector('.blog-post__publication')
-    const elTagList = document.querySelector('.list-tags')
-    const tagList = post.tags
-    const elPost = document.querySelector('.blog-post__corpo')
-    
-    title.textContent = post.title
-    header.style.backgroundImage = `url(${post.imageURL})`
-    elPublicationDate.textContent = formatarData(post.publicationDate)
-
-    elTagList.innerHTML = tagList.map(tag => {
-        `<span class="tag">#${tag}</span>`
-    })
-
-    elPost.innerHTML = post.text
-}
-
-function formatarData(dataStr) {
-    const data = new Date(dataStr)
-    const dia = data.getDate().toString().padStart(2, '0');
-    const mes = (data.getMonth() + 1).toString().padStart(2, '0');
-    const ano = data.getFullYear();
-    return `${dia}/${mes}/${ano}`;
-}
+//% Definir fundo do header
+const header = document.querySelector('.blog-post__header')
+console.log(header)
+header.style.backgroundImage = `url(${imageURL})`

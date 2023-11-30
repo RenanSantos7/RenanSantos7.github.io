@@ -18,7 +18,6 @@
     <script src="scritps/animMenu.js" defer></script>
     <script src="scritps/mudafrase.js" defer></script>
     <script src="scritps/listaProjetos.js" defer type="module"></script>
-    <script src="scritps/listaPosts.js" defer type="module"></script>
     <script src="scritps/criaLink.js" defer ></script>
     <script src="https://kit.fontawesome.com/40a462bca1.js" crossorigin="anonymous" defer></script>
 </head>
@@ -113,10 +112,17 @@
         <section id="blog" class="margem-lateral">
             <h2>Meu blog</h2>
             <div id="posts-container">
-                <noscript>
-                    <img src="./assets/caution.png" alt="ícone de alerta" />
-                    <p>Você precisa habilitar o JavaScript para visualizar o conteúdo desta seção</p>
-                </noscript>
+                <article class="card">
+                    <a class="blog__link" href="ola-mundo.html" data-post="17/10/2023">
+                        <figure class="card__imagem">
+                            <img src="https://images.unsplash.com/photo-1579600161224-cac5a2971069" alt="capa do post">
+                        </figure>
+                        <div class="card__texto">
+                            <h3>Olá Mundo!</h3>
+                            <p>Seguindo a velha regra da informática de que ao começar algo novo, se deve começar com essa mens...</p>
+                        </div>
+                    </a>
+                </article>
             </div>
         </section>
     </main>
