@@ -1,3 +1,7 @@
+:root {
+    --largura: min(96%, 800px);
+}
+
 @import url('base.css');
 
 .blog-post b,
@@ -26,13 +30,13 @@
 .blog-post__header::after {
     content: '';
     position: absolute;
-    inset: 0 0 0 0;
+    inset: 0; /* shorthand para top, left, right e bottom */
     background: linear-gradient(to top, #1d1d1d 0%, transparent 50%);
     z-index: 1;
 }
 
 .blog-post__header__wrapper {
-    width: min(100%, 800px);
+    width: var(--largura);
     margin-bottom: 6rem;
     z-index: 2;
 }
@@ -46,7 +50,8 @@
 .list-tags {
     display: flex;
     flex-flow: row wrap;
-    gap: 1rem
+    gap: 1rem;
+    margin-top: 1rem;
 }
 
 .list-tags .tag {
@@ -54,6 +59,7 @@
     color: white;
     padding: .3rem .5rem;
     border-radius: 1rem;
+    cursor: pointer;
 }
 
 .blog-post__publication {
@@ -64,7 +70,7 @@
 
 .blog-post__corpo {
     margin: 4rem auto;
-    width: min(100%, 800px);
+    width: var(--largura);
     text-align: justify;
     min-height: 100vh;
 }

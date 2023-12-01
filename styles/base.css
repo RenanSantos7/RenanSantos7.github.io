@@ -106,14 +106,17 @@ figcaption {
     text-transform: uppercase;
 }
 
-.nav-link {
-    font-size: 1rem;
-}
-
 .links {
     display: flex;
     align-items: center;
     gap: 1.5rem;
+    font-size: 1rem;
+}
+
+.links hr {
+    background-color: var(--cor2);
+    width: 1px;
+    height: 1.5em;
 }
 
 /* % HEADER */

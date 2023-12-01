@@ -9,11 +9,11 @@ animaMenu()
 
 //% Tag List
 const elTagList = document.querySelector('.list-tags')
-elTagList.innerHTML = tagList.map(tag => {
-    `<a class="tag">#${tag}</a>`
-})
+console.log(tagList)
+tagList.forEach(tag => {
+    elTagList.innerHTML += `<a class="tag">#${tag}</a>`
+});
 
 //% Definir fundo do header
 const header = document.querySelector('.blog-post__header')
-console.log(header)
 header.style.backgroundImage = `url(${imageURL})`

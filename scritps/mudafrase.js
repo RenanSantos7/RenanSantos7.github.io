@@ -78,10 +78,8 @@ function geraInteiroAleatorio(min, max) { //esta função exclui o valor máximo
     return Math.floor(Math.random() * (max - min) + min);
 }
 
-function mudaFrase() {
+export default function mudaFrase() {
     let i = geraInteiroAleatorio(0, frases.length);
     citacao.textContent = frases[i].frase;
     autorCitacao.textContent = frases[i].autor;
 }
-
-document.addEventListener('load', mudaFrase());

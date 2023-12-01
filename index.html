@@ -15,8 +15,7 @@
     <title>Portifólio</title>
     <meta name="description" content="Portifólio de Dev Front-End de Renan Santos">
     <script src="scritps/saudacao.js" defer></script>
-    <script src="scritps/animMenu.js" defer></script>
-    <script src="scritps/mudafrase.js" defer></script>
+    <script src="scritps/main.js" type="module" defer></script>
     <script src="scritps/listaProjetos.js" defer type="module"></script>
     <script src="scritps/criaLink.js" defer ></script>
     <script src="https://kit.fontawesome.com/40a462bca1.js" crossorigin="anonymous" defer></script>
@@ -30,9 +29,12 @@
             <a class="nav-link" href="#sobre-mim">Sobre mim</a>
             <a class="nav-link" href="#projetos">Projetos</a>
             <a class="nav-link" href="#blog">Blog</a>
+            
+            <hr />
+
             <a target="_blank" rel="noopener" aria-label="LinkedIn" id="LinkedIn" href="https://www.linkedin.com/in/renan-santos-7332b5255/">
                 <i class="fa-brands fa-linkedin"></i>
-            </a>
+            </a>                
             <a target="_blank" rel="noopener" id="github" aria-label="Github" href="https://github.com/RenanSantos7">
                 <i class="fa-brands fa-github"></i>
             </a>
@@ -112,8 +114,9 @@
         <section id="blog" class="margem-lateral">
             <h2>Meu blog</h2>
             <div id="posts-container">
+                
                 <article class="card">
-                    <a class="blog__link" href="ola-mundo.html" data-post="17/10/2023">
+                    <a class="blog__link" href="./blog/ola-mundo.html">
                         <figure class="card__imagem">
                             <img src="https://images.unsplash.com/photo-1579600161224-cac5a2971069" alt="capa do post">
                         </figure>
@@ -123,6 +126,7 @@
                         </div>
                     </a>
                 </article>
+
             </div>
         </section>
     </main>
