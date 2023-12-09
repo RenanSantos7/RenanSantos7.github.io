@@ -54,3 +54,11 @@
 .tecnologias img:hover {
     filter: none;
 }
+
+.tecnologias__figure:hover figcaption {
+    transition: opacity .6s ease .3s;
+}
+
+.tecnologias__figure:hover figcaption {
+    opacity: 1;
+}

@@ -1,8 +1,8 @@
+@import url('base.css');
+
 :root {
     --largura: min(96%, 800px);
 }
-
-@import url('base.css');
 
 .blog-post b,
 .blog-post strong {
@@ -37,7 +37,7 @@
 
 .blog-post__header__wrapper {
     width: var(--largura);
-    margin-bottom: 6rem;
+    margin-bottom: 3rem;
     z-index: 2;
 }
 
