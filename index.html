@@ -24,20 +24,24 @@
 <body>
     <!-- % Cabeçalho -->
     <nav class="cabecalho margem-lateral cabecalho-home">
-        <a id="contate-me" href="contato.html">Contate-me</a>
+        <a id="contate-me" class="nav-link" href="contato.html">Contate-me</a>
         <div class="links">
-            <a class="nav-link" href="#sobre-mim">Sobre mim</a>
-            <a class="nav-link" href="#projetos">Projetos</a>
-            <a class="nav-link" href="#blog">Blog</a>
+            <div class="links__internos">
+                <a class="nav-link" href="#sobre-mim">Sobre mim</a>
+                <a class="nav-link" href="#projetos">Projetos</a>
+                <a class="nav-link" href="#blog">Blog</a>
+            </div>
             
-            <hr />
+            <hr class="links__divisoria" />
 
-            <a target="_blank" rel="noopener" aria-label="LinkedIn" id="LinkedIn" href="https://www.linkedin.com/in/renan-santos-7332b5255/">
-                <i class="fa-brands fa-linkedin"></i>
-            </a>                
-            <a target="_blank" rel="noopener" id="github" aria-label="Github" href="https://github.com/RenanSantos7">
-                <i class="fa-brands fa-github"></i>
-            </a>
+            <div class="links__externos">
+                <a target="_blank" rel="noopener" aria-label="LinkedIn" id="LinkedIn" href="https://www.linkedin.com/in/renan-santos-7332b5255/">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>                
+                <a target="_blank" rel="noopener" id="github" aria-label="Github" href="https://github.com/RenanSantos7">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
         </div>
     </nav>
 
@@ -48,10 +52,30 @@
             <p><span id="saudacao">Olá</span>, meu nome é Renan, tenho <span id="idade">30</span> anos e sou um desenvolvedor Front-End em formação.</p>
 
             <div class="tecnologias">
-                <img src="assets/tecnologias-html.svg" alt="html" title="HTML5">
-                <img src="assets/tecnologias-css.svg" alt="html" title="CSS3">
-                <img src="assets/tecnologias-sass.svg" alt="html" title="SASS">
-                <img src="assets/tecnologias-javascript.svg" alt="html" title="JavaScript">
+                <figure class="tecnologias__figure">
+                    <img src="assets/tecnologias-html.svg" alt="html" />
+                    <figcaption>HTML5</figcaption>
+                </figure>
+                
+                <figure class="tecnologias__figure">
+                    <img src="assets/tecnologias-css.svg" alt="CSS3" />
+                    <figcaption>CSS3</figcaption>
+                </figure>
+
+                <figure class="tecnologias__figure">
+                    <img src="assets/tecnologias-sass.svg" alt="sass" />
+                    <figcaption>SASS</figcaption>
+                </figure>
+                
+                <figure class="tecnologias__figure">
+                    <img src="assets/tecnologias-javascript.svg" alt="JavaScript" />
+                    <figcaption>JavaScript</figcaption>
+                </figure>
+
+                <figure class="tecnologias__figure">
+                    <img src="assets/tecnologias-react.svg" alt="React" />
+                    <figcaption>React</figcaption>
+                </figure>
             </div>
 
         </div>
@@ -94,7 +118,7 @@
         <!-- % PROJETOS -->
         <section id="projetos" class="margem-lateral">
             <h2>Meus Projetos</h2>
-            <div id="projetos-container">
+            <div id="projetos-container" class="card-container">
                 <noscript>
                     <img src="./assets/caution.png" alt="ícone de alerta" />
                     <p>Você precisa habilitar o JavaScript para visualizar o conteúdo desta seção</p>
@@ -113,7 +137,19 @@
         <!-- % BLOG -->
         <section id="blog" class="margem-lateral">
             <h2>Meu blog</h2>
-            <div id="posts-container">
+            <div class="card-container" id="posts-container">
+
+                <article class="card">
+                    <a class="blog__link" href="./blog/por-que-sempre-hater-react.html">
+                        <figure class="card__imagem">
+                            <img src="https://images.unsplash.com/photo-1633356122544-f134324a6cee" alt="capa do post">
+                        </figure>
+                        <div class="card__texto">
+                            <h3>Por que sempre tem um hater de  React?</h3>
+                            <p><em>Por que sempre tem um hater de React?</em>&nbsp; Li um desses num evento no Discord da Alura. "<em></p>
+                        </div>
+                    </a>
+                </article>
                 
                 <article class="card">
                     <a class="blog__link" href="./blog/ola-mundo.html">

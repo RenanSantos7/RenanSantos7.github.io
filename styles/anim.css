@@ -54,3 +54,33 @@
 .tecnologias img:hover {
     filter: none;
 }
+
+.tecnologias__figure:hover figcaption {
+    transition: opacity .6s ease .3s;
+}
+
+.tecnologias__figure:hover figcaption {
+    opacity: 1;
+}
+
+/* % MEDIA QUERIES */
+
+@media (width < 700px) {
+    @keyframes toque {
+        0% {
+            clip-path: circle(0 at 50% 50%);
+        }
+        99% {
+            clip-path: circle(100% at 50% 50%);
+        }
+        
+        100% {
+            clip-path: circle(0 at 50% 50%);
+        }
+    }
+
+    .nav-link::after,
+    #contate-me::after {
+        display: none;
+    }
+}
