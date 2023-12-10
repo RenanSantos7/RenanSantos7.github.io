@@ -1,7 +1,7 @@
 @import url('base.css');
 
 :root {
-    --largura: min(96%, 800px);
+    --largura: min(86%, 800px);
 }
 
 .blog-post b,
@@ -39,13 +39,19 @@
     width: var(--largura);
     margin-bottom: 3rem;
     z-index: 2;
+    color: white;
+    
+    h1 {
+        font-size: 4rem;
+        font-weight: 500;
+        margin-bottom: 1rem;
+    }
+    
+    h1, time {
+        color: white;
+    }
 }
 
-.blog-post h1 {
-    font-size: 4rem;
-    font-weight: 500;
-    margin-bottom: 1rem;
-}
 
 .list-tags {
     display: flex;
@@ -69,7 +75,7 @@
 }
 
 .blog-post__corpo {
-    margin: 4rem auto;
+    margin: 2rem auto;
     width: var(--largura);
     text-align: justify;
     min-height: 100vh;
