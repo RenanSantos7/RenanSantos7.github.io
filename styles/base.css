@@ -267,7 +267,7 @@ quote::before {
 quote {
     display: block;
     font-weight: 300;
-    font-size: 48px;
+    font-size: 3rem;
     margin-bottom: 1rem;
 }
 
@@ -321,8 +321,12 @@ noscript img {
 /* % MEDIA QUERIES */
 
 @media (width < 700px) {
-    p, quote, cite, li{
+    p, cite, li{
         font-size: 1rem;
+    }
+
+    quote {
+        font-size: 2rem;
     }
 
     .cabecalho {
@@ -339,7 +343,7 @@ noscript img {
     }
 
     .margem-lateral {
-        padding-inline: 5vw;
+        padding-inline: 7.5vw;
     }
 
     #home__header {
@@ -366,10 +370,38 @@ noscript img {
     section h2{
         font-size: 1.6rem;
     }
-
+   
     .card {
         width: 100%;
         height: unset;
+    }
+    
+    .card:hover {
+        transform: none;
+    }
+    
+    .card__imagem {
+        width: 100%;
+        overflow: hidden;
+        border-bottom: 1px solid var(--cinza2);
+    }
+    
+    .card img {
+        height: 175px;
+    }
+    
+    .card:hover img {
+        transform: none;
+    }
+    
+    .card__texto {
+        padding: 1.3em;
+    }
+    
+    .card__texto h3 {
+        font-weight: 400;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
     }
 
     #frase {
