@@ -16,7 +16,6 @@
     <meta name="description" content="Portifólio de Dev Front-End de Renan Santos">
     <script src="scritps/saudacao.js" defer></script>
     <script src="scritps/main.js" type="module" defer></script>
-    <script src="scritps/listaProjetos.js" defer type="module"></script>
     <script src="scritps/criaLink.js" defer ></script>
     <script src="https://kit.fontawesome.com/40a462bca1.js" crossorigin="anonymous" defer></script>
 </head>
@@ -119,7 +118,6 @@
         <section id="projetos" class="margem-lateral">
             <h2>Meus Projetos</h2>
             <div id="projetos-container" class="card-container">
-            <div id="projetos-container" class="card-container">
                 <noscript>
                     <img src="./assets/caution.png" alt="ícone de alerta" />
                     <p>Você precisa habilitar o JavaScript para visualizar o conteúdo desta seção</p>
@@ -147,20 +145,7 @@
                         </figure>
                         <div class="card__texto">
                             <h3>Por que sempre tem um hater de  React?</h3>
-                            <p><em>Por que sempre tem um hater de React?</em>&nbsp; Li um desses num evento no Discord da Alura. "<em></p>
-                        </div>
-                    </a>
-                </article>
-            <div class="card-container" id="posts-container">
-
-                <article class="card">
-                    <a class="blog__link" href="./blog/por-que-sempre-hater-react.html">
-                        <figure class="card__imagem">
-                            <img src="https://images.unsplash.com/photo-1633356122544-f134324a6cee" alt="capa do post">
-                        </figure>
-                        <div class="card__texto">
-                            <h3>Por que sempre tem um hater de  React?</h3>
-                            <p><em>Por que sempre tem um hater de React?</em>&nbsp; Li um desses num evento no Discord da Alura. "<em></p>
+                            <p><em>Por que sempre tem um hater de React?</em>&nbsp; Li um desses num evento no Discord da Alura.</p>
                         </div>
                     </a>
                 </article>
@@ -182,16 +167,18 @@
     </main>
 
     <footer>
-        <a href="mailto:renansantos.jus@gmail.com" class="footer__contato">
-            <i class="fa-solid fa-envelope"></i>
-            Email
+        <a href="./contato.html" class="footer__contato">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            Contato
         </a>
+        
         <a href="https://www.linkedin.com/in/renan-santos-7332b5255/" class="footer__contato" id="footer__LinkedIn">
-            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
             Linkedin
         </a>
+        
         <a class="footer__contato" id="footer__github" href="https://github.com/RenanSantos7">
-            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-github" aria-hidden="true"></i>
             Github
         </a>
     </footer>

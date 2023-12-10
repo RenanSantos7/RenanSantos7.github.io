@@ -1,10 +1,11 @@
 import projetosDados from "./projetosDados.js";
 
-const secProjetos = document.querySelector('#projetos-container')
-const projetos = [...projetosDados]
-projetos.reverse()
+export default function listaProjetos() {
+    const secProjetos = document.querySelector('#projetos-container');
+    const projetos = [...projetosDados];
+    projetos.reverse();
 
-projetos.map(projeto => secProjetos.innerHTML += `
+    projetos.map(projeto => secProjetos.innerHTML += `
     <article class="projeto card">
         <a class="card__link projeto__link" href="projeto.html" data-pagina="${projeto.id}">
             <figure class="card__imagem">
@@ -16,4 +17,6 @@ projetos.map(projeto => secProjetos.innerHTML += `
             </div>
         </a>
     </article>
-`)
+`);
+}
+

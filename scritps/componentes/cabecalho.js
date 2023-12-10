@@ -3,8 +3,10 @@ export default function cabecalho() {
 
     elHeader.innerHTML = `
         <a id="contate-me" href="contato.html">Contate-me</a>
-        <a href="../index.html">Início</a>
-        <div class="links">
+        <div class="links__internos">
+            <a href="../index.html">Início</a>
+        </div>
+        <div class="links__externos">
             <a href="../index.html#sobre-mim">Sobre mim</a>
             <a target="_blank" rel="noopener" aria-label="LinkedIn" id="LinkedIn" href="https://www.linkedin.com/in/renan-santos-7332b5255/">
                 <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
