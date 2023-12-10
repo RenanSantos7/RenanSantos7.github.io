@@ -1,12 +1,12 @@
 /* arquivo: estrutura.css */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
-@import url('reset.css');
-@import url('variaveis.css');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+@import url("reset.css");
+@import url("variaveis.css");
 
 /* % REGRAS GERAIS */
 
 body {
-    font-family: 'Lato', sans;
+    font-family: "Lato", sans;
     margin-top: 1em;
     scroll-behavior: smooth;
     background-color: var(--bg-geral);
@@ -24,27 +24,34 @@ section h2 {
     margin-bottom: 2rem;
 }
 
-a, a:visited {
+a,
+a:visited {
     text-decoration: none;
     color: var(--cor1);
 }
 
-p, quote, cite, li {
+p,
+quote,
+cite,
+li {
     font-size: 1.3rem;
     line-height: 1.5;
     color: var(--texto);
 }
 
-.fa-solid, .fa-brands {
+.fa-solid,
+.fa-brands {
     font-size: 1.3em;
 }
 
-b, strong {
+b,
+strong {
     color: var(--cor3);
 }
 
-h1, h2 {
-    color: var(--titulo)
+h1,
+h2 {
+    color: var(--titulo);
 }
 
 ul {
@@ -55,7 +62,8 @@ li {
     margin-left: 2rem;
 }
 
-main p, header p {
+main p,
+header p {
     margin-bottom: 1rem;
 }
 
@@ -67,7 +75,7 @@ figure {
 }
 
 figcaption {
-    color: var(--texto)
+    color: var(--texto);
 }
 
 /* % Classes genéricas */
@@ -109,7 +117,15 @@ figcaption {
 .links {
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+.links__internos,
+.links__externos {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
     font-size: 1rem;
 }
 
@@ -136,7 +152,7 @@ figcaption {
 }
 
 .minha-foto img {
-    width: 250px;
+    width: clamp(175px, 20vw, 250px);
     border-radius: 50%;
     border: 12px solid #b2b2b2;
     box-shadow: 1px 1px 15px 2px var(--shadow);
@@ -147,14 +163,14 @@ figcaption {
     width: 50%;
     flex-wrap: wrap;
     gap: 2rem;
-    margin-block: .8rem 1.75rem;
+    margin-block: 0.8rem 1.75rem;
 }
 
 .tecnologias__figure {
     display: flex;
     flex-direction: column;
     width: 2rem;
-    gap: .5rem;
+    gap: 0.5rem;
 }
 
 .tecnologias__figure img {
@@ -163,7 +179,7 @@ figcaption {
 }
 
 .tecnologias__figure figcaption {
-    opacity: 0;    
+    opacity: 0;
 }
 
 .botao-contato {
@@ -172,11 +188,11 @@ figcaption {
     background: linear-gradient(145deg, var(--cor2) 0%, var(--cor2) 50%, var(--cor1) 100%);
     border-radius: 18px;
     color: white;
-    transition: all .8s ease;
+    transition: all 0.8s ease;
 }
 
 .botao-contato:hover {
-    box-shadow:  0 0 24px var(--cor2);
+    box-shadow: 0 0 24px var(--cor2);
 }
 
 /* % SEÇÃO "SOBRE MIM" */
@@ -209,7 +225,7 @@ figcaption {
 
 .card:hover {
     box-shadow: 0 0 15px var(--shadow);
-    transform: translate(-15px, -15px)
+    transform: translate(-15px, -15px);
 }
 
 .card__imagem {
@@ -257,9 +273,9 @@ quote::before {
     position: absolute;
     left: 15vw;
     font-size: 6rem;
-    font-family: 'Noto Serif', serif;
+    font-family: "Noto Serif", serif;
     font-weight: 700;
-    line-height: .7;
+    line-height: 0.7;
     filter: opacity(20%);
     color: var(--texto);
 }
@@ -296,14 +312,14 @@ footer {
 }
 
 footer p {
-    font-size: .8rem;
+    font-size: 0.8rem;
 }
 
 .footer__contato {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: .5rem;
+    gap: 0.5rem;
 }
 
 noscript {
@@ -321,7 +337,7 @@ noscript img {
 /* % MEDIA QUERIES */
 
 @media (width < 700px) {
-    p, cite, li{
+    p, cite, li {
         font-size: 1rem;
     }
 
@@ -330,16 +346,56 @@ noscript img {
     }
 
     .cabecalho {
-        position: relative;
+        position: fixed;
+        height: 60px;
     }
 
-    #contate-me,
-    #redes-sociais {
-        gap: .5rem;
+    .links__btn {
+        font-size: 2rem;
+        color: var(--cor1);
+        cursor: pointer;
+        z-index: 3;
     }
 
-    .nav-link {
-        font-size: .9rem;
+    .links__container {
+        z-index: 1;
+        background-color: var(--bg-card);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        position: absolute;
+        top: -400px;
+        left: 0;
+        right: 0;
+        padding-block: 10px 25px;
+        transition: all .6s ease-in-out;
+
+        hr {
+            width: 100%;
+            height: 1px;
+        }
+    }
+
+    .links,
+    .links__internos {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+    }
+       
+    .links__externos {
+        gap: 2rem;
+
+        .fa-brands {
+            font-size: 1.6rem;
+        }
+    }
+
+    #contate-me, .nav-link {
+        font-size: 0.9rem;
+        padding-block: 1rem;
     }
 
     .margem-lateral {
@@ -347,10 +403,10 @@ noscript img {
     }
 
     #home__header {
-        margin-top: 4rem;
+        margin-top: 6rem;
         flex-direction: column-reverse;
         height: unset;
-        gap: 40px
+        gap: 40px;
     }
 
     #home__header h1 {
@@ -367,7 +423,7 @@ noscript img {
         padding-block: 4rem;
     }
 
-    section h2{
+    section h2 {
         font-size: 1.6rem;
     }
    
