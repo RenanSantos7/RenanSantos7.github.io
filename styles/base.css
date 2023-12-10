@@ -337,10 +337,7 @@ noscript img {
 /* % MEDIA QUERIES */
 
 @media (width < 700px) {
-    p,
-    quote,
-    cite,
-    li {
+    p, cite, li {
         font-size: 1rem;
     }
 
@@ -381,10 +378,15 @@ noscript img {
         display: flex;
         flex-direction: column;
         gap: 1rem;
-    }
 
+    }
+       
     .links__externos {
         gap: 2rem;
+
+        .fa-brands {
+            font-size: 1.6rem;
+        }
     }
 
     #contate-me, .nav-link {
