@@ -31,9 +31,14 @@ a {
     color: inherit;
 }
 
+button, input, textarea {
+  font: inherit;
+  color: inherit;
+}
+
 img {
 	width: 100%;
-    object-fit: cover;
+  object-fit: cover;
 }
 
 .flex-center {
