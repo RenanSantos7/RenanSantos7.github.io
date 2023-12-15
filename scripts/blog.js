@@ -1,11 +1,14 @@
 import cabecalho from './componentes/cabecalho.js'
 import rodape from './componentes/rodape.js'
 import animaMenu from './animMenu.js'
+import menuMobile from './menuMobile.js'
+// tagList e imageURL estão definidas no documento HTML
 
 // % Compoonentes
 cabecalho()
 rodape()
-animaMenu()
+animaMenu() 
+menuMobile()
 
 //% Tag List
 const elTagList = document.querySelector('.list-tags')

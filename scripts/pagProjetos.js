@@ -1,9 +1,9 @@
 import projetosDados from "./projetosDados.js";
 import cabecalho from "./componentes/cabecalho.js";
-//import menuMobile from './menuMobile.js'
+import menuMobile from './menuMobile.js'
 
 cabecalho()
-//menuMobile()
+menuMobile()
 
 var pagina = parseInt(localStorage.getItem('projetoID'))
 

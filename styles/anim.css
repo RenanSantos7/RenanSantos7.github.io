@@ -62,3 +62,10 @@
 .tecnologias__figure:hover figcaption {
     opacity: 1;
 }
+
+
+@media (width < 700) {
+    .nav-link:hover::after {
+        clip-path: circle(0%);
+    }
+}
