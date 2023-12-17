@@ -12,7 +12,6 @@ menuMobile()
 
 //% Tag List
 const elTagList = document.querySelector('.list-tags')
-console.log(tagList)
 tagList.forEach(tag => {
     elTagList.innerHTML += `<a class="tag">#${tag}</a>`
 });
