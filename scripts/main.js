@@ -1,7 +1,7 @@
-import animaMenu from './animMenu.js'
 import mudaFrase from './mudafrase.js'
 import menuMobile from './menuMobile.js'
 import listaProjetos from './listaProjetos.js'
+import animaMenu from './animMenu.js'
 
 // animação que diminui o menu conforme o scroll
 animaMenu()

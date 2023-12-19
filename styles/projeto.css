@@ -59,3 +59,7 @@ main img {
     margin: 0;
     padding: 0;
 }
+
+section h2 {
+    margin-block: 2rem 1.5rem;
+}
