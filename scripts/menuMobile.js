@@ -15,6 +15,9 @@ export default function menuMobile() {
     aoRedimensionar()
     
     function aoRedimensionar() {
+        const linksBtn = document.querySelector('.links__btn')
+        const linksContainer = document.querySelector('.links__container')
+
         if (mediaQuery.matches) {
             elementos.forEach(elemento => elemento.classList.add('oculto'))
     
@@ -22,8 +25,11 @@ export default function menuMobile() {
             criaMenu()
         } else {
             elementos.forEach(elemento => elemento.classList.remove('oculto'))
-            document.querySelector('.links__btn').remove('oculto')
-            document.querySelector('.links__container').remove('oculto')
+            
+            if (linksBtn && linksContainer){
+                linksBtn.remove('oculto')
+                linksContainer.remove('oculto')
+            }
         }
     }
     
