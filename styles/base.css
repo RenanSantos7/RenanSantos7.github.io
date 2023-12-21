@@ -100,12 +100,6 @@ figcaption {
     top: 0;
     padding-block: 1rem;
     background-color: var(--bg-geral);
-}
-
-.menu-scroll {
-    box-shadow: 0 0 15px var(--shadow);
-    height: 50px;
-    transition: all 1s ease-in-out;
     z-index: 999;
 }
 

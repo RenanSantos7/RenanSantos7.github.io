@@ -9,11 +9,6 @@
     color: var(--cor3)
 }
 
-.cabecalho {
-    height: 50px;
-    z-index: 100;
-}
-
 .blog-post__header {
     background-size: cover;
     background-repeat:no-repeat;

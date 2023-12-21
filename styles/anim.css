@@ -44,6 +44,19 @@
     clip-path: circle(100% at 50% 50%);
 }
 
+/* % MENU SUPERIOR */
+
+@keyframes sombraMenu {
+    0% { height: 12vh; box-shadow: none;}
+    100% { height: 50px; box-shadow: 0 0 15px var(--shadow);}
+}
+
+.cabecalho {
+    animation: sombraMenu 1s ease-in-out 1ms forwards;
+    animation-timeline: scroll();
+    animation-range: normal 10%;
+}
+
 /* % TECNOLOGIAS */
 
 .tecnologias img {

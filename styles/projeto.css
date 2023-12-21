@@ -4,10 +4,6 @@
     --margin-bt: 2rem;
 }
 
-.cabecalho {
-    height: 50px;
-}
-
 .projeto__header h1 {
     font-size: 4rem;
     font-weight: 500;
