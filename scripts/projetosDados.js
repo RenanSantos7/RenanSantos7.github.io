@@ -1,17 +1,17 @@
 const projetosDados = [
     {
-        id: '0',
+        id: 0,
         nome: 'Vade Mecum',
         link: 'https://github.com/RenanSantos7/Vade-Mecum',
         img: 'assets/vade-mecum.png',
         alt: 'Vade Mecum Tela Principal',
         descricao: '<p>Um projeto de <em>Vade Mecum</em>, o famoso compêndio de leis usados por estudantes e profissionais de Direito.</p>',
-        texto: '<p>Um projeto de <em>Vade Mecum</em>, o famoso compêndio de leis usados por estudantes e profissionais de Direito.</p><p>Tem navegação simples e utiliza conceitos de HTML5, CSS3 e JavaScript para criar uma experiência de usuário única, preocupada com a legibilidade e acessibilidade.</p><figure><img src="assets/cf.png" alt="Vade Mecum Tela Lei"><figcaption>Constituição Federal</figcaption></figure><figure><img src="assets/cc.png" alt="Código Civil Vade Mecum"><figcaption>Código Civil</figcaption></figure><p>Ainda há modo escuro automático, que se adapta à escolha do usuário para seu sistema</p><figure><img alt="CPC no modo escuro com menu lateral" src="https://github.com/RenanSantos7/Vade-Mecum/blob/main/prints/cpc.png"><figcaption>CPC no modo escuro com menu lateral</figcaption></figure><h2>Interface mobile</h2><figure><img src="https://github.com/RenanSantos7/Vade-Mecum/blob/main/prints/home-mobile.png" alt="Tela principal no celular"><figcaption>Tela principal no celular</figcaption></figure><h2>Funcionalidades</h2><ul><li>Layout atual e responsivo;</li><li>Modo escuro;</li><li>Melhor legibilidade;</li><li>Adaptado para telas ultrawide</li><li>Facilidade de uso.</li></ul>',
+        texto: '<p>Um projeto de <em>Vade Mecum</em>, o famoso compêndio de leis usados por estudantes e profissionais de Direito.</p><p>Tem navegação simples e utiliza conceitos de HTML5, CSS3 e JavaScript para criar uma experiência de usuário única, preocupada com a legibilidade e acessibilidade.</p><figure><img src="assets/cf.png" alt="Vade Mecum Tela Lei"><figcaption>Constituição Federal</figcaption></figure><figure><img src="assets/cc.png" alt="Código Civil Vade Mecum"><figcaption>Código Civil</figcaption></figure><p>Ainda há modo escuro automático, que se adapta à escolha do usuário para seu sistema</p><figure><img alt="CPC no modo escuro com menu lateral" src="https://github.com/RenanSantos7/Vade-Mecum/blob/main/prints/cpc.png?raw=true"><figcaption>CPC no modo escuro com menu lateral</figcaption></figure><h2>Interface mobile</h2><figure><img src="https://github.com/RenanSantos7/Vade-Mecum/blob/main/prints/home-mobile.png?raw=true" alt="Tela principal no celular" class="vertical"><figcaption>Tela principal no celular</figcaption></figure><h2>Funcionalidades</h2><ul><li>Layout atual e responsivo;</li><li>Modo escuro;</li><li>Melhor legibilidade;</li><li>Adaptado para telas ultrawide</li><li>Facilidade de uso.</li></ul>',
         atualizacao: '2023-12-14',
     },
     
     {
-        id: '1',
+        id: 1,
         nome: 'Cardápio Pizzaria',
         link: 'https://github.com/RenanSantos7/Cardapio-QRCODE',
         img: 'assets/Captura-Cardapio.jpeg',
@@ -22,18 +22,18 @@ const projetosDados = [
     },
 
     {
-        id: '2',
+        id: 2,
         nome: 'Calculadora',
         link: 'https://github.com/RenanSantos7/Calculadora-JS',
         img: 'assets/calculadora.png',
         alt: 'Calculadora Tela Principal',
         descricao: '<p>Uma calculadora simples usando conceitos moderos de CSS3 e JavaScript.</p>',
-        texto: '<p>Uma calculadora simples usando conceitos moderos de CSS3 e JavaScript.</p><p>Os números estão dispostos em <code>CSS grid</code>, o que torna todo o código HTML mais simples e fácil de programar no JavaScript.</p><p>Executa operações de soma, multiplicação, divisão e subtração.</p>',
+        texto: '<p>Uma calculadora simples usando conceitos modernos de CSS3 e JavaScript.</p><p>Os números estão dispostos em <code>CSS grid</code>, o que torna todo o código HTML mais simples e fácil de programar no JavaScript.</p><p>Executa operações de soma, multiplicação, divisão e subtração.</p>',
         atualizacao: '2023-09-13',
     },
 
     {
-        id: '3',
+        id: 3,
         nome: 'Gerador de Tabelas',
         link: 'https://github.com/RenanSantos7/Gerador-de-tabelas',
         img: 'assets/gerador-tabela1.png',
@@ -44,7 +44,7 @@ const projetosDados = [
     },
 
     {
-        id: '4',
+        id: 4,
         nome: 'Número Secreto',
         link: 'https://github.com/RenanSantos7/numero-secreto',
         img: 'https://github.com/RenanSantos7/numero-secreto/raw/main/screenshots/tela-jogo.jpg',
@@ -55,7 +55,7 @@ const projetosDados = [
     },
     
   /*   {
-        id: '5',
+        id: 5,
         nome: 'Alura Play',
         link: 'https://github.com/RenanSantos7/curso-requisi-es-javascript-alura',
         img: 'https://camo.githubusercontent.com/265a1c9f8574dcf63c1a9de7c86d5d414a9ceec5c424c43ba21aa556c2a38c03/68747470733a2f2f696d6775722e636f6d2f61796d784573682e706e67',
@@ -67,7 +67,7 @@ const projetosDados = [
     }, */
 
     {
-        id: '6',
+        id: 6,
         nome: 'Alura SPA',
         link: 'https://github.com/RenanSantos7/alura-spa',
         img: 'https://github.com/RenanSantos7/alura-spa/blob/main/screenshots/Screenshot%201.png?raw=true',
@@ -79,7 +79,7 @@ const projetosDados = [
     },
 
     {
-        id: '7',
+        id: 7,
         nome: 'Organo APP',
         link: 'https://github.com/RenanSantos7/organo-app',
         img: './assets/organo-app.jpg',
@@ -91,7 +91,7 @@ const projetosDados = [
     },
 
     {
-        id: '8',
+        id: 8,
         nome: 'Rbank',
         link: 'https://github.com/RenanSantos7/rbank',
         img: './assets/rbank.jpg',

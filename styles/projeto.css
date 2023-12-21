@@ -1,4 +1,5 @@
 @import url('base.css');
+@import url('anim.css');
 
 :root {
     --margin-bt: 2rem;
@@ -15,6 +16,7 @@
     justify-content: space-between;
     align-items: baseline;
     flex-wrap: wrap;
+    margin-top: 4rem;
 }
 
 a:hover {
@@ -32,6 +34,10 @@ figure {
 
 figure img {
     width: min(100%, 1000px);
+}
+
+figure img.vertical {
+    width: 400px;
 }
 
 figcaption {
