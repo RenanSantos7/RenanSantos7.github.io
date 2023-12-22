@@ -10,6 +10,10 @@ const projetoSelecionado = projetosDados.find(
 
 montaPagina(projetoSelecionado)
 
+/** 
+ @description Monta a página de projetos
+ @param array Um array de objetos
+ **/
 function montaPagina(projeto) {
     const header = document.querySelector(".projeto__header")
     const projetoDescricao = document.querySelector("#projeto__descrição")

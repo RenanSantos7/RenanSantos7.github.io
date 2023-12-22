@@ -81,14 +81,16 @@
 @keyframes revelaCards {
     0% { 
         opacity: 0; 
-        -webkit-translate: 0 100px;
-        translate: 0 100px;
+        /* -webkit-translate: 0 100px;
+        translate: 0 100px; */
+        scale: 0.9;
     }
     
     100% {
         opacity: 1;
-        -webkit-translate: 0 0;
-        translate: 0 0;
+        /* -webkit-translate: 0 0;
+        translate: 0 0; */
+        scale: 1;
     }
 }
 
@@ -96,9 +98,7 @@
     animation: revelaCards .6s ease-in-out 1ms forwards;
     animation-timeline: view();
     animation-range: cover 5% cover 50%;
-
 }
-
 
 @media (width < 700) {
     .nav-link:hover::after {

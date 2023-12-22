@@ -1,3 +1,6 @@
+/**
+ @description Componente que monta o cabeçalho da página
+ **/
 export default function cabecalho() {
     const elHeader = document.querySelector('.cabecalho')
 

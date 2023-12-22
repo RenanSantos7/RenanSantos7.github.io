@@ -1,3 +1,6 @@
+/**
+Componente que transforma o menu da página em um menu mobile
+ **/
 export default function menuMobile() {
     const contateMe = document.querySelector('#contate-me')
     const links = document.querySelector('.links')
