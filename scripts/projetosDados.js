@@ -110,6 +110,17 @@ const projetosDados = [
         tecnologias: ['html', 'css', 'javascript'],
         atualizacao: '2023-12-19',
     },
+    {
+        id: 9,
+        nome: 'Piw',
+        link: 'https://github.com/RenanSantos7/piw',
+        img: './assets/piw.jpg',
+        alt: 'Tela Piw',
+        descricao: '<p>Este é um projeto pessoal de uma rede social fake. A estrutura da página é inspirada no Twitter, no Bluesky e no Facebook.</p>',
+        texto: '<p>Este é um projeto pessoal. Ele me veio à cabeça um manhã e não consegui resistir: fui logo codar. Trata-se de uma rede social fake. A estrutura da página é inspirada no Twitter, no <a href="https://staging.bsky.app">Bluesky</a> e no Facebook.</p><p>A parte mais divertida sem dúvida foi escrever os posts. Além disso, a logo da rede social foi criada pelo Bing AI e precisou só de um pequeno tratamento no Photopea.</p><p>O projeto é feito em React e as principais bibliotecas usadas são o <b>React Router DOM</b> e <b>Font Awesome Icons</b></p>',
+        data: '2023-12-23',
+        tecnologias: ['react'],
+    }
 ]
 
 export default projetosDados
