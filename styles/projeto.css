@@ -50,7 +50,7 @@ main img {
     max-height: 80vh;
     border: 5px solid var(--img-borda);
     border-radius: 12px;
-    box-shadow: var(--shadow);
+    object-fit: contain;
 }
 
 .projeto__main {
