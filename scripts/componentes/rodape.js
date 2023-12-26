@@ -1,10 +1,8 @@
 export default function rodape() {
-    const elRodape = document.querySelector('.rodape')
-
-    elRodape.innerHTML = `
-        <a href="mailto:renansantos.jus@gmail.com" class="footer__contato">
+    document.querySelector('.rodape').innerHTML = `
+        <a href="./contato.html" class="footer__contato">
             <i class="fa-solid fa-envelope"></i>
-            Email
+            Contato
         </a>
         <a href="https://www.linkedin.com/in/renan-santos-7332b5255/" class="footer__contato" id="footer__LinkedIn">
             <i class="fa-brands fa-linkedin"></i>
