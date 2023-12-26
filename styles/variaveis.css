@@ -10,7 +10,9 @@
     --bg-card: hsl(0, 0%, 100%);
     --bg-code: hsl(0, 0%, 95%);
     --bg-footer: hsl(0, 0%, 87%);
+    
     --texto: hsl(0, 0%, 37%);
+    --code: hsl(0, 0%, 45%);
     --titulo: hsl(0, 0%, 24%);
     --borda: hsl(0, 0%, 80%);
     --shadow: hsla(209, 11%, 54%, 0.5);
@@ -25,12 +27,14 @@
         --bg-geral: hsl(0, 0%, 20%);
         --bg-section: hsla(210, 43%, 45%, 0.145);
         --bg-card: hsl(0, 0%, 24%);
-        --bg-code: hsl(0, 0%, 15%);
+        --bg-code: hsl(0, 0%, 10%);
         --bg-footer: hsl(0, 0%, 15%);
         --borda: hsl(0, 0%, 36%);
         --shadow: hsla(0, 0%, 6%, 0.424);
+        
         --texto: hsl(0, 0%, 84%);
         --titulo: hsl(0, 0%, 94%);
+        --code: hsl(0, 0%, 75%);
         --projeto-borda: hsl(0, 0%, 35%);
     }
 }

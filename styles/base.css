@@ -41,6 +41,7 @@ li {
 
 code {
     font-size: 1.1rem;
+    color: var(--code);
 }
 
 .fa-solid,
@@ -101,6 +102,7 @@ figcaption {
     font-size: 1rem;
     margin-block: 1.2rem;
     border-radius: 4px;
+    color: var(--code) !important
 }
 
 .inline-code {
