@@ -1,5 +1,6 @@
 import projetosDados from "./projetosDados.js";
 import cabecalho from "./componentes/cabecalho.js";
+import rodape from "./componentes/rodape.js";
 import menuMobile from './menuMobile.js'
 
 const pagina = parseInt(localStorage.getItem('projetoID'))
@@ -32,3 +33,4 @@ function montaPagina(projeto) {
 
 cabecalho()
 menuMobile()
+rodape()

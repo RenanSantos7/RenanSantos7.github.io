@@ -8,6 +8,7 @@
     --bg-geral: hsl(0, 0%, 98%);
     --bg-section: hsl(208, 100%, 95%);
     --bg-card: hsl(0, 0%, 100%);
+    --bg-code: hsl(0, 0%, 95%);
     --bg-footer: hsl(0, 0%, 87%);
     --texto: hsl(0, 0%, 37%);
     --titulo: hsl(0, 0%, 24%);
@@ -24,6 +25,7 @@
         --bg-geral: hsl(0, 0%, 20%);
         --bg-section: hsla(210, 43%, 45%, 0.145);
         --bg-card: hsl(0, 0%, 24%);
+        --bg-code: hsl(0, 0%, 15%);
         --bg-footer: hsl(0, 0%, 15%);
         --borda: hsl(0, 0%, 36%);
         --shadow: hsla(0, 0%, 6%, 0.424);

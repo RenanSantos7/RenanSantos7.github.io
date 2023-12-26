@@ -39,6 +39,10 @@ li {
     color: var(--texto);
 }
 
+code {
+    font-size: 1.1rem;
+}
+
 .fa-solid,
 .fa-brands {
     font-size: 1.3em;
@@ -86,6 +90,23 @@ figcaption {
 
 .bg-section {
     background-color: var(--bg-section);
+}
+
+.code-block {
+    display: block;
+    background-color: var(--bg-code);
+    padding: 1.2rem 1rem;
+    line-height: 1.2;
+    overflow-x: auto;
+    font-size: 1rem;
+    margin-block: 1.2rem;
+    border-radius: 4px;
+}
+
+.inline-code {
+    background-color: var(--bg-code);
+    padding: .25rem .5rem;
+    border-radius: 1rem;
 }
 
 /* % CABEÇALHO */
@@ -253,6 +274,19 @@ figcaption {
 .card__texto p {
     font-size: 1.1rem;
     line-height: 1.5;
+}
+
+.card__tecnologias {
+    height: 50px;
+    border-top: 1px solid var(--borda);
+    display: flex;
+    align-items: center;
+    gap: .5rem
+}
+
+.card__tecnologias__item {
+    width: 45px;
+    filter: grayscale(1)
 }
 
 /* % SEÇÃO COM FRASE */
