@@ -53,7 +53,7 @@ const projetosDados = [
         link: 'https://github.com/RenanSantos7/numero-secreto',
         img: 'https://github.com/RenanSantos7/numero-secreto/raw/main/screenshots/tela-jogo.jpg',
         alt: 'Número Secreto. Chute reconhecido',
-        descricao: '<p>Um jogo bem divertido desenvolvido no curso <i>"JavaScript: validações e reconhecimento de voz"</i> da <b>Alura</b>, com o professor Guilherme Lima</p>',
+        descricao: '<p>Um jogo bem divertido desenvolvido no curso <i>"JavaScript: validações e reconhecimento de voz"</i> da <b>Alura</b></p>',
         texto: '<p>Um projeto feito para o curso &quot;<strong>JavaScript: validações e reconhecimento de voz</strong>&quot; da Alura> com o professor Guilherme Lima.</p><p>Trata-se de um jogo bastante divertido em que se usa a Web Speech API para reconhecimento de voz. Você fala um número até acertar o número secreto que ele sorteou!</p><p>Aproveite e divirta-se!</p><p>O projeto está disponível pelo <a href="https://numero-secreto-git-main-renansantos7.vercel.app/">Vercel</a>.</p>',
         tecnologias: ['html', 'css', 'javascript', 'webspeech'],
         atualizacao: '2023-10-09',

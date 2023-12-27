@@ -45,7 +45,6 @@
     }
 }
 
-
 .list-tags {
     display: flex;
     flex-flow: row wrap;
@@ -68,10 +67,15 @@
 }
 
 .blog-post__corpo {
-    margin: 2rem auto;
+    margin: 2rem auto 8rem;
     width: var(--largura);
     text-align: justify;
     min-height: 100vh;
+}
+
+.blog-post__corpo figcaption {
+    margin-block: .5rem 1.5rem;
+    font-style: italic;
 }
 
 footer {

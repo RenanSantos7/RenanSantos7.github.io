@@ -1,5 +1,8 @@
 export default function rodape() {
-    document.querySelector('.rodape').innerHTML = `
+    const rodape = document.querySelector('.rodape')
+    
+	if (rodape) {
+		rodape.innerHTML = `
         <a href="./contato.html" class="footer__contato">
             <i class="fa-solid fa-envelope"></i>
             Contato
@@ -13,4 +16,5 @@ export default function rodape() {
             Github
         </a>
     `
+	}
 }
