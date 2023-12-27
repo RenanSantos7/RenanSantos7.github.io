@@ -1,6 +1,7 @@
 import cabecalho from './componentes/cabecalho.js'
 import rodape from './componentes/rodape.js'
-import menuMobile from './menuMobile.js'
+//import menuMobile from './menuMobile.js'
+import animaMenu from './animaMenu.js'
 import blogposts from './componentes/blogposts.js'
 
 const pagina = parseInt(localStorage.getItem('blogID'))
@@ -35,8 +36,7 @@ function montaPost(post) {
 	elPost.innerHTML = post.conteudo
 }
 
-// % Compoonentes
 cabecalho()
 montaPost(postSelecionado)
 rodape()
-menuMobile()
+animaMenu()
