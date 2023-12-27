@@ -1,22 +1,22 @@
 import projetosDados from './projetosDados.js'
 import blogposts from './componentes/blogposts.js'
 
-console.log(blogposts)
-
-export default function listaProjetos() {
+export default function listaCards() {
 	const secProjetos = document.querySelector('#projetos-container')
 	const secBlog = document.querySelector('#posts-container')
 
     function organizar(array, prop) {
         const arrayOrganizado = array.sort((a, b) => {
-            return a.prop < b.prop ? -1 : a.prop > b.prop ? 1 : 0
+            const dateA = new Date(`${a[prop]}`)
+            const dateB = new Date(`${b[prop]}`)
+            return dateA < dateB ? 1 : dateA > dateB ? -1 : 0
         })
         arrayOrganizado.reverse()
         const arrayFinal = arrayOrganizado.slice(0, 12)
-        return arrayFinal.reverse
+        return arrayFinal.reverse()
     }
 
-	function mapear(array, secao,) {
+    function mapear(array, secao, tipo) {
 		array.map(elemento =>
 			(secao.innerHTML += `
                 <article class="${tipo} card">
@@ -34,6 +34,9 @@ export default function listaProjetos() {
 		)
     }
     
-    const projetos = organizar(projetosDados, atualizacao)
-    const posts = organizar(blogposts, publicacao)
+    const projetos = organizar(projetosDados, 'atualizacao')
+    const posts = organizar(blogposts, 'publicacao')
+
+    mapear(projetos, secProjetos, 'projeto')
+    mapear(posts, secBlog, 'blog')
 }

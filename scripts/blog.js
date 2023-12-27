@@ -10,8 +10,7 @@ tagList.forEach(tag => {
 });
 
 //% Definir fundo do header
-const header = document.querySelector('.blog-post__header')
-header.style.backgroundImage = `url(${imageURL})`
+
 
 // % Compoonentes
 cabecalho()

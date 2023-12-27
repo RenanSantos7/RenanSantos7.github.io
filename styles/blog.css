@@ -4,7 +4,7 @@
 
 .cabecalho-blog {
     height: 50px;
-    background-color: transparent
+    background-color: transparent;
 }
 
 .blog-post b,
@@ -49,6 +49,11 @@
     h1, time {
         color: white;
     }
+}
+
+.blog-post__title,
+.blog-post__publication {
+    color: hsl(0, 0%, 94%)
 }
 
 .list-tags {

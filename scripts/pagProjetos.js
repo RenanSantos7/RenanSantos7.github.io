@@ -21,7 +21,7 @@ function montaPagina(projeto) {
     
     header.innerHTML = `
         <div id="titulo">
-        <h1>${projeto.nome}</h1>
+        <h1>${projeto.titulo}</h1>
         <a href="${projeto.link}">Visitar projeto</a>
         </div>
         <figure>

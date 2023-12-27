@@ -66,7 +66,133 @@ const frases = [
     {
         frase: "Falar é fácil, me mostre o código.",
         autor: "Linus Torvalds"
-    }
+    },
+    {
+        frase: "Programs must be written for people to read, and only incidentally for machines to execute.",
+        autor: "Harold Abelson"
+    },
+    {
+        frase: "The best way to predict the future is to invent it.",
+        autor: "Alan Kay"
+    }, 
+    {
+        frase: "Os programas devem ser escritos para as pessoas lerem, e apenas incidentalmente para as máquinas executarem.",
+        autor: "Harold Abelson"
+    },
+    {
+        frase: "A melhor maneira de prever o futuro é inventá-lo.",
+        autor: "Alan Kay"
+    },
+    {
+        frase: "Qualquer tolo pode escrever código que um computador pode entender. Bons programadores escrevem código que os humanos podem entender.",
+        autor: "Martin Fowler"
+    },
+    {
+        frase: "A arte de programar é a arte de organizar a complexidade, de dominar a multidão e evitar seu caos bastardo da forma mais eficaz possível.",
+        autor: "Edsger W. Dijkstra"
+    },
+    {
+        frase: "Você pode não pensar que programadores são artistas, mas programar é uma profissão extremamente criativa. É criatividade baseada na lógica.",
+        autor: "John Romero"
+    },
+    {
+        frase: "A programação é fácil de aprender, mas difícil de dominar.",
+        autor: "Desconhecido"
+    },
+    {
+        frase: "Depurar é como ser detetive num filme policial em que também és o assassino.",
+        autor: "Filipe Fortes"
+    },
+    {
+        frase: "A frase mais perigosa na língua é 'sempre fizemos assim'.",
+        autor: "Grace Hopper"
+    },
+    {
+        frase: "Programação não é sobre digitar, é sobre pensar.",
+        autor: "Rich Hickey"
+    },
+    {
+        frase: "Todo grande desenvolvedor que você conhece chegou lá resolvendo problemas que eles não estavam qualificados para resolver até que realmente o fizessem.",
+        autor: "Patrick McKenzie"
+    },
+    {
+        frase: "Código é como humor. Quando você tem que explicar, é ruim.",
+        autor: "Cory House"},
+    {
+        frase: "Todo mundo deve aprender a programar, isso ensina a pensar.",
+        autor: "Steve Jobs"
+    },
+    {
+        frase: "A programação é um dos ramos mais importantes da matemática aplicada.",
+        autor: "Donald Knuth"},
+    {
+        frase: "Há apenas duas coisas difíceis na Ciência da Computação: invalidação de cache e nomenclatura.",
+        autor: "Phil Karlton"
+    },
+    {
+        frase: "Não é um bug, é um recurso não documentado.",
+        autor: "Desconhecido"
+    },
+    {
+        frase: "O computador é a ferramenta mais notável que já criamos. É o equivalente a uma bicicleta para nossas mentes.",
+        autor: "Steve Jobs"
+    },
+    {
+        frase: "Os programadores estão constantemente enfrentando novos desafios à medida que a tecnologia evolui. O futuro da programação está cheio de possibilidades empolgantes, e o único limite é a nossa imaginação.",
+        autor: "Mevan Babakar"
+    },
+    {
+        frase: "A programação é a nova alfabetização. Precisamos aprender a ler, escrever e codificar.",
+        autor: "Steve Jobs"
+    },
+    {
+        frase: "A programação permite pensar em problemas e encontrar soluções de forma estruturada. É uma ferramenta poderosa para inovação e progresso.",
+        autor: "Mark Zuckerberg"
+    },
+    {
+        frase: "Os melhores programadores não são necessariamente os que mais sabem sobre programação, mas os que podem trabalhar efetivamente em equipe.",
+        autor: "Steve McConnell"
+    },
+    {
+        frase: "No desenvolvimento de software, o aprendizado nunca para. Você deve manter-se constantemente atualizado com as mais recentes tecnologias e linguagens de programação.",
+        autor: "Ben Collins-Sussman"
+    },
+    {
+        frase: "A habilidade mais importante para um programador é a capacidade de aprender coisas novas rapidamente.",
+        autor: "John Resig"
+    },
+    {
+        frase: "Os melhores programadores são aqueles que conseguem pensar criativamente, aprender rapidamente e se adaptar a novas situações.",
+        autor: "Larry Wall"
+    },
+    {
+        frase: "Aprender a programar é útil, não importa quais sejam suas ambições de carreira.",
+        autor: "Sheryl Sandberg"
+    },
+    {
+        frase: "Como programadores, nunca devemos parar de aprender e crescer. As possibilidades são infinitas, e o único limite é a nossa vontade de aprender.",
+        autor: "Steve Ballmer"
+    },
+    {
+        frase: "Código é poder. Pode mudar o mundo.",
+        autor: "Desconhecido"
+    },
+    {
+        frase: "Codificar não é apenas criar software, é resolver problemas.",
+        autor: "Ryan Carson"
+    },
+    {
+        frase: "Os programadores têm o poder de automatizar tarefas, resolver problemas complexos e criar novas tecnologias incríveis que podem mudar o mundo.",
+        autor: "Mevan Babakar"
+    },
+    {
+        frase: "Código é a poesia de um mundo melhor.",
+        autor: "Dominic Krimmer"
+    },
+    {
+        frase: "Programar é uma forma de transformar suas ideias em realidade. Com o código, você tem o poder de criar algo que nunca existiu antes.",
+        autor: "Ben Parr"
+    },
 ]
 
 const citacao = document.querySelector('#citacao');
