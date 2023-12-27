@@ -1,7 +1,7 @@
 import mudaFrase from './mudafrase.js'
 import listaCards from './listaCards.js'
 import animaMenu from './animaMenu.js'
-import menuMobile from './componentes/menuMobile.js'
+//import menuMobile from './componentes/menuMobile.js'
 
 // cria os cards dos projetos
 listaCards()
@@ -13,4 +13,4 @@ animaMenu()
 document.addEventListener('load', mudaFrase());
 
 // no mobile, substitui o menu por um botão 
-menuMobile()
+//menuMobile()
