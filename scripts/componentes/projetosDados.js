@@ -127,7 +127,18 @@ const projetosDados = [
         texto: '<p>Este é um projeto em React desenvolvido no curso React: desenvolvendo em React Router com JavaScript da Alura.</p><h2>Tecnologias utilizadas</h2><ul><li>React (Create React App)</li><li>React Router DOM</li><li>React Markdown (<a href="https://www.npmjs.com/package/react-markdown" target="blank">https://www.npmjs.com/package/react-markdown</a>)</li></ul><h2>Como acessar online</h2><p>O deploy do projeto foi feito pelo Netilify e está disponível em <a href="https://ola-mundo-alura.netlify.app/" target="blank">https://ola-mundo-alura.netlify.app/</a></p><h2>Como rodar localmente</h2><p>Este projeto foi criado usando Create React App, portanto você pode seguir a documentação desse script para fazer deploy do site localmente.</p><p>No caso, primeiro você precisará baixar o projeto com o seguinte comando:</p><pre class="code-block"><code>git clone https://github.com/RenanSantos7/ola-mundo-react-router.git </code></pre><p>Agora, navegue até a raiz do projeto e abra um terminal. Nele rode o seguinte comando:</p><pre class="code-block"><code>npm start</code></pre><p>O navegador será aberto no endereço <code class="inline-code">http://localhost:3000</code> para que você possa visualizá-lo.</p>',
         tecnologias: ['react'],
         atualizacao: '2023-12-26',
-    }
+    },
+    {
+        id: 11,
+        titulo: 'VidFlow',
+        link: 'https://github.com/RenanSantos7/vidflow',
+        img: 'https://github.com/RenanSantos7/vidflow/raw/main/assets/vidflow.jpg',
+        alt: '',
+        descricao: '<p>Este é um projeto em React desenvolvido no curso "React: desenvolvendo em React Router com JavaScript" da <b>Alura</b>.</p>',
+        texto: '<p>Um projeto de uma plataforma de vídeos fictícia criada no curso &quot;JavaScript: consumindo e tratando dados de uma API&quot; da <a href="https://cursos.alura.com.br/">Alura</a>.</p><p>Nesse curso foi usado o plugin json-server para emular uma API Rest para ser consumida via Fetch API.</p><p>No curso foram abordados temas como async/await, try/catch, assincronicidade dentre outros.</p><h2 id="tecnologias-utilizadas">Tecnologias utilizadas</h2><ul><li>HTML</li><li>CSS</li><li>JavaScript</li></ul><h2 id="como-acessar-online">Como acessar online</h2><p>O deploy do projeto foi feito pelo <a href="https://www.netlify.com/">Netilify</a> e está disponível em <a href="https://vidlfow.netlify.app/">https://vidlfow.netlify.app/</a></p><h2 id="como-rodar-localmente">Como rodar localmente</h2><p>Este projeto usa JavaScript puro. No entanto, importa dados de um arquivo JSON, então é preciso usar o json-server para rodá-lo localmente.</p><p>No caso, primeiro você precisará baixar o projeto com o seguinte comando:</p><pre class="code-block"><code>git clone https://github.com/RenanSantos7/vidflow.git</code></pre><p>Agora, a pasta em que o projeto foi salvo no Visual Studio Code. Então, abra o terminal integrado e rode o seguinte comando para instalar o json-server:</p><pre class="code-block"><code>npm install -g json-server</code></pre><p>Após, rode o seguinte comando para que o json-server leia o JSON com os dados:</p><pre class="code-block"><code>json-server --watch backend/videos.json</code></pre><p>Agora basta abrir o arquivo <code>index.html</code> dando duplo clique nele no seu gestor de arquivos ou com o Live Server no vscode.</p>',
+        tecnologias: ['html', 'css', 'javascript'],
+        atualizacao: '2023-12-27',
+    },
 ]
 
 export default projetosDados
