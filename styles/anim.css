@@ -66,6 +66,14 @@
     animation: menuBlog 1s ease-in-out 1ms forwards;
     animation-timeline: scroll();
     animation-range: normal 10%;
+
+}
+
+.menu-scroll {
+    box-shadow: 0 0 15px var(--shadow);
+    height: 50px;
+    transition: all 1s ease-in-out;
+    z-index: 999;
 }
 
 /* % TECNOLOGIAS */
