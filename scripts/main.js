@@ -5,7 +5,10 @@ import animaMenu from './animaMenu.js'
 
 // cria os cards dos projetos
 listaCards()
+
+// anima os menus no Firefox
 animaMenu()
+
 // insere a frase da seção #frase
 document.addEventListener('load', mudaFrase());
 

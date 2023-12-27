@@ -1,4 +1,4 @@
-import projetosDados from './projetosDados.js'
+import projetosDados from './componentes/projetosDados.js'
 import blogposts from './componentes/blogposts.js'
 
 export default function listaCards() {
