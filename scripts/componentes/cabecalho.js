@@ -2,10 +2,10 @@
  @description Componente que monta o cabeçalho da página
  **/
 export default function cabecalho() {
-	const elHeader = document.querySelector('.cabecalho')
+	const elCabecalho = document.querySelector('.cabecalho')
 
-	if (elHeader) {
-		elHeader.innerHTML = `
+	if (elCabecalho) {
+		elCabecalho.innerHTML = `
             <a id="contate-me" href="contato.html">Contate-me</a>
             <div class='links'>
                 <div class="links__internos">
