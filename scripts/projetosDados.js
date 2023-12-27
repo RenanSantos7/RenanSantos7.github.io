@@ -1,7 +1,7 @@
 const projetosDados = [
     {
         id: 0,
-        nome: 'Vade Mecum',
+        titulo: 'Vade Mecum',
         link: 'https://github.com/RenanSantos7/Vade-Mecum',
         img: 'assets/projetos/vade-mecum.png',
         alt: 'Vade Mecum Tela Principal',
@@ -13,7 +13,7 @@ const projetosDados = [
     
     {
         id: 1,
-        nome: 'Cardápio Pizzaria',
+        titulo: 'Cardápio Pizzaria',
         link: 'https://github.com/RenanSantos7/Cardapio-QRCODE',
         img: 'assets/projetos/Captura-Cardapio.jpeg',
         alt: 'Vade Mecum Tela Principal',
@@ -25,7 +25,7 @@ const projetosDados = [
 
     {
         id: 2,
-        nome: 'Calculadora',
+        titulo: 'Calculadora',
         link: 'https://github.com/RenanSantos7/Calculadora-JS',
         img: 'assets/projetos/calculadora.png',
         alt: 'Calculadora Tela Principal',
@@ -37,7 +37,7 @@ const projetosDados = [
 
     {
         id: 3,
-        nome: 'Gerador de Tabelas',
+        titulo: 'Gerador de Tabelas',
         link: 'https://github.com/RenanSantos7/Gerador-de-tabelas',
         img: 'assets/projetos/gerador-tabela1.png',
         alt: 'Gerador de tabelas',
@@ -49,7 +49,7 @@ const projetosDados = [
 
     {
         id: 4,
-        nome: 'Número Secreto',
+        titulo: 'Número Secreto',
         link: 'https://github.com/RenanSantos7/numero-secreto',
         img: 'https://github.com/RenanSantos7/numero-secreto/raw/main/screenshots/tela-jogo.jpg',
         alt: 'Número Secreto. Chute reconhecido',
@@ -61,7 +61,7 @@ const projetosDados = [
     
   /*   {
         id: 5,
-        nome: 'Alura Play',
+        titulo: 'Alura Play',
         link: 'https://github.com/RenanSantos7/curso-requisi-es-javascript-alura',
         img: 'https://camo.githubusercontent.com/265a1c9f8574dcf63c1a9de7c86d5d414a9ceec5c424c43ba21aa556c2a38c03/68747470733a2f2f696d6775722e636f6d2f61796d784573682e706e67',
         alt: 'Interface principal do alurapplay',
@@ -73,7 +73,7 @@ const projetosDados = [
 
     {
         id: 6,
-        nome: 'Alura SPA',
+        titulo: 'Alura SPA',
         link: 'https://github.com/RenanSantos7/alura-spa',
         img: 'https://github.com/RenanSantos7/alura-spa/blob/main/screenshots/Screenshot%201.png?raw=true',
         descricao: '<p>Um projeto criado para o curso "SASS: CSS sintaticamente espetacular" da <b>Alura</b>.</p>',
@@ -85,7 +85,7 @@ const projetosDados = [
 
     {
         id: 7,
-        nome: 'Organo APP',
+        titulo: 'Organo APP',
         link: 'https://github.com/RenanSantos7/organo-app',
         img: './assets/projetos/organo-app.jpg',
         alt: 'Tela do Organao App',
@@ -97,7 +97,7 @@ const projetosDados = [
 
     {
         id: 8,
-        nome: 'Rbank',
+        titulo: 'Rbank',
         link: 'https://github.com/RenanSantos7/rbank',
         img: './assets/projetos/rbank.jpg',
         alt: 'Tela Rbank',
@@ -108,7 +108,7 @@ const projetosDados = [
     },
     {
         id: 9,
-        nome: 'Piw',
+        titulo: 'Piw',
         link: 'https://github.com/RenanSantos7/piw',
         img: './assets/projetos/piw.jpg',
         alt: 'Tela Piw',
@@ -119,7 +119,7 @@ const projetosDados = [
     },
     {
         id: 10,
-        nome: 'Olá, mundo',
+        titulo: 'Olá, mundo',
         link: 'https://github.com/RenanSantos7/ola-mundo-react-router',
         img: 'https://github.com/RenanSantos7/ola-mundo-react-router/blob/main/public/print-banner.png?raw=true',
         alt: 'banner do blog Olá mundo',

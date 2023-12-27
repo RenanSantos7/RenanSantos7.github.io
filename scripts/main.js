@@ -1,9 +1,9 @@
 import mudaFrase from './mudafrase.js'
 import menuMobile from './menuMobile.js'
-import listaProjetos from './listaProjetos.js'
+import listaCards from './listaCards.js'
 
 // cria os cards dos projetos
-listaProjetos()
+listaCards()
 
 // insere a frase da seção #frase
 document.addEventListener('load', mudaFrase());
