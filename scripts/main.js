@@ -1,7 +1,7 @@
 import mudaFrase from './mudafrase.js'
-import menuMobile from './menuMobile.js'
 import listaCards from './listaCards.js'
 import animaMenu from './animaMenu.js'
+import menuMobile from './componentes/menuMobile.js'
 
 // cria os cards dos projetos
 listaCards()
