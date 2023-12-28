@@ -1,4 +1,4 @@
-import projetosDados from './componentes/projetosDados.js'
+import projetosDados from './dados/projetosDados.js'
 import cabecalho from './componentes/cabecalho.js'
 import rodape from './componentes/rodape.js'
 import animaMenu from './animaMenu.js'

@@ -1,5 +1,5 @@
-import projetosDados from './componentes/projetosDados.js'
-import blogposts from './componentes/blogposts.js'
+import projetosDados from './dados/projetosDados.js'
+import blogposts from './dados/blogposts.js'
 
 export default function listaCards() {
 	const secProjetos = document.querySelector('#projetos-container')

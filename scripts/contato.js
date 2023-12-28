@@ -1,5 +1,5 @@
 import cabecalho from "./componentes/cabecalho.js";
-import animaMenu from './animMenu.js'
+import animaMenu from './animaMenu.js'
 
 cabecalho()
 animaMenu()

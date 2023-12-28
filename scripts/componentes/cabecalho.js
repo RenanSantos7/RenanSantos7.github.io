@@ -4,7 +4,7 @@
 export default function cabecalho() {
 	const elCabecalho = document.querySelector('.cabecalho')
 
-	if (elCabecalho) {
+    if (elCabecalho) {
 		elCabecalho.innerHTML = `
             <a id="contate-me" href="contato.html">Contate-me</a>
             <div class='links'>
@@ -27,5 +27,5 @@ export default function cabecalho() {
                 </div>
             </div>
         `
-	}
+    }
 }

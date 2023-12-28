@@ -2,7 +2,7 @@ import cabecalho from './componentes/cabecalho.js'
 import rodape from './componentes/rodape.js'
 //import menuMobile from './menuMobile.js'
 import animaMenu from './animaMenu.js'
-import blogposts from './componentes/blogposts.js'
+import blogposts from './dados/blogposts.js'
 
 const pagina = parseInt(localStorage.getItem('blogID'))
 
