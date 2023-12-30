@@ -1,4 +1,4 @@
-import frases from '.dados/frases.json'
+import frases from './dados/frases.js'
 
 const citacao = document.querySelector('#citacao');
 const autorCitacao = document.querySelector('#autor');
