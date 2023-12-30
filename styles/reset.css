@@ -42,6 +42,7 @@ table {
 a {
 	text-decoration: none;
 	color: inherit;
+	cursor: pointer;
 }
 
 button,
@@ -59,7 +60,7 @@ input[type='submit'] {
 
 img {
 	width: 100%;
-	object-fit: cover;
+	object-fit: contain;
 }
 
 .flex-center {
@@ -88,7 +89,7 @@ img {
 }
 
 .trans-ease {
-	transition: all 0.6s ease;
+	transition: all 0.6s ease-in-out;
 }
 
 .erro {
