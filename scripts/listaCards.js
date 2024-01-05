@@ -1,6 +1,7 @@
 import projetosDados from './dados/projetosDados.js'
 import blogposts from './dados/blogposts.js'
 
+/** @description cria os cards de projetos e de posts na homepage **/
 export default function listaCards() {
 	const secProjetos = document.querySelector('#projetos-container')
 	const secBlog = document.querySelector('#posts-container')

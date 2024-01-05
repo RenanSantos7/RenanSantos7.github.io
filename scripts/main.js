@@ -10,7 +10,9 @@ listaCards()
 animaMenu()
 
 // insere a frase da seção #frase
-document.addEventListener('load', mudaFrase());
+document.addEventListener('load',
+    mudaFrase()
+)
 
 // no mobile, substitui o menu por um botão 
 //menuMobile()

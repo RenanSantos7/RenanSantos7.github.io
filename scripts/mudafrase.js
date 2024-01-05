@@ -9,6 +9,7 @@ function geraInteiroAleatorio(min, max) { //esta função exclui o valor máximo
     return Math.floor(Math.random() * (max - min) + min);
 }
 
+/** @description determina qual frase será exibida na seção de frases **/
 export default function mudaFrase() {
     let i = geraInteiroAleatorio(0, frases.length);
     citacao.textContent = frases[i].frase;
