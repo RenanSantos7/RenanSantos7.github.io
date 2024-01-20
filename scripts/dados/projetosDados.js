@@ -139,6 +139,17 @@ const projetosDados = [
         tecnologias: ['html', 'css', 'javascript'],
         atualizacao: '2023-12-27',
     },
+    {
+        id: 12,
+        titulo: 'Landing Page para Optifine',
+        link: 'https://github.com/RenanSantos7/Optifine-Landing-Page',
+        img: 'https://github.com/RenanSantos7/Optifine-Landing-Page/blob/main/assets/images/Screenshot%202024-01-20%20at%2008-33-09%20Optifine.png?raw=true',
+        alt: 'Hero Section da Landing Page',
+        descricao: '<p>Optifine é um mod para melhorar o desempenho do Minecraft. Este é um projeto de Landing Page para o mod que busca modernizar a marca.</p>',
+        texto: '',
+        tecnologias: ['html', 'css', 'javascript'],
+        atualizacao: '2024-01-20'
+    }
 ]
 
 export default projetosDados
