@@ -18,7 +18,7 @@ spanIdade.textContent = idade;
 var saudacao = "";
 if (hoje.getHours < 12) {
     saudacao = "Bom dia";
-} else if (12 <= hoje.getHours() < 18) {
+} else if (12 <= hoje.getHours() && hoje.getHours() < 18) {
     saudacao = "Boa tarde";
 } else {
     saudacao = "Boa noite"
