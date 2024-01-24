@@ -87,15 +87,16 @@
     filter: none;
 }
 
-.tecnologias__figure:hover figcaption {
-    transition: opacity .6s ease .3s;
+.tecnologias__figure .legenda-animada {
+    transform: rotateY(90deg);
+    transition: all .6s ease .3s;
 }
 
-.tecnologias__figure:hover figcaption {
-    opacity: 1;
+.tecnologias__figure:hover .legenda-animada {
+    transform: rotateY(0);
 }
 
-/* % CARDS */
+/* % CARDS */ 
 
 @keyframes revelaCards {
     0% { 

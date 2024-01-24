@@ -191,22 +191,20 @@ figcaption {
 }
 
 .tecnologias__figure img {
-    position: absolute;
-    top: 2.5rem;
-    /* opacity: 0; */
-    min-width: 4.7rem;
-    padding: .4rem .8rem;
-    border: 1px solid var(--cor1);
-    border-radius: 2rem;
-    text-align: center;
-    font-size: .8rem;
-    transform: rotateY(90deg);
-    transition: all .6s ease .3s;
+    height: 2rem;
+    width: unset;
 }
 
-.tecnologias__figure figcaption {
-    opacity: 1;
-    transform: rotateY(0);
+.legenda-animada {
+    position: absolute;
+    top: 2.5rem;
+    width: unset;
+    padding: .4rem .8rem;
+    font-size: .8rem;
+    font-weight: 700;
+    text-align: center;
+    border: 1px solid var(--cor1);
+    border-radius: 8px;
 }
 
 .botao-contato {
