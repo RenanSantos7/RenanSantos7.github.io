@@ -12,9 +12,8 @@ export default function listaCards() {
             const dateB = new Date(`${b[prop]}`)
             return dateA < dateB ? 1 : dateA > dateB ? -1 : 0
         })
-        arrayOrganizado.reverse()
         const arrayFinal = arrayOrganizado.slice(0, 12)
-        return arrayFinal.reverse()
+        return arrayFinal
     }
 
     function mapear(array, secao, tipo) {

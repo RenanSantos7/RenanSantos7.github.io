@@ -149,6 +149,17 @@ const projetosDados = [
         texto: '',
         tecnologias: ['html', 'css', 'javascript'],
         atualizacao: '2024-01-20'
+    },
+    {
+        id: 13,
+        titulo: 'Cine Tag',
+        link: 'https://github.com/RenanSantos7/cinetag',
+        img: 'https://github.com/RenanSantos7/cinetag/blob/main/public/screenshot.png?raw=true',
+        alt: '',
+        descricao: '<p>O Cine Tag é um projetos simples usado no curso &quot;React: praticando React com Js&quot; da <b>Alura</b> no qual foram revisados diversos temas como hooks, requisições, hooks personalizados, contextos e mais.</p>',
+        texto: '<p>Este é um projeto em React desenvolvido no curso <em>React: praticando React com Js</em> da <a href="https://cursos.alura.com.br/">Alura</a>.</p><h2>Tecnologias utilizadas</h2><ul><li>React (Vite)</li><li>React Router DOM</li><li>FontAwesome Icons</li></ul><h2>Conceitos abordados</h2><ul><li>Rotas</li><li>Contextos</li><li>Hooks personalizados</li><li>Requisições</li></ul><h2>Como acessar online</h2><p>O deploy do projeto foi feito pela <a href="https://vercel.com/">Vercel</a> e está disponível em <a href="https://cinetag-renansantos7.vercel.app/">https://cinetag-renansantos7.vercel.app/</a></p><h2>Como rodar localmente</h2><p>Este projeto foi criado usando <a href="https://vite.dev">Vite</a>, portanto você pode seguir a documentação desse script para fazer deploy do site localmente.</p><p>No caso, primeiro você precisará baixar o projeto com executando o seguinte comando no terminal:</p><pre class="code-block"><code>git clone https://github.com/RenanSantos7/ola-mundo-react-router.git</code></pre><p>Agora, instale as dependências:</p><pre class="code-block"><code>npm install</code></pre><p>E por fim rode o projeto com:</p><pre class="code-block"><code>npm run dev</code></pre><p>O terminal mostrará o endereço para acessar o site no qual você pode clicar para abri-lo. Você também pode apertar <code>o</code> e depois <code>Enter</code> para fazer isso.</p>',
+        tecnologias: ['react'],
+        atualizacao: '2024-01-24'
     }
 ]
 
