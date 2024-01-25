@@ -1,0 +1,78 @@
+.projeto {
+    margin-top: 12vh;
+}
+
+.titulo h1 {
+	font-size: 4rem;
+	font-weight: 500;
+	margin: 6rem 0 5rem;
+}
+
+.titulo {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	flex-wrap: wrap;
+	margin-top: 4rem;
+}
+
+.projeto a:hover {
+	border-bottom: 1px solid;
+}
+
+.projeto figure {
+	width: 100%;
+	margin-block: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 1rem;
+}
+
+figure img {
+	width: min(100%, 1000px);
+}
+
+figure img.vertical {
+	width: 400px;
+}
+
+.legenda {
+	font-weight: 300;
+	font-style: italic;
+}
+
+.projeto img {
+	max-width: 100%;
+	max-height: 80vh;
+	border: 5px solid var(--img-borda);
+	border-radius: 12px;
+	object-fit: contain;
+}
+
+.projeto {
+	margin-bottom: 250px;
+}
+
+.texto {
+	margin: 0;
+	padding: 0;
+}
+
+.texto h2 {
+	margin-block: 2rem 1.5rem;
+	font-size: 1.7rem;
+	font-weight: 700;
+}
+
+.texto pre {
+    display: block;
+    background-color: var(--bg-code);
+    padding: 1.2rem 1rem;
+    line-height: 1.2;
+    overflow-x: auto;
+    font-size: 1rem;
+    margin-block: 1.2rem;
+    border-radius: 4px;
+    color: var(--code) !important
+}

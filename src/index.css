@@ -1,0 +1,172 @@
+@import '../public/styles/reset.css';
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;700&display=swap");
+
+:root {
+    --cor1: hsl(209, 87%, 32%);
+    --cor2: hsl(206, 61%, 48%);
+    --cor3: hsl(34, 100%, 50%);
+    --cinza: hsla(0, 0%, 50%, 70%);
+    --cinza2: hsl(0, 0%, 85%);
+
+    --bg-geral: hsl(0, 0%, 98%);
+    --bg-geral-transp: hsla(0, 0%, 98%, 50%);
+    --bg-section: hsl(208, 100%, 95%);
+    --bg-card: hsl(0, 0%, 100%);
+    --bg-code: hsl(0, 0%, 95%);
+    --bg-footer: hsl(0, 0%, 87%);
+    
+    --texto: hsl(0, 0%, 37%);
+    --code: hsl(0, 0%, 45%);
+    --titulo: hsl(0, 0%, 24%);
+    --borda: hsl(0, 0%, 80%);
+    --shadow: hsla(209, 11%, 54%, 0.25);
+}
+
+@media screen and (prefers-color-scheme: dark) {
+    :root {
+        --cor1: hsl(209, 87%, 72%);
+        --cor2: hsl(209, 15%, 61%);
+        --cor3: hsl(34, 66%, 57%);
+
+        --bg-geral: hsl(0, 0%, 20%);
+        --bg-geral-transp: hsla(0, 0%, 20%, 50%);
+        --bg-section: hsla(210, 43%, 45%, 0.145);
+        --bg-card: hsl(0, 0%, 24%);
+        --bg-code: hsl(0, 0%, 10%);
+        --bg-footer: hsl(0, 0%, 15%);
+        --borda: hsl(0, 0%, 36%);
+        --shadow: hsla(0, 0%, 6%, 0.424);
+        
+        --texto: hsl(0, 0%, 84%);
+        --titulo: hsl(0, 0%, 94%);
+        --code: hsl(0, 0%, 75%);
+        --projeto-borda: hsl(0, 0%, 35%);
+    }
+}
+
+body {
+    font-family: "Lato", sans;
+    margin-top: 1em;
+    scroll-behavior: smooth;
+    background-color: var(--bg-geral);
+    width: 100vw;
+}
+
+section {
+    margin-block: 5rem;
+    padding-block: 5rem;
+}
+
+section h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: var(--cor1);
+}
+
+p,
+quote,
+cite,
+li {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    color: var(--texto);
+}
+
+p code {
+    font-size: 1.1rem;
+    color: var(--code);
+	background-color: var(--bg-code);
+    padding: .25rem .5rem;
+    border-radius: 1rem;
+}
+
+.svg-inline--fa {
+    font-size: 1.3em;
+}
+
+b,
+strong {
+    color: var(--cor3);
+}
+
+h1,
+h2 {
+    color: var(--titulo);
+}
+
+ul {
+    list-style-type: circle;
+}
+
+li {
+    margin-left: 2rem;
+}
+
+main p,
+header p {
+    margin-bottom: 1rem;
+}
+
+figure {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+figcaption {
+    color: var(--texto);
+}
+
+/* % Classes genéricas */
+
+.larguraLimitada {
+    padding-inline: max(15vw, calc(50vw - 700px));
+}
+
+.bgSection {
+    background-color: var(--bg-section);
+}
+
+.codeBlock {
+    display: block;
+    background-color: var(--bg-code);
+    padding: 1.2rem 1rem;
+    line-height: 1.2;
+    overflow-x: auto;
+    font-size: 1rem;
+    margin-block: 1.2rem;
+    border-radius: 4px;
+    color: var(--code) !important
+}
+
+.inlineCode {
+    background-color: var(--bg-code);
+    padding: .25rem .5rem;
+    border-radius: 1rem;
+}
+
+@media (width < 700px) {
+    p, cite, li {
+        font-size: 1.1rem;
+    }
+
+    .larguraLimitada {
+        padding-inline: 7vw;
+    }
+
+    section {
+        margin-block: 1rem;
+        padding-block: 4rem;
+    }
+
+    section h2 {
+        font-size: 2rem;
+    }
+}

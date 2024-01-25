@@ -1,0 +1,26 @@
+.rodape {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    background-color: var(--bg-footer);
+    width: 100%;
+    padding: 64px 0 25px;
+}
+
+.rodape p {
+    font-size: 0.8rem;
+}
+
+.contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+@media (width <= 700px) {
+    .rodape a {
+        display: flex;
+        flex-direction: column;
+    }
+}

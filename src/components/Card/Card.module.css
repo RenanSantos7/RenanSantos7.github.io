@@ -1,0 +1,91 @@
+@keyframes revelaCards {
+	0% {
+		opacity: 0;
+		scale: 0.9;
+	}
+
+	100% {
+		opacity: 1;
+		scale: 1;
+	}
+}
+
+.card {
+	width: clamp(250px, 22vw, 400px);
+	height: 450px;
+	border: 1px solid var(--borda);
+	border-radius: 12px;
+	background-color: var(--bg-card);
+	overflow: hidden;
+	box-shadow: 0 0 5px var(--shadow);
+	transition: all 0.6s ease-in-out;
+
+	animation: revelaCards 0.6s ease-in-out 1ms forwards;
+	animation-timeline: view();
+	animation-range: cover 5% cover 50%;
+}
+
+.card:hover {
+	box-shadow: 4px 4px 15px var(--shadow);
+	transform: translate(-5px, -5px);
+}
+
+.card a {
+	color: initial;
+}
+
+.imagem {
+	width: 100%;
+	overflow: hidden;
+	border-bottom: 1px solid var(--borda);
+}
+
+.card img {
+	height: 250px;
+	width: 100%;
+	object-fit: cover;
+	object-position: 0px 10%;
+	transition: all 0.6s ease-in-out;
+}
+
+.card:hover img {
+	transform: scale(1.15);
+}
+
+.texto {
+	padding: 1.3em;
+}
+
+.texto h3 {
+	font-weight: 400;
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+	color: var(--cor1);
+}
+
+.texto p {
+	font-size: 1.1rem;
+	line-height: 1.5;
+}
+
+@media (width < 700px) {
+	.card {
+		width: 100%;
+	}
+
+	.imagem {
+		width: 100%;
+		overflow: hidden;
+		border-bottom: 1px solid var(--cinza2);
+	}
+
+	.texto h3 {
+		font-weight: 400;
+		font-size: 1.3rem;
+		margin-bottom: 1rem;
+	}
+
+	.texto p {
+		font-size: 1rem;
+	}
+}

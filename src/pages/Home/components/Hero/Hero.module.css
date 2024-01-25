@@ -1,0 +1,58 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    gap: 5vw;
+}
+
+.hero h1 {
+    font-size: 6rem;
+    font-weight: 500;
+    margin-left: -8px;
+}
+
+.dados p {
+    margin-top: 1em;
+}
+
+.minhaFoto img {
+    width: clamp(175px, 20vw, 250px);
+    border-radius: 50%;
+    border: 12px solid #b2b2b2;
+    box-shadow: 1px 1px 15px 2px var(--shadow);
+}
+
+.tecnologias {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-block: 0.8rem 1.75rem;
+}
+
+@media (width < 700px) {
+    /* % Hero */
+    .hero {
+        flex-direction: column-reverse;
+        justify-content: center;
+        height: 100dvh;
+        gap: 20px;
+    }
+
+    .dados h1 {
+        font-size: 3rem;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .dados > p {
+        text-align: center;
+        margin-bottom: 2em;
+    }
+
+    .tecnologias {
+        width: 100%;
+        justify-content: center;
+    }
+}

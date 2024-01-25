@@ -1,0 +1,39 @@
+.frase::before {
+    content: "\“";
+    display: block;
+    position: absolute;
+    left: 0;
+    font-size: 6rem;
+    font-family: "Noto Serif", serif;
+    font-weight: 700;
+    line-height: 0.7;
+    filter: opacity(20%);
+    color: var(--texto);
+}
+
+.frase {
+    display: block;
+    font-weight: 300;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    padding-left: 5vw;
+    position: relative;
+}
+
+.autor {
+    display: block;
+    text-align: right;
+}
+
+@media (width <= 700px) {
+    .frase {
+        padding-left: 0;
+        padding-top: 50px;
+        font-size: 2rem;
+    }
+
+    .frase::before {
+        left: 0;
+        top: 0;
+    }
+}

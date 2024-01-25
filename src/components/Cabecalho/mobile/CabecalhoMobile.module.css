@@ -1,0 +1,69 @@
+.cabecalho {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	background-color: var(--bg-geral);
+	z-index: 10;
+}
+
+.barra {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 1.2rem;
+}
+
+.botao {
+	color: var(--cor1);
+	background: transparent;
+}
+
+.contato {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.container {
+	position: absolute;
+	width: 100%;
+	background-color: var(--bg-geral);
+	z-index: 100;
+	padding-block: 2rem;
+	font-size: 1.25rem;
+	box-shadow: 0 0 15px 5px var(--shadow);
+	border-bottom: 1px solid var(--border);
+	transition: all .3s ease-in-out;
+}
+
+.botaoFechar {
+	display: flex;
+	justify-content: end;
+	color: var(--cor1)
+}
+
+.links__internos {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2.5rem;
+	margin-top: 2.5rem;
+}
+
+.divisoria {
+	background-color: var(--cor1);
+	width: 50%;
+	height: 1px;
+	margin: 4rem auto;
+}
+
+.links__externos {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	gap: 2rem;
+}

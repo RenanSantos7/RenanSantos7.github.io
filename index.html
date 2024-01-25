@@ -1,141 +1,16 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/anim.css">
-    <link rel="icon" href="assets/AREmoji.png">
-    <title>Portifólio</title>
-    <meta name="description" content="Portifólio de Dev Front-End de Renan Santos">
-    <script src="scripts/saudacao.js" defer></script>
-    <script src="scripts/main.js" type="module" defer></script>
-    <script src="scripts/criaLink.js" defer ></script>
-    <script src="https://kit.fontawesome.com/40a462bca1.js" crossorigin="anonymous" defer></script>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="AREmoji.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Renan Santos" />
+  <title>Renan Santos</title>
+  <meta name="description" content="Portifólio de Dev Front-End de Renan Santos">
 </head>
-
 <body>
-    <!-- % Cabeçalho -->
-    <nav class="cabecalho margem-lateral cabecalho-home">
-        <a id="contate-me" class="nav-link" href="contato.html">Contate-me</a>
-        <div class="links">
-            <div class="links__internos">
-                <a class="nav-link" href="#sobre-mim">Sobre mim</a>
-                <a class="nav-link" href="#projetos">Projetos</a>
-                <a class="nav-link" href="#blog">Blog</a>
-            </div>
-            
-            <hr class="links__divisoria" />
-
-            <div class="links__externos">
-                <a target="_blank" rel="noopener" aria-label="LinkedIn" id="LinkedIn" href="https://www.linkedin.com/in/renan-santos-7332b5255/">
-                    <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
-                </a>                
-                <a target="_blank" rel="noopener" id="github" aria-label="Github" href="https://github.com/RenanSantos7">
-                    <i class="fa-brands fa-github" aria-hidden="true"></i>
-                </a>
-            </div>
-        </div>
-    </nav>
-
-    <!-- % Capa -->
-    <header id="home__header" class="margem-lateral">
-        <div id="header__dados">
-            <h1>Renan Santos</h1>
-            <p><span id="saudacao">Olá</span>, meu nome é Renan, tenho <span id="idade">30</span> anos e sou um desenvolvedor Front-End em formação.</p>
-
-            <div class="tecnologias">
-                <figure aria-label="tecnologia: html5" class="tecnologias__figure">
-                    <img src="/assets/tecnologias-html.svg" alt="html"  aria-hidden="true"/>
-                    <figcaption class="legenda-animada" aria-hidden="true">HTML5</figcaption>
-                </figure>
-                
-                <figure aria-label="tecnologia: css3" class="tecnologias__figure">
-                    <img aria-hidden="true" src="/assets/tecnologias-css.svg" alt="CSS3" />
-                    <figcaption class="legenda-animada" aria-hidden="true">CSS3</figcaption>
-                </figure>
-
-                <figure aria-label="tecnologia: sass" class="tecnologias__figure">
-                    <img aria-hidden="true" src="/assets/tecnologias-sass.svg" alt="sass" />
-                    <figcaption class="legenda-animada" aria-hidden="true">SASS</figcaption>
-                </figure>
-                
-                <figure aria-label="tecnologia: Javascript" class="tecnologias__figure">
-                    <img aria-hidden="true" src="/assets/tecnologias-javascript.svg" alt="JavaScript" />
-                    <figcaption class="legenda-animada" aria-hidden="true">JavaScript</figcaption>
-                </figure>
-
-                <figure aria-label="tecnologia: react" class="tecnologias__figure">
-                    <img aria-hidden="true" src="/assets/tecnologias-react.svg" alt="React" />
-                    <figcaption class="legenda-animada" aria-hidden="true">React</figcaption>
-                </figure>
-            </div>
-
-        </div>
-        <figure class="minha-foto">
-            <img alt="Foto de perfil" src="assets/foto-perfil.png">
-        </figure>
-    </header>
-
-    <main>
-        <!-- % SOBRE MIM -->
-        <section id="sobre-mim" class="margem-lateral bg-section">
-            <h2>Sobre mim</h2>
-            
-            <p>Sou formado em <strong>Direito</strong> pela Universidade Estadual do Piauí e advogo desde 2012, mas recentemente surgiu em mim uma vontade de mudar de carreira.</p>
-            
-            <p>E acabei escolhendo algo que eu tinha começado a aprender por <i>hobby</i>: o desenvolvimento para web. Assim que me formei comecei a aprender a mexer com HTML para criar um <b><i>Vade Mecum</i></b> ("aquele tomo de leis que estudantes de Direito carregam para lá e para cá"), pois não queria mais comprar um todo ano se eu podia simplesmente armazená-los no meu PC. Foi então que fui gradativamente me aprofundando no assunto e descobrindo a magia do CSS e do Javascript.</p>
-            
-            <p>Mas só em 2023 eu comecei efetivamente a me dedicar a estudar programação com mais afinco, começando pelo Curso de Lógica de Programação do canal <b>Curso em Vídeo</b> do Professor Gustavo Guanabara.</p>
-            
-            <p>Atualmente, estudo JavaScript e React na Alura e pretendo ainda aprender TypeScript e o que mais puder me ajudar a me tornar um desenvolvedor web competente e criativo, capaz de criar soluções inovadoras e eficientes.</p>
-        </section>
-
-        <!-- % PROJETOS -->
-        <section id="projetos" class="margem-lateral">
-            <h2>Meus Projetos</h2>
-            <div id="projetos-container" class="card-container">
-                <noscript>
-                    <img src="./assets/caution.png" alt="ícone de alerta" />
-                    <p>Você precisa habilitar o JavaScript para visualizar o conteúdo desta seção</p>
-                </noscript>
-            </div>
-        </section>
-
-        <!-- % FRASE -->
-        <section id="frase" class="bg-section margem-lateral">
-            <article>
-                <quote id="citacao">Frase</quote>
-                <cite id="autor">autor</cite>
-            </article>
-        </section>
-
-        <!-- % BLOG -->
-        <section id="blog" class="margem-lateral">
-            <h2>Meu blog</h2>
-            <div class="card-container" id="posts-container"></div>
-        </section>
-    </main>
-
-    <footer class="rodape">
-        <a href="./contato.html" class="footer__contato">
-            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
-            Contato
-        </a>
-        
-        <a href="https://www.linkedin.com/in/renan-santos-7332b5255/" class="footer__contato" id="footer__LinkedIn">
-            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
-            Linkedin
-        </a>
-        
-        <a class="footer__contato" id="footer__github" href="https://github.com/RenanSantos7">
-            <i class="fa-brands fa-github" aria-hidden="true"></i>
-            Github
-        </a>
-    </footer>
+    <noscript>Este App só pode ser visualizado se você habilitar o JavaScript no navegador.</noscript>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
 </body>
 </html>

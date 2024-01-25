@@ -1,0 +1,152 @@
+[
+    {
+        "id": 0,
+        "titulo": "Vade Mecum",
+        "link": "https://github.com/RenanSantos7/Vade-Mecum",
+        "img": "/assets/projetos/vade-mecum.png",
+        "alt": "Vade Mecum Tela Principal",
+        "descricao": "Um projeto de *Vade Mecum*, o famoso compêndio de leis usados por estudantes e profissionais de Direito.</p>",
+        "texto": "Um projeto de *Vade Mecum*, o famoso compêndio de leis usados por estudantes e profissionais de Direito.\n\nTem navegação simples e utiliza conceitos de HTML5, CSS3 e JavaScript para criar uma experiência de usuário única, preocupada com a legibilidade e acessibilidade.\n\n<figure><img alt=\"Vade Mecum Tela Lei\" src=\"/assets/projetos/cf.png\" /><figcaption>Constituição Federal</figcaption></figure>\n<figure><img alt=\"Código Civil Vade Mecum\"src=\"/assets/projetos/cc.png\"/><figcaption>Código Civil</figcaption></figure>\n\nAinda há modo escuro automático, que se adapta à escolha do usuário para seu sistema!:\n\n<figure><img alt=\"CPC no modo escuro com menu lateral\" src=\"https://github.com/RenanSantos7/Vade-Mecum/blob/main/prints/cpc.png?raw=true\"><figcaption>CPC no modo escuro com menu lateral</figcaption></figure>\n\n## Interface mobile\n\n<figure><img alt=\"Tela principal no celular\" src=\"https://github.com/RenanSantos7/Vade-Mecum/blob/main/prints/home-mobile.png?raw=true\" /><figcaption>Tela principal no celular</figcaption></figure>\n\n## Funcionalidades\n\n- Layout atual e responsivo;\n- Modo escuro;\n- Melhor legibilidade;\n- Adaptado para telas ultrawide\n- Facilidade de uso.",
+        "tecnologias": ["html", "css", "javascript"],
+        "atualizacao": "2023-12-14"
+    },
+    
+    {
+        "id": 1,
+        "titulo": "Cardápio Pizzaria",
+        "link": "https://github.com/RenanSantos7/Cardapio-QRCODE",
+        "img": "/assets/projetos/Captura-Cardapio.jpeg",
+        "alt": "Vade Mecum Tela Principal",
+        "descricao": "Um cardápio de pizzaria para ser usado com QRCode.",
+        "texto": "Um cardápio de pizzaria para ser usado com QRCode.\n\nLorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates, fuga. Assumenda accusamus et secum iure quidem, aliquid facilis corporis nostrum a deserunt ipsa, aliquam ea iusto natus nisi.",
+        "tecnologias": ["html", "css", "javascript"],
+        "atualizacao": "2023-03-25"
+    },
+
+    {
+        "id": 2,
+        "titulo": "Calculadora",
+        "link": "https://github.com/RenanSantos7/Calculadora-JS",
+        "img": "/assets/projetos/calculadora.png",
+        "alt": "Calculadora Tela Principal",
+        "descricao": "Uma calculadora simples usando conceitos moderos de CSS3 e JavaScript.",
+        "texto": "Uma calculadora simples usando conceitos modernos de CSS3 e JavaScript.\n\nOs números estão dispostos em <code>CSS grid</code>, o que torna todo o código HTML mais simples e fácil de programar no JavaScript.\n\nExecuta operações de soma, multiplicação, divisão e subtração.</p>",
+        "tecnologias": ["html", "css", "javascript"],
+        "atualizacao": "2023-09-13"
+    },
+
+    {
+        "id": 3,
+        "titulo": "Gerador de Tabelas",
+        "link": "https://github.com/RenanSantos7/Gerador-de-tabelas",
+        "img": "/assets/projetos/gerador-tabela1.png",
+        "alt": "Gerador de tabelas",
+        "descricao": "Uma maneira fácil e rápida de gerar tabelas em <code>html</code>",
+        "texto": "Sabe quando você precisa criar uma tabela em HTML? Não dá um trabalhão digitar TRs e TDs? Esse projeto te ajuda a simplificar esse processo. Basta definir o número de linhas e colunas e a tabela é gerada.\n\n## Como Usar\n\nÉ muito simples usar o Gerador de Tabelas. Primeiro, defina o número de linhas e colunas e clique no botão \"Gerar!\"\n\nDepois, uma tabela é gerada na página. Basta clicar em cada célular para editar seu conteúdo.\n\n<figure><img alt=\"Tela 1\" src=\"/assets/projetos/gerador-tabela2.png\"></figure>\n\nNessa tela você deve ainda selecionar se a tabela é no sentido vertical (com os títulos da tabela na primeira linha) ou horizontal (com os títulos na primeira coluna). O padrão é o sentido vertical.\n\nPor fim, quando você clicar no botão \"Gerar código\", o código é exibido para você. Você pode selecionar o texto e copiá-lo ou clicar em &quot;Copiar&quot;.\n\n<figure><img alt=\"Tela 2\" src=\"/assets/projetos/gerador-tabela3.png\"></figure>\n\n## Github Pages\n\nO projeto está disponível através do <a href=\"https://renansantos7.github.io/Gerador-de-tabelas/\">Github Pages</a>.</p>",
+        "tecnologias": ["html", "css", "javascript"],
+        "atualizacao": "2023-10-02"
+    },
+
+    {
+        "id": 4,
+        "titulo": "Número Secreto",
+        "link": "https://github.com/RenanSantos7/numero-secreto",
+        "img": "https://github.com/RenanSantos7/numero-secreto/raw/main/screenshots/tela-jogo.jpg",
+        "alt": "Número Secreto. Chute reconhecido",
+        "descricao": "Um jogo bem divertido desenvolvido no curso *\"JavaScript: validações e reconhecimento de voz\"* da **Alura**",
+        "texto": "\nUm projeto feito para o curso &quot;<strong>JavaScript: validações e reconhecimento de voz</strong>&quot; da Alura> com o professor Guilherme Lima.\n\nTrata-se de um jogo bastante divertido em que se usa a Web Speech API para reconhecimento de voz. Você fala um número até acertar o número secreto que ele sorteou!\n\nAproveite e divirta-se!\n\nO projeto está disponível pelo <a href=\"https://numero-secreto-git-main-renansantos7.vercel.app/\">Vercel</a>.</p>",
+        "tecnologias": ["html", "css", "javascript", "webspeech"],
+        "atualizacao": "2023-10-09"
+    },
+
+    {
+        "id": 5,
+        "titulo": "Alura SPA",
+        "link": "https://github.com/RenanSantos7/alura-spa",
+        "img": "https://github.com/RenanSantos7/alura-spa/blob/main/screenshots/Screenshot%201.png?raw=true",
+        "descricao": "\nUm projeto criado para o curso \"SASS: CSS sintaticamente espetacular\" da **Alura**.</p>",
+        "alt": "Tela Principal",
+        "texto": "\nUm projeto criado para o curso *SASS: CSS sintaticamente espetacular* da Alura.\n\nSASSS é um pré-processador de CSS, o que significa que ele ajuda você a desenvolver os estilos de uma página web e gera o código CSS que irá de fato ser lido pelo navegador.\n\nSua utilidade é meio polêmica e eu me filio a corrente de que ele não é necessário se você já conhece bastante de CSS. De qualquer forma, muitas vezes a escolha pelo uso dessa tecnologia não será sua e sim da equipe, então é sempre bom conhecê-la.</p><figure><img src=\"https://github.com/RenanSantos7/alura-spa/blob/main/screenshots/Screenshot%202.png?raw=true\" alt=\"página web Alura Spa\"></figure>",
+        "tecnologias": ["html", "sass"],
+        "atualizacao": "2023-10-25"
+    },
+
+    {
+        "id": 6,
+        "titulo": "Organo APP",
+        "link": "https://github.com/RenanSantos7/organo-app",
+        "img": "/assets/projetos/organo-app.jpg",
+        "alt": "Tela do Organao App",
+        "descricao": "Um aplicativo desenvolvido em React para o curso \"React: desenvolvendo com JavaScript\" da **Alura**.",
+        "texto": "\nEsse é meu primeiro projeto usando React.js, o mais famoso framework de Javascript da atualidade. Foi muito interessante desenvolvê-lo pela curiosidade de aprender uma nova tecnologia. Além disso a didático do Professor Vinicios Neves foi muito boa, dando dicas muito legais de desenvolvimento e de uso do VSCode, sem contar sua participação ativa no Fórum do curso, sempre respondendo perguntas e dando *feedback* sobre a nossa evolução.</p><figure><img src=\"/assets/projetos/organo-app2.jpg\" alt=\"Colabores cadastrados no Organo App\"><figcaption>Colabores cadastrados no Organo App</figcaption></figure>\nTrata-se de um app React com o objetivo de cadastrar os colaboradores da Alura. Alguns já está cadastrados por padrão, mas você pode colocar mais se quiser.\n\nO projeto está disponível em <a href=\"https://react-organo-app.vercel.app/\">https://react-organo-app.vercel.app/</a> (Deploy pelo Vercel)</p>",
+        "tecnologias": ["react"],
+        "atualizacao": "2023-11-22"
+    },
+
+    {
+        "id": 7,
+        "titulo": "Rbank",
+        "link": "https://github.com/RenanSantos7/rbank",
+        "img": "/assets/projetos/rbank.jpg",
+        "alt": "Tela Rbank",
+        "descricao": "Projeto de site para um banco virtual fictício. Criado com base no projeto \"Monibank\" para o curso JavaScript: Validando Formulários da **Alura**.</p>",
+        "texto": "Este é Projeto de site para um banco virtual fictício. Criado com base no projeto \"Monibank\" para o curso JavaScript: Validando Formulários da alura.\n\nNele, trabalhei com validação de formulários de texto de diversos tipos, como CPF, RG, além de data e caixa de checagem.\n\nAlém do que o curso propõe, apliquei uma lógica de componentização com JavaScript puro e o tema escuro ao site.\n\n## Tecnologias utilizadas durante o curso:\n\n- JavaScript\n\n## Tecnologias utilizadas no projeto:\n\n- HTML\n- CSS\n\n## Deploy\n\n- Vercel ➡️ [https://rbank.vercel.app/](https://rbank.vercel.app/)",
+        "tecnologias": ["html", "css", "javascript"],
+        "atualizacao": "2023-12-19"
+    },
+    {
+        "id": 8,
+        "titulo": "Piw",
+        "link": "https://github.com/RenanSantos7/piw",
+        "img": "/assets/projetos/piw.jpg",
+        "alt": "Tela Piw",
+        "descricao": "\nEste é um projeto pessoal de uma rede social fake. A estrutura da página é inspirada no Twitter, no Bluesky e no Facebook.</p>",
+        "texto": "\nEste é um projeto pessoal. Ele me veio à cabeça um manhã e não consegui resistir: fui logo codar. Trata-se de uma rede social fake. A estrutura da página é inspirada no Twitter, no [Bluesky](https://staging.bsky.app) e no Facebook.\n\nA parte mais divertida sem dúvida foi escrever os posts. Além disso, a logo da rede social foi criada pelo Bing AI e precisou só de um pequeno tratamento no Photopea.\n\nO projeto é feito em React e as principais bibliotecas usadas são o **React Router DOM** e **Font Awesome Icons**</p>",
+        "atualizacao": "2023-12-23",
+        "tecnologias": ["react"]
+    },
+    {
+        "id": 9,
+        "titulo": "Olá, mundo",
+        "link": "https://github.com/RenanSantos7/ola-mundo-react-router",
+        "img": "https://github.com/RenanSantos7/ola-mundo-react-router/blob/main/public/print-banner.png?raw=true",
+        "alt": "banner do blog Olá mundo",
+        "descricao": "Este é um projeto em React desenvolvido no curso \"React: desenvolvendo em React Router com JavaScript\" da **Alura**.",
+        "texto": "Este é um projeto em React desenvolvido no curso React: desenvolvendo em React Router com JavaScript da Alura.\n\n ## Tecnologias utilizadas\n\n- React (Create React App)\n- React Router DOM\n- React Markdown ([https://www.npmjs.com/package/react-markdown](https://www.npmjs.com/package/react-markdown))\n## Como acessar online\n\nO deploy do projeto foi feito pelo Netilify e está disponível em [https://ola-mundo-alura.netlify.app](https://ola-mundo-alura.netlify.app/)\n\n## Como rodar localmente\n\nEste projeto foi criado usando Create React App, portanto você pode seguir a documentação desse script para fazer deploy do site localmente.\n\nNo caso, primeiro você precisará baixar o projeto com o seguinte comando:\n\n```\ngit clone https://github.com/RenanSantos7/ola-mundo-react-router.git\n```\n\nAgora, navegue até a raiz do projeto e abra um terminal. Nele rode o seguinte comando:\n\n```\nnpm start\n```\n\nO navegador será aberto no endereço `http://localhost:3000` para que você possa visualizá-lo.",
+        "tecnologias": ["react"],
+        "atualizacao": "2023-12-26"
+    },
+    {
+        "id": 10,
+        "titulo": "VidFlow",
+        "link": "https://github.com/RenanSantos7/vidflow",
+        "img": "https://github.com/RenanSantos7/vidflow/raw/main/assets/vidflow.jpg",
+        "alt": "",
+        "descricao": "Este é um projeto em React desenvolvido no curso \"React: desenvolvendo em React Router com JavaScript\" da **Alura**.",
+        "texto": "Um projeto de uma plataforma de vídeos fictícia criada no curso &quot;JavaScript: consumindo e tratando dados de uma API&quot; da <a href=\"https://cursos.alura.com.br/\">Alura</a>.\n\nNesse curso foi usado o plugin json-server para emular uma API Rest para ser consumida via Fetch API.\n\nNo curso foram abordados temas como async/await, try/catch, assincronicidade dentre outros.\n\n## Tecnologias utilizadas\n- HTML\n- CSS\n- JavaScript\n\n## Como acessar online\n\nO deploy do projeto foi feito pelo [Netilify](https://www.netlify.com) e está disponível em [https://vidlfow.netlify.app/](https://vidlfow.netlify.app/)\n\n## Como rodar localmente\n\nEste projeto usa JavaScript puro. No entanto, importa dados de um arquivo JSON, então é preciso usar o json-server para rodá-lo localmente.\n\nNo caso, primeiro você precisará baixar o projeto com o seguinte comando:\n\n```\ngit clone https://github.com/RenanSantos7/vidflow.git\n```\n\nAgora, a pasta em que o projeto foi salvo no Visual Studio Code. Então, abra o terminal integrado e rode o seguinte comando para instalar o json-server:\n\n```\nnpm install -g json-server\n```\n\nApós, rode o seguinte comando para que o json-server leia o JSON com os dados:\n```\njson-server --watch backend/videos.json\n```\n\nAgora basta abrir o arquivo `index.html` dando duplo clique nele no seu gestor de arquivos ou com o Live Server no vscode.</p>",
+        "tecnologias": ["html", "css", "javascript"],
+        "atualizacao": "2023-12-27"
+    },
+    {
+        "id": 11,
+        "titulo": "Landing Page para Optifine",
+        "link": "https://github.com/RenanSantos7/Optifine-Landing-Page",
+        "img": "https://github.com/RenanSantos7/Optifine-Landing-Page/blob/main/assets/images/Screenshot%202024-01-20%20at%2008-33-09%20Optifine.png?raw=true",
+        "alt": "Hero Section da Landing Page",
+        "descricao": "Optifine é um mod para melhorar o desempenho do Minecraft. Este é um projeto de Landing Page para o mod que busca modernizar a marca.",
+        "texto": "",
+        "tecnologias": ["html", "css", "javascript"],
+        "atualizacao": "2024-01-20"
+    },
+    {
+        "id": 13,
+        "titulo": "Cine Tag",
+        "link": "https://github.com/RenanSantos7/cinetag",
+        "img": "https://github.com/RenanSantos7/cinetag/blob/main/public/screenshot.png?raw=true",
+        "alt": "",
+        "descricao": "Cine Tag é um projetos simples usado no curso &quot;React: praticando React com Js&quot; da **Alura** no qual foram revisados diversos temas como hooks, requisições, hooks personalizados, contextos e mais.",
+        "texto": "Este é um projeto em React desenvolvido no curso *React: praticando React com Js* da [Alura](https://cursos.alura.com.br/).\n\n## Tecnologias utilizadas\n\n- React (Vite)\n- React Router DOM\n- FontAwesome Icons\n\n## Conceitos abordados\n\n- Rotas\n- Contextos\n- Hooks personalizados\n- Requisições\n\n## Como acessar online\n\nO deploy do projeto foi feito pela [Vercel](https://vercel.com/) e está disponível em https://cinetag-renansantos7.vercel.app/\n\n## Como rodar localmente\n\nEste projeto foi criado usando [Vite](https://vite.dev), portanto você pode seguir a documentação desse script para fazer deploy do site localmente.\n\nNo caso, primeiro você precisará baixar o projeto com executando o seguinte comando no terminal:\n\n```\ngit clone https://github.com/RenanSantos7/ola-mundo-react-router.git\n```\n\nAgora, instale as dependências:\n\n```\nnpm i\n```\n\nE por fim rode o projeto com:\n\n```\nnpm run dev\n```\n\nO terminal mostrará o endereço para acessar o site no qual você pode clicar para abri-lo. Você também pode apertar `o` e depois `Enter` para fazer isso.\n",
+        "tecnologias": ["react"],
+        "atualizacao": "2024-01-24"
+    }
+]

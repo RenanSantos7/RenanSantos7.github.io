@@ -1,0 +1,28 @@
+.erro404 {
+    margin-top: 12vh;
+    height: 72.5vh;
+    gap: 6rem;
+}
+
+/* .texto, .imagem {
+    border: 1px solid var(--cor3);
+} */
+
+.texto h1 {
+    font-size: 4rem;
+    opacity: .5;
+}
+
+.imagem {
+    width: 500px;
+    height: 100%;
+}
+
+.texto p {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.texto a {
+    font-weight: 700;
+}
