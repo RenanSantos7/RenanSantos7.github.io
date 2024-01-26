@@ -53,13 +53,24 @@ textarea {
 
 button,
 input[type='button'],
+input[type="reset"],
 input[type='submit'] {
 	cursor: pointer;
+	-webkit-appearance: button;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  padding: 0; 
 }
 
 img {
 	width: 100%;
 	object-fit: contain;
+}
+
+summary {
+	display: list-item;
 }
 
 .flex-center {
