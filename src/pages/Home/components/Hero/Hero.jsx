@@ -5,11 +5,11 @@ import Tecnologia from '../../../../components/Tecnologia/Tecnologia'
 
 export default function Hero() {
     const tecnologias = [
-        { id: 0, name: 'HTML5', img: '/src/assets/tecnologias-html.svg' },
-        { id: 1, name: 'CSS3', img: '/src/assets/tecnologias-css.svg' },
-        { id: 2, name: 'JavaScript', img: '/src/assets/tecnologias-javascript.svg' },
-        { id: 3, name: 'SASS', img: '/src/assets/tecnologias-sass.svg' },
-        { id: 4, name: 'React', img: '/src/assets/tecnologias-react.svg' },
+        { id: 0, name: 'HTML5', img: '/assets/tecnologias/html.svg' },
+        { id: 1, name: 'CSS3', img: '/assets/tecnologias/css.svg' },
+        { id: 2, name: 'JavaScript', img: '/assets/tecnologias/javascript.svg' },
+        { id: 3, name: 'SASS', img: '/assets/tecnologias/sass.svg' },
+        { id: 4, name: 'React', img: '/assets/tecnologias/react.svg' },
     ]
 
     const [saudacao, setSaudacao] = useState('Olá')
