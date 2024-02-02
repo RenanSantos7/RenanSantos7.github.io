@@ -1,7 +1,6 @@
 import { useEffect } from 'react'
 import Cabecalho from '../../components/Cabecalho/Cabecalho'
-import Rodape from '../../components/Rodape/Rodape'
-import Blog from './components/Blog/Blog'
+import SecBlog from './components/SecBlog/SecBlog'
 import Frase from './components/Frase/Frase'
 import Hero from './components/Hero/Hero'
 import Projetos from './components/Projetos/Projetos'
@@ -19,7 +18,7 @@ export default function Home() {
             <SobreMim />
             <Projetos />
             <Frase />
-            <Blog />
+            <SecBlog />
         </>
     )
 }

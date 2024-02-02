@@ -12,7 +12,7 @@ export default function Blog() {
             <CardContainer
                 array={posts}
                 tipo='blog'
-                date='atualizacao'
+                date='publicacao'
             />
         </section>
     )
