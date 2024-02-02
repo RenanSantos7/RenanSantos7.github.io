@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import Cabecalho from '../../components/Cabecalho/Cabecalho'
 import Rodape from '../../components/Rodape/Rodape'
 import Blog from './components/Blog/Blog'
@@ -7,6 +8,10 @@ import Projetos from './components/Projetos/Projetos'
 import SobreMim from './components/SobreMim/SobreMim'
 
 export default function Home() {
+    useEffect(() => {
+        window.title = 'Renan Santos'
+    }, [])
+
     return (
         <>
             <Cabecalho animRef={'#hero'}/>

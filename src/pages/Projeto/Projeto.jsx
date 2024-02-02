@@ -16,6 +16,10 @@ export default function Projeto() {
         item.id == parametros.id
     ))
 
+    useEffect(() => {
+        document.title = `Renan Santos | ${projetoSelecionado.titulo}`
+    }, [])
+
     return (
       <>
             <Cabecalho animRef={'#capa'} />

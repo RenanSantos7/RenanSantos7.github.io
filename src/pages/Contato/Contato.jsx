@@ -1,7 +1,12 @@
 import styles from './Contato.module.css'
 import Cabecalho from '../../components/Cabecalho/Cabecalho'
+import { useEffect } from 'react'
 
 export default function Contato() {
+    useEffect(() => {
+        window.title = 'Renan Santos | Contato'
+    }, [])
+
     return (
         <>
             <Cabecalho />

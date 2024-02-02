@@ -2,8 +2,14 @@ import { Link } from 'react-router-dom'
 import Cabecalho from '../../components/Cabecalho/Cabecalho'
 import styles from './Erro404.module.css'
 import img404 from './404.svg'
+import { useEffect } from 'react'
 
 export default function Erro404() {
+    
+    useEffect(() => {
+        window.title = 'Renan Santos'
+    }, [])
+
     return (
         <>
             <Cabecalho />

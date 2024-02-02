@@ -1,6 +1,6 @@
 import styles from './Blog.module.css'
 import { useParams } from 'react-router-dom'
-import { useContext, useState } from 'react'
+import { useContext, useEffect, useState } from 'react'
 import { DadosContext } from '../../contexts/dadosContext'
 import Markdown from 'react-markdown'
 import rehypeRaw from 'rehype-raw'
@@ -18,6 +18,10 @@ export default function Blog() {
     ))
     
     const dataPub = extraiData(postSelecionado.publicacao)
+
+    useEffect(() => {
+        document.title = `Renan Santos | ${postSelecionado.titulo}`
+    }, [])
 
     return (
         <>
