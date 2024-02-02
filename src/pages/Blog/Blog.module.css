@@ -79,3 +79,7 @@
     margin-block: .5rem 1.5rem;
     font-style: italic;
 }
+
+.corpo h2 {
+    margin-block: 2rem 1rem;
+}
