@@ -1,6 +1,6 @@
 import styles from './Projeto.module.css'
 import { useParams } from 'react-router-dom'
-import { useContext, useEffect } from 'react'
+import { useContext, useEffect, useLayoutEffect } from 'react'
 import { DadosContext } from '../../contexts/dadosContext'
 import Markdown from 'react-markdown'
 import rehypeRaw from 'rehype-raw'

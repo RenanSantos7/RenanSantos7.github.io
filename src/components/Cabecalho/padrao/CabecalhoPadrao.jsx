@@ -48,7 +48,7 @@ export default function CabecalhoPadrao({ animRef, page }) {
 
 
         return () => {
-            gsap.killTweensOf('.models-item')
+            gsap.killTweensOf('#cabecalho')
         }
     }, [])
 

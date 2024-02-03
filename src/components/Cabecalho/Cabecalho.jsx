@@ -6,11 +6,11 @@ export default function Cabecalho({ animRef, page }) {
     const [larguraTela, setLarguraTela] = useState(window.innerWidth)
 
     useEffect(() => {
-        window.addEventListener("resize", aoRemiensionar)
-        return () => window.removeEventListener("resize", aoRemiensionar)
+        window.addEventListener("resize", aoRedimensionar)
+        return () => window.removeEventListener("resize", aoRedimensionar)
     }, [])
 
-    function aoRemiensionar() {
+    function aoRedimensionar() {
         setLarguraTela(window.innerWidth)
     }
 

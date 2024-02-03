@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
 import styles from './Frase.module.css'
 import { useContext } from 'react'
-import { DadosContext } from '@/contexts/dadosContext'
 import geraInteiroAleatorio from '@/utils/geraInteiroAleatorio'
+import { DadosContext } from '../../../../contexts/dadosContext'
 
 export default function Frase() {
     const [frase, setFrase] = useState('')

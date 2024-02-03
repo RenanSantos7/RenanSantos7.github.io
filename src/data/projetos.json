@@ -134,7 +134,7 @@
         "img": "https://github.com/RenanSantos7/Optifine-Landing-Page/blob/main/assets/images/Screenshot%202024-01-20%20at%2008-33-09%20Optifine.png?raw=true",
         "alt": "Hero Section da Landing Page",
         "descricao": "Optifine é um mod para melhorar o desempenho do Minecraft. Este é um projeto de Landing Page para o mod que busca modernizar a marca.",
-        "texto": "",
+        "texto": "Esta é uma Landing page para o Optifine, um mod que melhora o desempenho e os gráficos do Minecraft. O Optifine oferece opções configuráveis para vários ajustes, como aumento de FPS, iluminação suave, controle de névoa, mipmaps, filtragem anisotrópica e muito mais. Com ele, você pode ter uma experiência mais fluida e imersiva no jogo, além de personalizar o seu visual.\n\nEu desenvolvi esta página web usando HTML, CSS e JavaScript, as principais linguagens da web. A minha página tem um design simples, mas elegante, e mostra algumas imagens e vídeos do mod. Eu também incluí um botão de CTA (*call to action*) para baixar a versão mais atual do Optifine no site oficial. Além disso, procurei garantir a repsonsividade do site a telas grandes e pequenas.\n\nO meu objetivo foi criar uma página atraente e informativa para os fãs de Minecraft que querem experimentar o mod. Eu acho que o Optifine é um mod incrível que traz muitos benefícios para o jogo.\n\nO deploy foi feito no [Github Page](https://github.com/RenanSantos7/Optifine-Landing-Page)",
         "tecnologias": ["html", "css", "javascript"],
         "atualizacao": "2024-01-20"
     },
@@ -144,7 +144,7 @@
         "link": "https://github.com/RenanSantos7/cinetag",
         "img": "https://github.com/RenanSantos7/cinetag/blob/main/public/screenshot.png?raw=true",
         "alt": "",
-        "descricao": "Cine Tag é um projetos simples usado no curso &quot;React: praticando React com Js&quot; da **Alura** no qual foram revisados diversos temas como hooks, requisições, hooks personalizados, contextos e mais.",
+        "descricao": "Cine Tag é um projetos usado no curso &quot;React: praticando React com Js&quot; da **Alura** no qual foram revistos vários temas como hooks, requisições, contextos e mais.",
         "texto": "Este é um projeto em React desenvolvido no curso *React: praticando React com Js* da [Alura](https://cursos.alura.com.br/).\n\n## Tecnologias utilizadas\n\n- React (Vite)\n- React Router DOM\n- FontAwesome Icons\n\n## Conceitos abordados\n\n- Rotas\n- Contextos\n- Hooks personalizados\n- Requisições\n\n## Como acessar online\n\nO deploy do projeto foi feito pela [Vercel](https://vercel.com/) e está disponível em https://cinetag-renansantos7.vercel.app/\n\n## Como rodar localmente\n\nEste projeto foi criado usando [Vite](https://vite.dev), portanto você pode seguir a documentação desse script para fazer deploy do site localmente.\n\nNo caso, primeiro você precisará baixar o projeto com executando o seguinte comando no terminal:\n\n```\ngit clone https://github.com/RenanSantos7/ola-mundo-react-router.git\n```\n\nAgora, instale as dependências:\n\n```\nnpm i\n```\n\nE por fim rode o projeto com:\n\n```\nnpm run dev\n```\n\nO terminal mostrará o endereço para acessar o site no qual você pode clicar para abri-lo. Você também pode apertar `o` e depois `Enter` para fazer isso.\n",
         "tecnologias": ["react"],
         "atualizacao": "2024-01-24"
