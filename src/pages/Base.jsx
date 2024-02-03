@@ -1,4 +1,4 @@
-import { Outlet, useLocation } from "react-router-dom";
+import { Outlet, ScrollRestoration, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import { DadosProvider } from "../contexts/dadosContext";
 import Rodape from "../components/Rodape/Rodape";
@@ -15,6 +15,7 @@ export default function Base() {
         <>
             <Outlet />
             <Rodape />
+            <ScrollRestoration />
         </>
     )
 }

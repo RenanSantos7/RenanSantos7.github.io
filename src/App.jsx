@@ -5,9 +5,7 @@ import { DadosProvider } from "./contexts/dadosContext";
 export default function App() {
     return (
         <DadosProvider>
-            <RouterProvider router={router}>
-                <ScrollRestoration />
-            </RouterProvider>
+            <RouterProvider router={router} />
         </DadosProvider>
     )
 }
