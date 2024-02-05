@@ -1,0 +1,30 @@
+.botao {
+    position: fixed;
+    bottom: 50px;
+    right: 5vw;
+
+    display: flex;
+    gap: 1rem;
+    justify-content: end;
+    flex-wrap: nowrap;
+
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: var(--cor2);
+    box-shadow: 1px 1px 5px var(--shadow);
+    color: white;
+
+    width: 3rem;
+    height: 3rem;
+    overflow: hidden;
+    transition: all .6s ease-in-out;
+    opacity: 0;
+}
+
+.botao:hover {
+    width: max-content;
+}
+
+.aparente {
+    opacity: 1;
+}
