@@ -78,9 +78,10 @@
         "img": "/assets/projetos/organo-app.jpg",
         "alt": "Tela do Organao App",
         "descricao": "Um aplicativo desenvolvido em React para o curso \"React: desenvolvendo com JavaScript\" da **Alura**.",
-        "texto": "\nEsse é meu primeiro projeto usando React.js, o mais famoso framework de Javascript da atualidade. Foi muito interessante desenvolvê-lo pela curiosidade de aprender uma nova tecnologia. Além disso a didático do Professor Vinicios Neves foi muito boa, dando dicas muito legais de desenvolvimento e de uso do VSCode, sem contar sua participação ativa no Fórum do curso, sempre respondendo perguntas e dando *feedback* sobre a nossa evolução.</p><figure><img src=\"/assets/projetos/organo-app2.jpg\" alt=\"Colabores cadastrados no Organo App\"><figcaption>Colabores cadastrados no Organo App</figcaption></figure>\nTrata-se de um app React com o objetivo de cadastrar os colaboradores da Alura. Alguns já está cadastrados por padrão, mas você pode colocar mais se quiser.\n\nO projeto está disponível em <a href=\"https://react-organo-app.vercel.app/\">https://react-organo-app.vercel.app/</a> (Deploy pelo Vercel)</p>",
-        "tecnologias": ["react"],
-        "atualizacao": "2023-11-22"
+        "texto": "\nEsse é meu primeiro projeto usando React.js, o mais famoso framework de Javascript da atualidade. Foi muito interessante desenvolvê-lo pela curiosidade de aprender uma nova tecnologia. Além disso a didático do Professor Vinicios Neves foi muito boa, dando dicas muito legais de desenvolvimento e de uso do VSCode, sem contar sua participação ativa no Fórum do curso, sempre respondendo perguntas e dando *feedback* sobre a nossa evolução.\n\n<figure><img src=\"/assets/projetos/organo-app2.jpg\" alt=\"Colabores cadastrados no Organo App\"><figcaption>Colabores cadastrados no Organo App</figcaption></figure>\n\nTrata-se de um app React com o objetivo de cadastrar os colaboradores da Alura. Alguns já está cadastrados por padrão, mas você pode colocar mais se quiser.\n\nJá no curso &quot;React: Migrando para TypeScript&quot;, o projeto foi atualizado migrando-o para o *superset* criado pela Microsoft. Essa foi mais um boa oportunidade de aprender, pois foi a introdução para o TypeScript, que é tão requisitado hoje.\n\nO projeto está disponível em <a href=\"https://react-organo-app.vercel.app/\">https://react-organo-app.vercel.app/</a> (Deploy pelo Vercel)</p>",
+        "tecnologias": ["react", "typescript"],
+        "criacao": "2023-11-22",
+        "atualizacao": "2024-02-09"
     },
 
     {
@@ -148,5 +149,16 @@
         "texto": "Este é um projeto em React desenvolvido no curso *React: praticando React com Js* da [Alura](https://cursos.alura.com.br/).\n\n## Tecnologias utilizadas\n\n- React (Vite)\n- React Router DOM\n- FontAwesome Icons\n\n## Conceitos abordados\n\n- Rotas\n- Contextos\n- Hooks personalizados\n- Requisições\n\n## Como acessar online\n\nO deploy do projeto foi feito pela [Vercel](https://vercel.com/) e está disponível em https://cinetag-renansantos7.vercel.app/\n\n## Como rodar localmente\n\nEste projeto foi criado usando [Vite](https://vite.dev), portanto você pode seguir a documentação desse script para fazer deploy do site localmente.\n\nNo caso, primeiro você precisará baixar o projeto com executando o seguinte comando no terminal:\n\n```\ngit clone https://github.com/RenanSantos7/ola-mundo-react-router.git\n```\n\nAgora, instale as dependências:\n\n```\nnpm i\n```\n\nE por fim rode o projeto com:\n\n```\nnpm run dev\n```\n\nO terminal mostrará o endereço para acessar o site no qual você pode clicar para abri-lo. Você também pode apertar `o` e depois `Enter` para fazer isso.\n",
         "tecnologias": ["react"],
         "atualizacao": "2024-01-24"
+    },
+    {
+        "id": 14,
+        "titulo": "Meu Pedido",
+        "link": "https://github.com/RenanSantos7/Meu-Pedido",
+        "img": "/assets/projetos/meu-pedido.png",
+        "alt": "",
+        "descricao": "Este é um ***projeto pessoal***, feito em React, para conferir você mesmo quanto está dando a sua conta ou a sua parte da conta.",
+        "texto": "Este é um projeto pessoal, feito em React. Ele serve para conferir você mesmo quanto está dando a sua conta ou a sua parte da conta, quando você vai dividir com mais alguém e evitar surpresas desagradáveis.\n\n## 🤳 Telas\n\n<div style=\"display: flex;\"><figure><img src=\"https://github.com/RenanSantos7/Meu-Pedido/raw/main/public/assets/Screenshot.png\" /><figcaption>Tela principal</figcaption></figure>        <figure><img src=\"https://github.com/RenanSantos7/Meu-Pedido/raw/main/public/assets/Screenshot_modal_adicionar.png\" /><figcaption>Adicionar pedido</figcaption></figure><figure><img src=\"https://github.com/RenanSantos7/Meu-Pedido/raw/main/public/assets/Screenshot_tema_escuro.png\" /><figcaption>Tema Escuro</figcaption></figure></div>\n\n## 📋 Funcionalidades\n\nNo **Meu Pedido** você pode:\n\n- adicionar um item à lista de pedidos para acompanhar com o nome, o preço e quantidade; o resto fica por conta dele;\n\n- acrescenter os 10% da gorjeta ao cálculo.\n\nAlém disso, o modo escuro é automático respeitando a sua preferência.\n\n## 🔨 Tecnologias utilizadas\n\n- React (Vite)\n- JavaScript\n- [React Currency Input Field Component](https://www.npmjs.com/package/react-currency-input-field)\n\n## 💻 Como acessar online\n\nO deploy do projeto foi feito pelo [Netilify](https://www.netlify.com/) e está disponível em https://meupedidoapp.netlify.app/",
+        "tecnologias": ["react"],
+        "atualizacao": "2024-02-08"
     }
 ]
