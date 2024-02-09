@@ -10,6 +10,7 @@ export default function Hero() {
         { id: 2, name: 'JavaScript', img: '/assets/tecnologias/javascript.svg' },
         { id: 3, name: 'SASS', img: '/assets/tecnologias/sass.svg' },
         { id: 4, name: 'React', img: '/assets/tecnologias/react.svg' },
+        { id: 5, name: 'TypeScript', img: '/assets/tecnologias/typescript.svg' },
     ]
 
     const [saudacao, setSaudacao] = useState('Olá')

@@ -34,24 +34,7 @@ export default function Card({ tipo, objeto }) {
     */
 
     function geraIconeTecnologias(arg, i) {
-        if (arg === 'html') {
-            return <img key={i} className={styles.icoTec} src='/assets/tecnologias/html.svg' alt='' />
-        }
-        if (arg === 'react') {
-            return <img key={i} className={styles.icoTec} src='/assets/tecnologias/react.svg' alt='' />
-        }
-        if (arg === 'css') {
-            return <img key={i} className={styles.icoTec} src='/assets/tecnologias/css.svg' alt='' />
-        }
-        if (arg === 'javascript') {
-            return <img key={i} className={styles.icoTec} src='/assets/tecnologias/javascript.svg' alt='' />
-        }
-        if (arg === 'sass') {
-            return <img key={i} className={styles.icoTec} src='/assets/tecnologias/sass.svg' alt='' />
-        }
-        if (arg === 'react') {
-            return <img key={i} className={styles.icoTec} src='/assets/tecnologias/react.svg' alt='' />
-        }
+       return <img key={i} className={styles.icoTec} src={`/assets/tecnologias/${arg}.svg`} alt='' />
     }
 
     return (
@@ -63,7 +46,8 @@ export default function Card({ tipo, objeto }) {
                 <div className={styles.containerTecnologias}>
                     {tipo === 'projeto' ?
                         <div className={styles.wrapperTecnologias}>
-                            {objeto.tecnologias.map((tec, index) => geraIconeTecnologias(tec, index))}
+                            {objeto.tecnologias.map((tec, index) => (
+                                geraIconeTecnologias(tec, index)))}
                         </div>
                         : ''
                     }
