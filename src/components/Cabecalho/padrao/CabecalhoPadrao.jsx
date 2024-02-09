@@ -70,10 +70,10 @@ export default function CabecalhoPadrao({ animRef, page }) {
                 <hr className="links__divisoria" />
 
                 <div className={styles.links__externos}>
-                    <a target="_blank" rel="noopener" aria-label="LinkedIn" id="LinkedIn" to="https://www.linkedin.com/in/renan-santos-7332b5255/">
+                    <a target="_blank" rel="noopener" aria-label="LinkedIn" id="LinkedIn" href="https://www.linkedin.com/in/renan-santos-7332b5255/">
                         <FontAwesomeIcon icon={faLinkedin} aria-hidden="true" />
                     </a>
-                    <a target="_blank" rel="noopener" id="github" aria-label="Github" to="https://github.com/RenanSantos7">
+                    <a target="_blank" rel="noopener" id="github" aria-label="Github" href="https://github.com/RenanSantos7">
                         <FontAwesomeIcon icon={faGithub} aria-hidden="true" />
                     </a>
                 </div>
