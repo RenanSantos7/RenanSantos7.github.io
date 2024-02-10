@@ -1,0 +1,22 @@
+.carrossel {
+    width: 100%;
+	position: relative;
+    /* border: 1px solid red; */
+}
+
+.carrosselContainer {
+	overflow: hidden;
+	scroll-behavior: smooth;
+}
+
+.carrosselWrapper {
+	display: flex;
+	gap: 2rem;
+	width: max-content;
+	overflow-x: auto;
+}
+
+/* estilo para ocultar a barra de rolagem do carrossel no navegador Chrome */
+.carrosselWrapper::-webkit-scrollbar {
+	display: none;
+}

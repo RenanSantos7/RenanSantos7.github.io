@@ -11,7 +11,8 @@
 }
 
 .card {
-	--largura: clamp(250px, 22vw, 400px);
+	/* --largura: clamp(250px, 22vw, 400px); */
+	--largura: 400px;
 	position: relative;
 	width: var(--largura);
 	min-height: 450px;
@@ -22,9 +23,9 @@
 	box-shadow: 0 0 5px var(--shadow);
 	transition: all 0.6s ease-in-out;
 
-	animation: revelaCards 0.6s ease-in-out 1ms forwards;
+	/* animation: revelaCards 0.6s ease-in-out 1ms forwards;
 	animation-timeline: view();
-	animation-range: cover 5% cover 50%;
+	animation-range: cover 5% cover 50%; */
 }
 
 .card:hover {
