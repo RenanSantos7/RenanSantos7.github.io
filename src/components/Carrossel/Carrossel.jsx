@@ -42,7 +42,8 @@ export default function Carrossel({ array, propData }) {
             const toqueFimX = evt.touches[0].clientX
             const deltaX = toqueInicioX.current - toqueFimX
 
-            rolarCarrossel(deltaX)
+            const fatorVelocidade = 10;
+            rolarCarrossel(deltaX * fatorVelocidade);
             toqueInicioX.current = toqueFimX
         }
 
