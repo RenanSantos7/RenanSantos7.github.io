@@ -236,5 +236,15 @@
         "id": 47,
         "frase": "Programar é uma forma de transformar suas ideias em realidade. Com o código, você tem o poder de criar algo que nunca existiu antes.",
         "autor": "Ben Parr"
+    },
+    {
+        "id": 48,
+        "frase": "Não crie desculpas para não ir atrás do que quer na vida. Nunca haverá uma hora certa.",
+        "autor": "Samantha Wills"
+    },
+    {
+        "id": 49,
+        "frase": "Se você não pode explicar algo de forma simples, então você não entendeu muito bem o que tem a dizer.",
+        "autor": "Albert Einsten"
     }
 ]
