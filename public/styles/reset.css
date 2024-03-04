@@ -57,6 +57,7 @@ input[type="reset"],
 input[type='submit'] {
 	cursor: pointer;
 	-webkit-appearance: button;
+	appearance: button;
 }
 
 input[type="checkbox"],
@@ -73,35 +74,45 @@ summary {
 	display: list-item;
 }
 
-.flex-center {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+/* % Classes genéricas */
+
+.blur {
+	filter: blur(5px);
+}
+
+.blurbg {
+	backdrop-filter: blur(5px);
 }
 
 .circulo {
 	border-radius: 50%;
 	width: var(--tamanho);
 	height: var(--tamanho);
-}
+}	
 
-.quadrado {
-	width: var(--tamanho);
-	height: var(--tamanho);
+.erro {
+	color: red;
 }
-
-.transparente {
-	opacity: 0;
-}
+ 
+.flex-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}		
 
 .oculto {
 	display: none;
 }
 
+.quadrado {
+	width: var(--tamanho);
+	height: var(--tamanho);
+}		
+
 .trans-ease {
 	transition: all 0.6s ease-in-out;
 }
 
-.erro {
-	color: red;
-}
+.transparente {
+	opacity: 0;
+}		
