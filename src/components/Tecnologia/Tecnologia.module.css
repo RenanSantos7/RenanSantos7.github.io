@@ -26,7 +26,7 @@
     font-weight: 700;
     text-align: center;
     border: 1px solid var(--cor1);
-    border-radius: 8px;
+    border-radius: 2rem;
     transform: rotateY(90deg);
     transition: all .6s ease .3s;
 }

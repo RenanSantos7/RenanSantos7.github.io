@@ -55,30 +55,31 @@ export default function CabecalhoPadrao({ animRef, page }) {
     return (
         <header
             id='cabecalho'
-            className={`larguraLimitada ${styles.cabecalho}`}
+            className={styles.cabecalho}
             style={bg}
         >
-            <Link className={styles.btContato} to="contato">Contate-me</Link>
-            <nav className={styles.links}>
-                <div className={styles.links__internos}>
-                    <HashLink className={styles.navLink} to='/'>Início</HashLink>
-                    <HashLink className={styles.navLink} to="/#sobremim">Sobre mim</HashLink>
-                    <HashLink className={styles.navLink} to="/#projetos">Projetos</HashLink>
-                    <HashLink className={styles.navLink} to="/#blog">Blog</HashLink>
-                </div>
+            <div className={`larguraLimitada ${styles.container}`}>
+                <Link className={styles.btContato} to="contato">Contate-me</Link>
+                <nav className={styles.links}>
+                    <div className={styles.links__internos}>
+                        <HashLink className={styles.navLink} to='/'>Início</HashLink>
+                        <HashLink className={styles.navLink} to="/#sobremim">Sobre mim</HashLink>
+                        <HashLink className={styles.navLink} to="/#projetos">Projetos</HashLink>
+                        <HashLink className={styles.navLink} to="/#blog">Blog</HashLink>
+                    </div>
 
-                <hr className="links__divisoria" />
+                    <hr className="links__divisoria" />
 
-                <div className={styles.links__externos}>
-                    <a target="_blank" rel="noopener" aria-label="LinkedIn" id="LinkedIn" href="https://www.linkedin.com/in/renan-santos-7332b5255/">
-                        <FontAwesomeIcon icon={faLinkedin} aria-hidden="true" />
-                    </a>
-                    <a target="_blank" rel="noopener" id="github" aria-label="Github" href="https://github.com/RenanSantos7">
-                        <FontAwesomeIcon icon={faGithub} aria-hidden="true" />
-                    </a>
-                </div>
-
-            </nav>
+                    <div className={styles.links__externos}>
+                        <a target="_blank" rel="noopener" aria-label="LinkedIn" id="LinkedIn" href="https://www.linkedin.com/in/renan-santos-7332b5255/">
+                            <FontAwesomeIcon icon={faLinkedin} aria-hidden="true" />
+                        </a>
+                        <a target="_blank" rel="noopener" id="github" aria-label="Github" href="https://github.com/RenanSantos7">
+                            <FontAwesomeIcon icon={faGithub} aria-hidden="true" />
+                        </a>
+                    </div>
+                </nav>
+            </div>
         </header>
     )
 }

@@ -129,11 +129,14 @@ figcaption {
 /* % Classes genéricas */
 
 .larguraLimitada {
-    padding-inline: max(15vw, calc(50vw - 700px));
+    width: min(70vw, 1400px);    
+    margin-inline: auto;
 }
 
 .bgSection {
     background-color: var(--bg-section);
+    padding: 5rem;
+    border-radius: 2rem;
 }
 
 .codeBlock {

@@ -16,7 +16,7 @@
 	width: var(--largura);
 	min-height: 450px;
 	border: 1px solid var(--borda);
-	border-radius: 12px;
+	border-radius: 2rem;
 	background-color: var(--bg-card);
 	overflow: hidden;
 	box-shadow: 0 0 5px var(--shadow);
@@ -53,7 +53,7 @@
 .containerTecnologias {
 	width: fit-content;
 	max-width: 100%;
-	height: 30px;
+	height: 32px;
 	display: flex;
 	flex-direction: row-reverse;
 	position: absolute;
@@ -61,6 +61,7 @@
 	right: 0;
 	clip-path: polygon(0 0, 100% 0, 100% 100%, 15px 100%);
 	background-color: var(--cinza3);
+	padding-right: 1rem;
 }
 
 .wrapperTecnologias {

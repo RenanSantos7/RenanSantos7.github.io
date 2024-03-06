@@ -1,15 +1,17 @@
 .cabecalho {
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
 	width: 100vw;
 	position: fixed;
 	top: 0;
 	padding-block: 1rem;
 	z-index: 999;
-	
 	height: 12vh;
 	box-shadow: none;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
 }
 
 .btContato {

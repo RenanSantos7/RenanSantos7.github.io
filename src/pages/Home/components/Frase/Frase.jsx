@@ -1,8 +1,8 @@
-import { useEffect, useState } from 'react'
 import styles from './Frase.module.css'
+import { useEffect, useState } from 'react'
 import { useContext } from 'react'
-import geraInteiroAleatorio from '@/utils/geraInteiroAleatorio'
 import { DadosContext } from '../../../../contexts/dadosContext'
+import geraInteiroAleatorio from '@/utils/geraInteiroAleatorio'
 
 export default function Frase() {
     const [frase, setFrase] = useState('')
@@ -21,11 +21,9 @@ export default function Frase() {
     }, [])
 
     return (
-        <section className="bgSection">
-            <article className={`larguraLimitada ${styles.container}`}>
+        <section className="bgSection larguraLimitada">
                 <p className={styles.frase}>{frase}</p>
                 <p className={styles.autor}>{autor}</p>
-            </article>
         </section>
     )
 }

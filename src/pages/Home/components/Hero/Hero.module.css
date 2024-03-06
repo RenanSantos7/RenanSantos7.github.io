@@ -17,10 +17,10 @@
 }
 
 .minhaFoto img {
-    width: clamp(175px, 20vw, 250px);
+    width: clamp(200px, 20vw, 350px);
     border-radius: 50%;
-    border: 12px solid #b2b2b2;
-    box-shadow: 1px 1px 15px 2px var(--shadow);
+    /* border: 12px solid #b2b2b2; */
+    box-shadow: 2px 2px 15px 5px var(--shadow);
 }
 
 .tecnologias {

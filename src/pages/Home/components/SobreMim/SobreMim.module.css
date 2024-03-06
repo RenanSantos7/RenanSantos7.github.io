@@ -1,19 +1,19 @@
 .sobreMim {
-    height: 100dvh;
-    padding-block: 5rem;
-}
-
-    .sobreMim .container {
+	/* height: 100dvh; 
+	padding-block: 5rem;*/
+    
+    .container {
         height: 98%;
         overflow: hidden;
     }
-
-.sobreMim p {
-    margin-bottom: 1rem;
+    
+    p {
+	    margin-bottom: 1rem;
+    }
 }
 
 @media (width < 700px) {
-    .sobreMim {
-        justify-content: start;
-    }
+	.sobreMim {
+		justify-content: start;
+	}
 }
