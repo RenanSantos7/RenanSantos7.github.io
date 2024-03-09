@@ -1,6 +1,6 @@
-import { useState } from 'react'
 import styles from './Hero.module.css'
-import fotoPerfil from '../../../../assets/foto-perfil.png'
+import { useState } from 'react'
+import fotoPerfil from '../../../../assets/foto-perfil-sem-fundo.png'
 import Tecnologia from '../../../../components/Tecnologia/Tecnologia'
 
 export default function Hero() {

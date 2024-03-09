@@ -60,7 +60,7 @@
 	top: 0;
 	right: 0;
 	clip-path: polygon(0 0, 100% 0, 100% 100%, 15px 100%);
-	background-color: var(--cinza3);
+	background-color: var(--cinza2);
 	padding-right: 1rem;
 }
 
@@ -106,7 +106,7 @@
 	.imagem {
 		width: 100%;
 		overflow: hidden;
-		border-bottom: 1px solid var(--cinza2);
+		border-bottom: 1px solid var(--cinza3);
 	}
 
 	.texto h3 {
