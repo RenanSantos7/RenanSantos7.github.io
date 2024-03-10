@@ -96,7 +96,7 @@
 	line-height: 1.5;
 }
 
-@media (width < 700px) {
+@media (width <= 700px) {
 	.imagem {
 		width: 100%;
 		overflow: hidden;
