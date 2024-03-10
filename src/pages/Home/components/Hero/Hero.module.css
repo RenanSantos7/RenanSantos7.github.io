@@ -19,8 +19,6 @@
 .minhaFoto img {
     width: clamp(200px, 20vw, 350px);
     border-radius: 50%;
-    /* border: 12px solid #b2b2b2; */
-    box-shadow: 2px 2px 15px 5px var(--shadow);
     background-color: var(--cinza4)
 }
 

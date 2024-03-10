@@ -1,6 +1,14 @@
 .cardContainer {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: max(20px, calc(50% - 600px));
-    row-gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    width: 100%;
+    
+    @media (width < 1000px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    @media (width < 700px) {
+        grid-template-columns: 1fr;
+    }
 }

@@ -131,7 +131,7 @@ figcaption {
 /* % Classes genéricas */
 
 .larguraLimitada {
-    width: min(70vw, 1400px);    
+    width: min(90vw, 1200px);    
     margin-inline: auto;
 }
 
