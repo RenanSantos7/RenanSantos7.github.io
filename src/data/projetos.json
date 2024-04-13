@@ -2,7 +2,8 @@
     {
         "id": 0,
         "titulo": "Vade Mecum",
-        "link": "https://github.com/RenanSantos7/Vade-Mecum",
+        "linkRepositorio": "https://github.com/RenanSantos7/Vade-Mecum",
+        "linkDeploy": "https://vade-mecum.vercel.app",
         "img": "/assets/projetos/vade-mecum.png",
         "alt": "Vade Mecum Tela Principal",
         "descricao": "Um projeto de *Vade Mecum*, o famoso compêndio de leis usados por estudantes e profissionais de Direito.</p>",
@@ -15,7 +16,7 @@
     {
         "id": 1,
         "titulo": "Cardápio Pizzaria",
-        "link": "https://github.com/RenanSantos7/Cardapio-QRCODE",
+        "linkRepositorio": "https://github.com/RenanSantos7/Cardapio-QRCODE",
         "img": "/assets/projetos/Captura-Cardapio.jpeg",
         "alt": "Vade Mecum Tela Principal",
         "descricao": "Um cardápio de pizzaria para ser usado com QRCode.",
@@ -28,7 +29,7 @@
     {
         "id": 2,
         "titulo": "Calculadora",
-        "link": "https://github.com/RenanSantos7/Calculadora-JS",
+        "linkRepositorio": "https://github.com/RenanSantos7/Calculadora-JS",
         "img": "/assets/projetos/calculadora.png",
         "alt": "Calculadora Tela Principal",
         "descricao": "Uma calculadora simples usando conceitos moderos de CSS3 e JavaScript.",
@@ -41,7 +42,7 @@
     {
         "id": 3,
         "titulo": "Gerador de Tabelas",
-        "link": "https://github.com/RenanSantos7/Gerador-de-tabelas",
+        "linkRepositorio": "https://github.com/RenanSantos7/Gerador-de-tabelas",
         "img": "/assets/projetos/gerador-tabela1.png",
         "alt": "Gerador de tabelas",
         "descricao": "Uma maneira fácil e rápida de gerar tabelas em <code>html</code>",
@@ -54,7 +55,7 @@
     {
         "id": 4,
         "titulo": "Número Secreto",
-        "link": "https://github.com/RenanSantos7/numero-secreto",
+        "linkRepositorio": "https://github.com/RenanSantos7/numero-secreto",
         "img": "https://github.com/RenanSantos7/numero-secreto/raw/main/screenshots/tela-jogo.jpg",
         "alt": "Número Secreto. Chute reconhecido",
         "descricao": "Um jogo bem divertido desenvolvido no curso *\"JavaScript: validações e reconhecimento de voz\"* da **Alura**",
@@ -67,7 +68,7 @@
     {
         "id": 5,
         "titulo": "Alura SPA",
-        "link": "https://github.com/RenanSantos7/alura-spa",
+        "linkRepositorio": "https://github.com/RenanSantos7/alura-spa",
         "img": "https://github.com/RenanSantos7/alura-spa/blob/main/screenshots/Screenshot%201.png?raw=true",
         "descricao": "\nUm projeto criado para o curso \"SASS: CSS sintaticamente espetacular\" da **Alura**.</p>",
         "alt": "Tela Principal",
@@ -80,7 +81,7 @@
     {
         "id": 6,
         "titulo": "Organo APP",
-        "link": "https://github.com/RenanSantos7/organo-app",
+        "linkRepositorio": "https://github.com/RenanSantos7/organo-app",
         "img": "/assets/projetos/organo-app.jpg",
         "alt": "Tela do Organao App",
         "descricao": "Um aplicativo desenvolvido em React para o curso \"React: desenvolvendo com JavaScript\" da **Alura**.",
@@ -94,7 +95,7 @@
     {
         "id": 7,
         "titulo": "Rbank",
-        "link": "https://github.com/RenanSantos7/rbank",
+        "linkRepositorio": "https://github.com/RenanSantos7/rbank",
         "img": "/assets/projetos/rbank.jpg",
         "alt": "Tela Rbank",
         "descricao": "Projeto de site para um banco virtual fictício. Criado com base no projeto \"Monibank\" para o curso JavaScript: Validando Formulários da **Alura**.</p>",
@@ -106,7 +107,7 @@
     {
         "id": 8,
         "titulo": "Piw",
-        "link": "https://github.com/RenanSantos7/piw",
+        "linkRepositorio": "https://github.com/RenanSantos7/piw",
         "img": "/assets/projetos/piw.jpg",
         "alt": "Tela Piw",
         "descricao": "\nEste é um projeto pessoal de uma rede social fake. A estrutura da página é inspirada no Twitter, no Bluesky e no Facebook.</p>",
@@ -118,7 +119,7 @@
     {
         "id": 9,
         "titulo": "Olá, mundo",
-        "link": "https://github.com/RenanSantos7/ola-mundo-react-router",
+        "linkRepositorio": "https://github.com/RenanSantos7/ola-mundo-react-router",
         "img": "https://github.com/RenanSantos7/ola-mundo-react-router/blob/main/public/print-banner.png?raw=true",
         "alt": "banner do blog Olá mundo",
         "descricao": "Este é um projeto em React desenvolvido no curso \"React: desenvolvendo em React Router com JavaScript\" da **Alura**.",
@@ -130,7 +131,7 @@
     {
         "id": 10,
         "titulo": "VidFlow",
-        "link": "https://github.com/RenanSantos7/vidflow",
+        "linkRepositorio": "https://github.com/RenanSantos7/vidflow",
         "img": "https://github.com/RenanSantos7/vidflow/raw/main/assets/vidflow.jpg",
         "alt": "",
         "descricao": "Este é um projeto em React desenvolvido no curso \"React: desenvolvendo em React Router com JavaScript\" da **Alura**.",
@@ -142,7 +143,7 @@
     {
         "id": 11,
         "titulo": "Landing Page para Optifine",
-        "link": "https://github.com/RenanSantos7/Optifine-Landing-Page",
+        "linkRepositorio": "https://github.com/RenanSantos7/Optifine-Landing-Page",
         "img": "https://github.com/RenanSantos7/Optifine-Landing-Page/blob/main/assets/images/Screenshot%202024-01-20%20at%2008-33-09%20Optifine.png?raw=true",
         "alt": "Hero Section da Landing Page",
         "descricao": "Optifine é um mod para melhorar o desempenho do Minecraft. Este é um projeto de Landing Page para o mod que busca modernizar a marca.",
@@ -154,7 +155,7 @@
     {
         "id": 13,
         "titulo": "Cine Tag",
-        "link": "https://github.com/RenanSantos7/cinetag",
+        "linkRepositorio": "https://github.com/RenanSantos7/cinetag",
         "img": "https://github.com/RenanSantos7/cinetag/blob/main/public/screenshot.png?raw=true",
         "alt": "",
         "descricao": "Cine Tag é um projetos usado no curso &quot;React: praticando React com Js&quot; da **Alura** no qual foram revistos vários temas como hooks, requisições, contextos e mais.",
@@ -166,7 +167,8 @@
     {
         "id": 14,
         "titulo": "Meu Pedido",
-        "link": "https://github.com/RenanSantos7/Meu-Pedido",
+        "linkRepositorio": "https://github.com/RenanSantos7/Meu-Pedido",
+        "linkDeploy": "https://meupedidoapp.netlify.app/",
         "img": "/assets/projetos/meu-pedido.png",
         "alt": "",
         "descricao": "Este é um ***projeto pessoal***, feito em React, para conferir você mesmo quanto está dando a sua conta ou a sua parte da conta.",

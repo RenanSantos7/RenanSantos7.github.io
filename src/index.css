@@ -50,7 +50,6 @@
 
 * {
     font-family: "Lato", sans;
-    color: var(--texto);
 }
 
 body {
@@ -58,6 +57,7 @@ body {
     scroll-behavior: smooth;
     background-color: var(--bg-geral);
     width: 100vw;
+    color: var(--texto);
 }
 
 section {
