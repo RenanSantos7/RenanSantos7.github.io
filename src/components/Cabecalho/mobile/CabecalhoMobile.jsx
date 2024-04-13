@@ -31,7 +31,7 @@ export default function CabecalhoMobile() {
             </div>
 
             <div
-                className={`larguraLimitada ${styles.container}`} style={{top: `${menuTop}`}}>
+                className={styles.container} style={{top: `${menuTop}`}}>
                 <div className={styles.botaoFechar}>
                     <FontAwesomeIcon icon={faXmark} onClick={fecharMenu} />
                 </div>
