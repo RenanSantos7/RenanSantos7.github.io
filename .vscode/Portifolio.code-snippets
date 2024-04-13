@@ -19,13 +19,13 @@
 		"scope": "json",
 		"prefix": "post",
 		"body": [
-			"{"
+			"{",
 			"\t\"id\": $1,",
-			"\t\"titulo\": \"$2\","
+			"\t\"titulo\": \"$2\",",
 			"\t\"publicacao\": \"$3/2024\",",
 			"\t\"tagList\": [\"\"],",
 			"\t\"img\": \"/assets/blog/$4\",",
-			"\t\"descricao\": \"\",
+			"\t\"descricao\": \"\"",
 			"\t\"conteudo\":\"\"",
 			"}"
 		],
@@ -46,6 +46,7 @@
 			"\t\"texto\": \"$7\",",
 			"\t\"tecnologias\": [\"$8\"],",
 			"\t\"criacao\": \"AAAA-DD-MM\",",
+			"\t\"tags\":[\"${9|alura,pessoal|}\"],",
 			"\t\"atualizacao\": \"AAAA-DD-MM\"",
 			"}"
 		]

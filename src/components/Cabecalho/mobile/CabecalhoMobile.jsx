@@ -1,5 +1,5 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import styles from './CabecalhoMobile.module.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 import { HashLink } from 'react-router-hash-link'
 import { Link } from 'react-router-dom'

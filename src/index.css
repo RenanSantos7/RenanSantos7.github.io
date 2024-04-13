@@ -48,8 +48,12 @@
     }
 }
 
-body {
+* {
     font-family: "Lato", sans;
+    color: var(--texto);
+}
+
+body {
     margin-top: 1em;
     scroll-behavior: smooth;
     background-color: var(--bg-geral);

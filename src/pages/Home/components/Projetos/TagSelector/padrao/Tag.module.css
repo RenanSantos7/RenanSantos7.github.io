@@ -1,0 +1,22 @@
+.tagSelector {
+    display: flex;
+    gap: 1rem;
+    align-items: baseline;
+}
+
+.tag {
+    padding: .5rem 1rem;
+    border: 1px solid var(--cor2);
+    border-radius: 5rem;
+    background-color: transparent;
+    transition: all .6s ease-in-out;
+
+    &:hover {
+        background-color: var(--cor2);
+    }
+}
+
+.tag.selecionada {
+    background-color: var(--cor1);
+    color: var(--bg-geral)
+}
