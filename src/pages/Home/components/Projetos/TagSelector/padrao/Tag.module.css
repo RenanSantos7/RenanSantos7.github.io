@@ -13,10 +13,11 @@
 
     &:hover {
         background-color: var(--cor2);
+        color: white;
     }
 }
 
 .tag.selecionada {
     background-color: var(--cor1);
-    color: var(--bg-geral)
+    color: var(--bg-geral);
 }

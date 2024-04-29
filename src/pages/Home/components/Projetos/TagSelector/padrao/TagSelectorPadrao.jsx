@@ -1,16 +1,16 @@
 import styles from './Tag.module.css'
 import { useContext } from "react"
 import { DadosContext } from "../../../../../../contexts/dadosContext"
-import { useState } from 'react';
+import classNames from 'classnames'
 
 export default function TagSelectorPadrao({tagSelecionada, selecionar}) {
 
     const { projetos } = useContext(DadosContext)
-    const [selecionada, setSelecionada] = useState('')
 
     const tags = projetos
         .map(projeto => projeto.tags)
         .flat()
+        //remove repetidos
         .filter((valor, indice, array) => array.indexOf(valor) === indice)
 
     return (
@@ -23,7 +23,10 @@ export default function TagSelectorPadrao({tagSelecionada, selecionar}) {
             {tags.map((tag, i) => (
                 <button
                     key={i}
-                    className={`${styles.tag} ${tag === tagSelecionada ? styles.selecionada : ''}`}
+                    className={classNames(
+                        styles.tag,
+                        tag === tagSelecionada && styles.selecionada
+                    )}
                     onClick={() => selecionar(tag)}
                 >{tag}</button>
             ))}
