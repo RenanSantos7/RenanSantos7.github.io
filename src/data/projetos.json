@@ -172,9 +172,23 @@
         "img": "/assets/projetos/meu-pedido.png",
         "alt": "",
         "descricao": "Este é um ***projeto pessoal***, feito em React, para conferir você mesmo quanto está dando a sua conta ou a sua parte da conta.",
-        "texto": "Este é um projeto pessoal, feito em React. Ele serve para conferir você mesmo quanto está dando a sua conta ou a sua parte da conta, quando você vai dividir com mais alguém e evitar surpresas desagradáveis.\n\n## 🤳 Telas\n\n<div style=\"display: flex;\"><figure><img src=\"https://github.com/RenanSantos7/Meu-Pedido/raw/main/public/assets/Screenshot.png\" /><figcaption>Tela principal</figcaption></figure>        <figure><img src=\"https://github.com/RenanSantos7/Meu-Pedido/raw/main/public/assets/Screenshot_modal_adicionar.png\" /><figcaption>Adicionar pedido</figcaption></figure><figure><img src=\"https://github.com/RenanSantos7/Meu-Pedido/raw/main/public/assets/Screenshot_tema_escuro.png\" /><figcaption>Tema Escuro</figcaption></figure></div>\n\n## 📋 Funcionalidades\n\nNo **Meu Pedido** você pode:\n\n- adicionar um item à lista de pedidos para acompanhar com o nome, o preço e quantidade; o resto fica por conta dele;\n\n- acrescenter os 10% da gorjeta ao cálculo.\n\nAlém disso, o modo escuro é automático respeitando a sua preferência.\n\n## 🔨 Tecnologias utilizadas\n\n- React (Vite)\n- JavaScript\n- [React Currency Input Field Component](https://www.npmjs.com/package/react-currency-input-field)\n\n## 💻 Como acessar online\n\nO deploy do projeto foi feito pelo [Netilify](https://www.netlify.com/) e está disponível em https://meupedidoapp.netlify.app/",
+        "texto": "Este é um projeto pessoal, feito em React. Ele serve para conferir você mesmo quanto está dando a sua conta ou a sua parte da conta, quando você vai dividir com mais alguém e evitar surpresas desagradáveis.\n\n## 🤳 Telas\n\n<div style=\"display: flex;\"><figure><img src=\"https://github.com/RenanSantos7/Meu-Pedido/raw/main/public/assets/Screenshot.png\" /><figcaption>Tela principal</figcaption></figure> <figure><img src=\"https://github.com/RenanSantos7/Meu-Pedido/raw/main/public/assets/Screenshot_modal_adicionar.png\" /><figcaption>Adicionar pedido</figcaption></figure><figure><img src=\"https://github.com/RenanSantos7/Meu-Pedido/raw/main/public/assets/Screenshot_tema_escuro.png\" /><figcaption>Tema Escuro</figcaption></figure></div>\n\n## 📋 Funcionalidades\n\nNo **Meu Pedido** você pode:\n\n- adicionar um item à lista de pedidos para acompanhar com o nome, o preço e quantidade; o resto fica por conta dele;\n\n- acrescenter os 10% da gorjeta ao cálculo.\n\nAlém disso, o modo escuro é automático respeitando a sua preferência.\n\n## 🔨 Tecnologias utilizadas\n\n- React (Vite)\n- JavaScript\n- [React Currency Input Field Component](https://www.npmjs.com/package/react-currency-input-field)\n\n## 💻 Como acessar online\n\nO deploy do projeto foi feito pelo [Netilify](https://www.netlify.com/) e está disponível em https://meupedidoapp.netlify.app/",
         "tecnologias": ["react"],
         "tags": ["pessoal"],
         "atualizacao": "2024-02-08"
+    },
+    {
+        "id": 15,
+        "titulo": "Landing Page para Motorista",
+        "linkRepositorio": "https://github.com/RenanSantos7/Landing-Page-Motorista",
+        "linkDeploy": "https://agenorfernandes.vercel.app/",
+        "img": "/assets/projetos/lp-motorista.png",
+        "alt": "",
+        "descricao": "Projeto pessoal feito para um amigo, motorista de aplicativo. É um landing page de vendas para centralizar informações de contato do motorista",
+        "texto": "Projeto pessoal feito para um amigo, motorista de aplicativo. É um landing page de vendas para centralizar informações de contato do motorista.\n\nComo uma landing page de contato, é simples e não possui muita complexidade. Procura ser breve e direta, contando com os contatos, a foto e um slogan para passar confiabilidade.\n\nNa página foi usada a biblioteca de ícones FontAwesome. Além disso, as tecnologias usadas foram HTML5 e CSS3 puros.",
+        "tecnologias": ["html", "css"],
+        "criacao": "2024-18-02",
+        "atualizacao": "2024-02-18",
+        "tags":["pessoal"]
     }
 ]
