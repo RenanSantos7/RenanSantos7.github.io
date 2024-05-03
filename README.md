@@ -1,8 +1,31 @@
-# React + Vite
+# Portifólio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o repositório do meu portifólio. Ele pode ser acessado em [https://renan-santos.netlify.app](https://renan-santos.netlify.app).
 
-Currently, two official plugins are available:
+## Como rodar localmente
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto foi criado usando [Vite](https://vite.dev), portanto você pode seguir a documentação desse script para fazer deploy do site localmente.
+
+No caso, primeiro você precisará baixar o projeto com executando o seguinte comando no terminal:
+
+```
+git clone https://github.com/RenanSantos7/RenanSantos7.github.io.git
+```
+
+Agora, instale as dependências:
+
+```
+npm i
+```
+
+E por fim rode o projeto com:
+
+```
+npm run dev --open
+```
+
+O navegador será aberto com o site já aberto.
+
+## Licensa
+
+O projeto está disponível publicamente com a licença [Creative Commons Zero 1.0](./LICENSE). Você pode copiar esse projeto, mas não pode reproduzir as marcas nele existentes.
