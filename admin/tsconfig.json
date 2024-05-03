@@ -1,0 +1,40 @@
+{
+	"compilerOptions": {
+		// Projects
+		
+		// Language and Environment
+		"target": "ESNext",
+		"lib": ["ESNext", "DOM", "DOM.Iterable"],
+		"jsx": "react",
+		"useDefineForClassFields": true,
+		
+		//Modules
+		"module": "ES2015",
+		"moduleResolution": "bundler",
+		//"types": ["jest", "@testing-library/jest-dom"],
+		"resolveJsonModule": true,
+		"allowImportingTsExtensions": true,
+		
+		// Js Support
+		
+		//Emit
+		"noEmit": true,
+		
+		// Interop Constraints
+		"isolatedModules": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		
+		// Type Check
+		"strict": true,
+		"strictNullChecks": false,
+		"noUnusedLocals": false,
+		"noUnusedParameters": false,
+		"noFallthroughCasesInSwitch": true,
+		
+		// Completeness
+		"skipLibCheck": true
+	},
+	"include": ["src"],
+	"exclude": ["node_modules"]
+}
