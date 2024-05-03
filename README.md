@@ -1,5 +1,7 @@
 # Portifólio
 
+![Home](./public/screenshots/screenshot_home.png)
+
 Este é o repositório do meu portifólio. Ele pode ser acessado em [https://renan-santos.netlify.app](https://renan-santos.netlify.app).
 
 ## Como rodar localmente
