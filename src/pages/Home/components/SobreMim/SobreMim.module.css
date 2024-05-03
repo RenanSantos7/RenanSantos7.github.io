@@ -1,8 +1,5 @@
-.sobreMim {
-	/* height: 100dvh; 
-	padding-block: 5rem;*/
-    
-    .container {
+#sobremim {
+	.container {
         height: 98%;
         overflow: hidden;
     }
