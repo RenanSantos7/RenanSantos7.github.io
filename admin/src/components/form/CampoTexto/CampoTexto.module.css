@@ -1,0 +1,36 @@
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    flex-grow: 4;
+}
+
+.input {
+    background-color: var(--inputbg);
+    border: 1px solid var(--cinza);
+    font-size: 1rem;
+    padding: .5rem;
+    border-radius: 8px;
+    width: 100%;
+    color: var(--texto);
+    flex: 1;
+}
+
+.input:focus {
+    outline: 3px solid var(--accent-color);
+}
+
+.maior {
+    flex-grow: 10;
+}
+
+.menor {
+    flex-grow: 1;
+    max-width: 120px;
+}
+
+.textarea {
+    .input {
+        min-height: 180px;
+    }
+}
