@@ -2,7 +2,7 @@ import React from 'react'
 import { createBrowserRouter } from 'react-router-dom'
 import Base from './pages/Base'
 import Home from './pages/Home'
-import NovoProjeto from './pages/NovoProjeto'
+import NovoProjeto from './pages/NovoProjeto/NovoProjeto'
 
 const router = createBrowserRouter([
     {

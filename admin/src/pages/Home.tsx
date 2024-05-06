@@ -22,11 +22,17 @@ export default function Home() {
 	return (
 		<Box>
 			<FlexLine>
-				<Botao style={{ marginBottom: '2rem' }} onClick={() => navegarPara('/novo-post')}>
+				<Botao
+					style={{ marginBottom: '2rem' }}
+					onClick={() => navegarPara('/novo-post')}
+				>
 					Novo post no blog
 				</Botao>
 
-				<Botao style={{ marginBottom: '2rem' }} onClick={() => navegarPara('/novo-projeto')}>
+				<Botao
+					style={{ marginBottom: '2rem' }}
+					onClick={() => navegarPara('/novo-projeto')}
+				>
 					Novo projeto
 				</Botao>
 			</FlexLine>

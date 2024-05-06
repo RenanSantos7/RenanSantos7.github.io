@@ -3,6 +3,7 @@
 
 :root {
     --cor1: hsl(209, 87%, 32%);
+    --cor1trans: hsl(209, 87%, 32%, 20%);
     --cor2: hsl(206, 61%, 48%);
     --cor2trans: hsla(206, 61%, 48%, 30%);
     --cor3: hsl(34, 100%, 50%);
@@ -28,7 +29,9 @@
 @media screen and (prefers-color-scheme: dark) {
     :root {
         --cor1: hsl(209, 87%, 72%);
+        --cor1trans: hsl(209, 87%, 72%, 15%);
         --cor2: hsl(209, 15%, 61%);
+        --cor2trans: hsl(209, 15%, 61%, 30%);
         --cor3: hsl(34, 66%, 57%);
         --cinza2: hsla(0, 0%, 45%, 45%);
         --cinza4: hsl(0, 0%, 25%);

@@ -2,14 +2,14 @@
   "name": "portifolio-admin",
   "version": "1.0.0",
   "description": "Este é painel administrativo do site de portifólio. Criei ele para ter uma interface mais amigável para escrever posts e projetos.",
-  "main": "index.js",
+  "author": "Renan Santos",
+  "license": "CC0-1.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "start": "vite --open",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0"
   },
-  "author": "Renan Santos",
-  "license": "CC0-1.0",
   "dependencies": {
     "classnames": "^2.5.1",
     "react": "^18.3.1",
