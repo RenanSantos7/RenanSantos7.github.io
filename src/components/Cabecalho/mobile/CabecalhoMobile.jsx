@@ -1,5 +1,5 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import styles from './CabecalhoMobile.module.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 import { HashLink } from 'react-router-hash-link'
 import { Link } from 'react-router-dom'
@@ -31,7 +31,7 @@ export default function CabecalhoMobile() {
             </div>
 
             <div
-                className={`larguraLimitada ${styles.container}`} style={{top: `${menuTop}`}}>
+                className={styles.container} style={{top: `${menuTop}`}}>
                 <div className={styles.botaoFechar}>
                     <FontAwesomeIcon icon={faXmark} onClick={fecharMenu} />
                 </div>

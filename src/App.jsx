@@ -1,5 +1,5 @@
 import { RouterProvider, ScrollRestoration } from "react-router-dom";
-import { router } from "./routerv6";
+import { router } from "./router";
 import { DadosProvider } from "./contexts/dadosContext";
 
 export default function App() {

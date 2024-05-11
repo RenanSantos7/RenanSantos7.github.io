@@ -30,10 +30,10 @@
 
 .container {
 	position: absolute;
-	width: 100%;
+	width: 100vw;
 	background-color: var(--bg-geral);
 	z-index: 100;
-	padding-block: 2rem;
+	padding: 2rem;
 	font-size: 1.25rem;
 	box-shadow: 0 0 15px 5px var(--shadow);
 	border-bottom: 1px solid var(--border);
