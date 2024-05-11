@@ -2,6 +2,9 @@ import styles from './Hero.module.css'
 import { useState } from 'react'
 import fotoPerfil from '../../../../assets/foto-perfil-sem-fundo.png'
 import Tecnologia from '../../../../components/Tecnologia/Tecnologia'
+import { useEffect } from 'react'
+import calculaMinhaIdade from '../../../../utils/calculaIdade'
+import defineSaudacao from '../../../../utils/saudacao'
 
 export default function Hero() {
     const tecnologias = [
@@ -16,12 +19,18 @@ export default function Hero() {
     const [saudacao, setSaudacao] = useState('Olá')
     const [idade, setIdade] = useState(33)
 
+    useEffect(() => {
+        const minhaIdade = calculaMinhaIdade()
+        const cumprimento = defineSaudacao()
+        setIdade(minhaIdade)
+        setSaudacao(cumprimento)
+    }, [])
 
     return (
         <section id='hero' className={`larguraLimitada ${styles.hero}`}>
             <div className={styles.dados}>
                 <h1>Renan Santos</h1>
-                <p>{saudacao}, meu nome é Renan, tenho {idade} anos e sou um desenvolvedor Front-End em formação.</p>
+                <p>{saudacao}, meu nome é Renan, tenho {idade} anos e sou um desenvolvedor Front-End.</p>
 
                 <div className={styles.tecnologias}>
                     {tecnologias.map(tecnologia => (
