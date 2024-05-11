@@ -1,57 +1,62 @@
 .hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100vh;
-    gap: 5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  gap: 5vw;
 }
 
 .hero h1 {
-    font-size: 6rem;
-    font-weight: 500;
-    margin-left: -8px;
+  font-size: 12rem;
+  font-weight: 400;
+  margin-left: -16px;
 }
 
-.dados p {
-    margin-top: 1em;
+.dados {
+  text-align: center;
+  p {
+    margin-block: 1em;
+    font-size: 2rem;
+  }
 }
 
 .minhaFoto img {
-    width: clamp(200px, 20vw, 350px);
-    border-radius: 50%;
-    background-color: var(--cinza4)
+  width: clamp(200px, 20vw, 350px);
+  border-radius: 50%;
+  background-color: var(--cinza4);
 }
 
 .tecnologias {
-    display: flex;
-    width: 50%;
-    flex-wrap: wrap;
-    gap: 1rem;
-    margin-block: 0.8rem 1.75rem;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-block: 0.8rem 1.75rem;
+  justify-content: center;
 }
 
 @media (width < 700px) {
-    /* % Hero */
-    .hero {
-        flex-direction: column-reverse;
-        justify-content: center;
-        height: 100dvh;
-        gap: 20px;
-    }
+  /* % Hero */
+  .hero {
+    flex-direction: column-reverse;
+    justify-content: center;
+    height: 100dvh;
+    gap: 20px;
+  }
 
-    .dados h1 {
-        font-size: 3rem;
-        text-align: center;
-        margin-bottom: 10px;
-    }
+  .dados h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 10px;
+  }
 
-    .dados > p {
-        text-align: center;
-        margin-bottom: 2em;
-    }
+  .dados > p {
+    text-align: center;
+    margin-bottom: 2em;
+  }
 
-    .tecnologias {
-        width: 100%;
-        justify-content: center;
-    }
+  .tecnologias {
+    width: 100%;
+    justify-content: center;
+  }
 }

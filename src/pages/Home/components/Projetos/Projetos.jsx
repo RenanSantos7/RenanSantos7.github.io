@@ -1,8 +1,9 @@
 import { useContext } from 'react'
 import { DadosContext } from '../../../../contexts/dadosContext'
 import { styled } from 'styled-components'
-import TagSelector from './TagSelector/TagSelector'
 import { useState } from 'react'
+import TagSelector from './TagSelector/TagSelector'
+import CardContainer from '../../../../components/CardContainer/CardContainer'
 
 const StyledHeader = styled.header`
     display: flex;

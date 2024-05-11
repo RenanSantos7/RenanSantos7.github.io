@@ -13,15 +13,11 @@ export default function Hero() {
         { id: 5, name: 'TypeScript', img: '/assets/tecnologias/typescript.svg' },
     ]
 
-    const [saudacao, setSaudacao] = useState('Olá')
-    const [idade, setIdade] = useState(33)
-
-
     return (
         <section id='hero' className={`larguraLimitada ${styles.hero}`}>
             <div className={styles.dados}>
                 <h1>Renan Santos</h1>
-                <p>{saudacao}, meu nome é Renan, tenho {idade} anos e sou um desenvolvedor Front-End em formação.</p>
+                <p>Desenvolvedor Front-End</p>
 
                 <div className={styles.tecnologias}>
                     {tecnologias.map(tecnologia => (
@@ -30,9 +26,9 @@ export default function Hero() {
                 </div>
 
             </div>
-            <figure className={styles.minhaFoto}>
+            {/* <figure className={styles.minhaFoto}>
                 <img alt="Foto de perfil" src={fotoPerfil} />
-            </figure>
+            </figure> */}
         </section>
     )
 }
