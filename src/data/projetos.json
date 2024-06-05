@@ -87,7 +87,7 @@
         "descricao": "Um aplicativo desenvolvido em React para o curso \"React: desenvolvendo com JavaScript\" da **Alura**.",
         "texto": "\nEsse é meu primeiro projeto usando React.js, o mais famoso framework de Javascript da atualidade. Foi muito interessante desenvolvê-lo pela curiosidade de aprender uma nova tecnologia. Além disso a didático do Professor Vinicios Neves foi muito boa, dando dicas muito legais de desenvolvimento e de uso do VSCode, sem contar sua participação ativa no Fórum do curso, sempre respondendo perguntas e dando *feedback* sobre a nossa evolução.\n\n<figure><img src=\"/assets/projetos/organo-app2.jpg\" alt=\"Colabores cadastrados no Organo App\"><figcaption>Colabores cadastrados no Organo App</figcaption></figure>\n\nTrata-se de um app React com o objetivo de cadastrar os colaboradores da Alura. Alguns já está cadastrados por padrão, mas você pode colocar mais se quiser.\n\nJá no curso &quot;React: Migrando para TypeScript&quot;, o projeto foi atualizado migrando-o para o *superset* criado pela Microsoft. Essa foi mais um boa oportunidade de aprender, pois foi a introdução para o TypeScript, que é tão requisitado hoje.\n\nO projeto está disponível em <a href=\"https://react-organo-app.vercel.app/\">https://react-organo-app.vercel.app/</a> (Deploy pelo Vercel)</p>",
         "tecnologias": ["react", "typescript"],
-        "tags": ["pessoal"],
+        "tags": ["alura"],
         "criacao": "2023-11-22",
         "atualizacao": "2024-02-09"
     },
@@ -190,5 +190,18 @@
         "criacao": "2024-18-02",
         "atualizacao": "2024-02-18",
         "tags":["pessoal"]
+    },
+    {
+        "id": 16,
+        "titulo": "Freelando",
+        "linkRepositorio": "https://github.com/RenanSantos7/Freelando-react-formik",
+        "linkDeploy": "https://freelando-formik.netlify.app/",
+        "img": "/assets/projetos/freelando.png",
+        "alt": "",
+        "descricao": "Este é um projeto desenvolvido no curso *React: criando formulários com Formik e yup* da **Alura**.",
+        "texto": "Este é um projeto em React desenvolvido no curso *React: criando formulários com Formik e yup* da [Alura](https://cursos.alura.com.br/).\n\n## Tecnologias utilizadas\n\n- [React](https://react.dev/)\n\n- [Formik](https://formik.org/)\n\n- [Expressões regulares (Regex)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Regular_expressions)\n\n## Como acessar online\n\nO deploy do projeto foi feito pelo [Netilify](https://www.netlify.com/) e está disponível em https://freelando-formik.netlify.app/\n\n## Como rodar localmente\n\nEste projeto foi criado usando [Vite](https://vite.dev), portanto você pode seguir a documentação desse script para fazer deploy do site localmente.\n\nNo caso, primeiro você precisará baixar o projeto com executando o seguinte comando no terminal:\n\n```\ngit clone https://github.com/RenanSantos7/Freelando-react-formik.git\n```\n\nAgora, instale as dependências:\n\n```\nnpm i\n```\n\nE por fim rode o projeto com:\n\n```\nnpm run dev\n```\n\nO terminal mostrará o endereço para acessar o site no qual você pode clicar para abri-lo. Você também pode apertar `o` e depois `Enter` para fazer isso.",
+        "tecnologias": ["react"],
+        "tags": ["alura"],
+        "atualizacao": "2024-06-05"
     }
 ]
