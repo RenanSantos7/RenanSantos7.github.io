@@ -1,4 +1,5 @@
 # Portifólio
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3a9dae01-22bb-47b8-a3e4-528bb1a84582/deploy-status)](https://app.netlify.com/sites/renan-santos/deploys)
 
 ![Home](./public/screenshots/screenshot_home.png)
 
