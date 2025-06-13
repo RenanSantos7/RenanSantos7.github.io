@@ -5,10 +5,10 @@
  * @see {@link https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Date}
  */
 export default function extraiData(string) {
-  const dataUs = new Date(string)
-  const dia = dataUs.getDate().toString().padStart(2, '0')
-  const mes = dataUs.getMonth().toString().padStart(2, '0')
-  const ano = dataUs.getFullYear()
+  const data = new Date(string)
+  const dia = data.getDate().toString().padStart(2, '0')
+  const mes = (data.getMonth() + 1).toString().padStart(2, '0')
+  const ano = data.getFullYear()
 
   return `${dia}/${mes}/${ano}`
 }
