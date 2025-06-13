@@ -1,4 +1,6 @@
+import fotoPerfil from '../../../../assets/foto-perfil.png'
 import styles from './SobreMim.module.css'
+
 
 export default function SobreMim() {
     return (
@@ -7,6 +9,10 @@ export default function SobreMim() {
             className={'bgSection larguraLimitada'}
         >
             <h2>Sobre mim</h2>
+
+            <div className={styles.minhaFoto}>
+                <img src={fotoPerfil} />
+            </div>
             
             <p>Sou formado em <strong>Direito</strong> pela Universidade Estadual do Piauí e advogo desde 2012, mas recentemente surgiu em mim uma vontade de mudar de carreira.</p>
             

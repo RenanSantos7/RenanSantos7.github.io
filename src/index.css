@@ -155,7 +155,7 @@ figcaption {
     font-size: 1rem;
     margin-block: 1.2rem;
     border-radius: 4px;
-    color: var(--code) !important
+    color: var(--code) !important;
 }
 
 .inlineCode {

@@ -9,6 +9,15 @@
     }
 }
 
+.minhaFoto img {
+    display: block;
+    float: left;
+    width: clamp(200px, 20vw, 350px);
+    border-radius: 36px;
+    background-color: var(--cinza4);
+    margin: 0 12px 12px 0;
+}
+
 @media (width < 700px) {
 	.sobreMim {
 		justify-content: start;

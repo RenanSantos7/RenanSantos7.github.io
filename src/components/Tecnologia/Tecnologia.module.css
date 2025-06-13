@@ -7,7 +7,7 @@
 }
 
 .imagem {
-    height: 2rem;
+    height: 2.25rem;
     width: unset;
     filter: grayscale();
     transition: all .6s ease .3s;
@@ -23,7 +23,7 @@
     width: unset;
     padding: .4rem .8rem;
     font-size: .8rem;
-    font-weight: 700;
+    /* font-weight: 700; */
     text-align: center;
     border: 1px solid var(--cor1);
     border-radius: 2rem;
