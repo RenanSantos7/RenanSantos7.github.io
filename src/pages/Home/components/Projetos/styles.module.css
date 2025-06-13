@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-end;
+    margin-bottom: 2rem;
+
+    h2 {
+        margin-bottom: 0;
+    }
+
+    @media (width <= 700px) {
+        justify-content: space-between;
+        gap: 0;
+    }
+}

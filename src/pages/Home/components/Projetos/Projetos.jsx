@@ -1,25 +1,9 @@
-import { useContext } from 'react'
-import CardContainer from '../../../../components/CardContainer/CardContainer'
+import { useContext, useState } from 'react'
+
 import { DadosContext } from '../../../../contexts/dadosContext'
-import { styled } from 'styled-components'
+import CardContainer from '../../../../components/CardContainer/CardContainer'
 import TagSelector from './TagSelector/TagSelector'
-import { useState } from 'react'
-
-const StyledHeader = styled.header`
-    display: flex;
-    gap: 2rem;
-    align-items: flex-end;
-    margin-bottom: 2rem;
-
-    h2 {
-        margin-bottom: 0;
-    }
-
-    @media (width <= 700px) {
-        justify-content: space-between;
-        gap: 0;
-    }
-`
+import styles from './styles.module.css'
 
 export default function Projetos() {
     
@@ -36,13 +20,13 @@ export default function Projetos() {
     
     return (
         <section id='projetos' className="larguraLimitada">
-            <StyledHeader>
+            <div className={styles.header}>
                 <h2>Meus Projetos</h2>
                 <TagSelector
                     tagSelecionada={tagSelecionada}
                     selecionar={setTagSelecionada}
                 />
-            </StyledHeader>
+            </div>
 
             <CardContainer
                 array={projetosFiltrados}
