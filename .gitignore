@@ -10,8 +10,7 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
-*.local
-pnpm-lock.yaml
+*.local.*
 
 # Editor directories and files
 #.vscode/*
