@@ -3,7 +3,7 @@ import { useContext, useState } from 'react'
 import { DataContext } from '../../../../contexts/dataContext'
 import { IProject } from '../../../../types'
 import CardContainer from '../../../../components/CardContainer'
-import TagSelector from './TagSelector'
+import TagSelector from '../TagSelector'
 import styles from './styles.module.css'
 
 export default function Projects() {

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import TagSelectorMobile from './mobile';
-import TagSelectorPadrao from './default';
+import TagSelectorDefault from './default';
 
 export interface TagSelectorProps {
 	selectedTag: string;
@@ -30,7 +30,7 @@ export default function TagSelector({
 
 	if (screenWidth > 700) {
 		return (
-			<TagSelectorPadrao selectedTag={selectedTag} onSelect={onSelect} />
+			<TagSelectorDefault selectedTag={selectedTag} onSelect={onSelect} />
 		);
 	}
 }

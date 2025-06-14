@@ -4,7 +4,7 @@ import PageHeaderMobile from './mobile';
 import CabecalhoPadrao from './default';
 
 export interface HeaderProps {
-	animRef: gsap.DOMTarget;
+	animRef?: gsap.DOMTarget;
 	page?: string;
 }
 

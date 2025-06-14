@@ -1,8 +1,9 @@
-import styles from './TagSelectorMobile.module.css';
 import { useContext } from 'react';
-import { DataContext } from '../../../../../../contexts/dataContext';
+
+import { DataContext } from '../../../../../contexts/dataContext';
 import { TagSelectorProps } from '..';
-import { IProject } from '../../../../../../types';
+import { IProject } from '../../../../../types';
+import styles from './styles.module.css';
 
 export default function TagSelectorMobile({
 	selectedTag,

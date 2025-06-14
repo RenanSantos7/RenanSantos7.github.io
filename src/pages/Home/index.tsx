@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import SecBlog from './components/SecBlog';
-import Frase from './components/Frase';
+import Phrase from './components/Phrase';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
 import AboutMe from './components/AboutMe';
@@ -9,7 +9,7 @@ import PageHeader from '../../components/PageHeader';
 export default function Home() {
     useEffect(() => {
         //@ts-ignore
-		window.title = 'Renan Santos';
+		document.title = 'Renan Santos';
 	}, []);
 
 	return (
@@ -18,7 +18,7 @@ export default function Home() {
 			<Hero />
 			<AboutMe />
 			<Projects />
-			<Frase />
+			<Phrase />
 			<SecBlog />
 		</>
 	);

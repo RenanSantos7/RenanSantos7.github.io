@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import Technologie from '../../../../components/Technology';
 import calculaMinhaIdade from '../../../../utils/calculaIdade';
 import defineSaudacao from '../../../../utils/saudacao';
-import styles from './Hero.module.css';
+import styles from './styles.module.css';
 import technologies from '../../../../data/technologies.json';
 
 export default function Hero() {

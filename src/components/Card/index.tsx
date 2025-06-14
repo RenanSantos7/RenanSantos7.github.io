@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 import Markdown from 'react-markdown'
 import rehypeRaw from 'rehype-raw'
 
-import styles from './Card.module.css'
 import { IPost, IProject } from '../../types'
+import styles from './styles.module.css'
 
 type CardProps = {
     type: 'projeto' ;

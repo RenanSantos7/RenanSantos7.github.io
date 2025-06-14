@@ -1,4 +1,5 @@
-import styles from './SobreMim.module.css'
+import photo from '../../../../assets/foto-perfil.png';
+import styles from './styles.module.css'
 
 export default function AboutMe() {
     return (
@@ -9,7 +10,7 @@ export default function AboutMe() {
             <h2>Sobre mim</h2>
 
             <div className={styles.minhaFoto}>
-                <img src={'../../../../assets/foto-perfil.png'} />
+                <img src={photo} />
             </div>
             
             <p>Sou formado em <strong>Direito</strong> pela Universidade Estadual do Piauí e advogo desde 2012, mas recentemente surgiu em mim uma vontade de mudar de carreira.</p>

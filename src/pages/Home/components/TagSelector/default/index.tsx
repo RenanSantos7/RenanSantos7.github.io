@@ -1,11 +1,13 @@
 import { useContext } from 'react';
-import { DataContext } from '../../../../../../contexts/dataContext';
+
 import classNames from 'classnames';
+
+import { DataContext } from '../../../../../contexts/dataContext';
+import { IProject } from '../../../../../types';
 import { TagSelectorProps } from '..';
-import { IProject } from '../../../../../../types';
 import styles from './styles.module.css';
 
-export default function TagSelectorPadrao({
+export default function TagSelectorDefault({
 	selectedTag,
 	onSelect,
 }: TagSelectorProps) {

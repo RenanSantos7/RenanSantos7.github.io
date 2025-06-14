@@ -1,10 +1,10 @@
 import { createBrowserRouter } from "react-router-dom";
 import Base from "./pages/Base";
 import Home from "./pages/Home";
-import Projeto from "./pages/Projeto/Projeto";
-import Blog from "./pages/Blog/Blog";
-import Contato from './pages/Contato/Contato';
-import Erro404 from './pages/Erro404/Erro404';
+import Projeto from "./pages/ProjectPage";
+import Blog from "./pages/Blog";
+import ContactPage from './pages/Contato';
+import Error404 from './pages/Error404';
 
 export const router = createBrowserRouter([
     {
@@ -25,11 +25,11 @@ export const router = createBrowserRouter([
             },
             {
                 path: 'contato',
-                element: <Contato />
+                element: <ContactPage />
             },
             {
                 path: '*',
-                element: <Erro404 />
+                element: <Error404 />
             }
         ]
     }

@@ -1,15 +1,15 @@
-import { useContext, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import frases from '../../../../data/frases.json';
-import geraInteiroAleatorio from '../../../../utils/geraInteiroAleatorio';
-import styles from './Frase.module.css';
+import getRandomInt from '../../../../utils/getRandomInt';
+import styles from './styles.module.css';
 
-export default function Frase() {
+export default function Phrase() {
 	const [frase, setFrase] = useState('');
 	const [autor, setAutor] = useState('');
 
 	function mudaFrase() {
-		let i = geraInteiroAleatorio(0, frases.length);
+		let i = getRandomInt(0, frases.length);
 		setFrase(frases[i].frase);
 		setAutor(frases[i].autor);
 	}
