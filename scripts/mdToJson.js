@@ -1,55 +1,58 @@
 import fs from 'fs';
-import path from 'path';
 
 const args = process.argv.slice(2);
-const caminhoArquivo = args[0];
+const filePath = args[0];
 
-if (!caminhoArquivo) {
+if (!filePath) {
 	console.error('Use: node mdToJSON.js ./arquivo.md');
 	process.exit(1);
 }
 
-const conteudoOriginal = fs.readFileSync(caminhoArquivo, 'utf-8');
+const originalContent = fs.readFileSync(filePath, 'utf-8');
 
 let yaml = '';
-let corpo = conteudoOriginal;
+let body = originalContent;
 
 // Extrai frontmatter
-if (conteudoOriginal.startsWith('---')) {
-	const fim = conteudoOriginal.indexOf('---', 3);
-	if (fim !== -1) {
-		yaml = conteudoOriginal.slice(3, fim).trim();
-		corpo = conteudoOriginal.slice(fim + 3).trimStart();
+if (originalContent.startsWith('---')) {
+	const indexEnd = originalContent.indexOf('---', 3);
+	if (indexEnd !== -1) {
+		yaml = originalContent.slice(3, indexEnd).trim();
+		body = originalContent.slice(indexEnd + 3).trim();
 	}
 }
 
 // Converte YAML manualmente para objeto simples
-const objeto = {};
+const obj = {};
 
-yaml.split('\n').forEach(linha => {
-	const match = linha.match(/^(\w+):\s*(.*)$/);
+yaml.split('\n').forEach(line => {
+	const match = line.match(/^(\w+):\s*(.*)$/);
 	if (match) {
-		const chave = match[1];
-		let valor = match[2];
+		const key = match[1];
+		let value = match[2];
 
 		// Converte listas do tipo [a, b]
-		if (valor.startsWith('[') && valor.endsWith(']')) {
-			valor = valor
+		if (value.startsWith('[') && value.endsWith(']')) {
+			value = value
 				.slice(1, -1)
 				.split(',')
 				.map(s => s.trim());
 		}
 
-		objeto[chave] = valor;
+		if (key === 'publicated') {
+			value = new Date(value);
+		}
+
+		obj[key] = value;
 	}
 });
 
 // Adiciona o conteúdo formatado
-objeto.content = corpo
+obj.content = body
 	.replace(/\r?\n/g, '\n')
 	.replace(/\t/g, '\t')
 	.replace(/"/g, '\"');
 
-fs.writeFileSync('./resultado.json', JSON.stringify(objeto, null, 2), 'utf-8');
+fs.writeFileSync('./resultado.json', JSON.stringify(obj, null, 2), 'utf-8');
 
 console.log('Arquivo salvo como ./resultado.json');
