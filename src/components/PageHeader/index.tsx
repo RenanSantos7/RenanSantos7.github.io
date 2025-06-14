@@ -1,24 +1,30 @@
-import { useEffect, useState } from "react"
-import CabecalhoMobile from "./mobile/CabecalhoMobile"
-import CabecalhoPadrao from "./padrao/CabecalhoPadrao"
+import { useEffect, useState } from 'react';
 
-export default function Cabecalho({ animRef, page }) {
-    const [larguraTela, setLarguraTela] = useState(window.innerWidth)
+import PageHeaderMobile from './mobile';
+import CabecalhoPadrao from './default';
 
-    useEffect(() => {
-        window.addEventListener("resize", aoRedimensionar)
-        return () => window.removeEventListener("resize", aoRedimensionar)
-    }, [])
+export interface HeaderProps {
+	animRef: gsap.DOMTarget;
+	page?: string;
+}
 
-    function aoRedimensionar() {
-        setLarguraTela(window.innerWidth)
-    }
+export default function PageHeader({ animRef, page }: HeaderProps) {
+	const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
-    if (larguraTela <= 700) {
-        return <CabecalhoMobile />
-    }
+	useEffect(() => {
+		window.addEventListener('resize', onResize);
+		return () => window.removeEventListener('resize', onResize);
+	}, []);
 
-    if (larguraTela > 700) {
-        return <CabecalhoPadrao animRef={animRef} page={page} />
-    }
+	function onResize() {
+		setScreenWidth(window.innerWidth);
+	}
+
+	if (screenWidth <= 700) {
+		return <PageHeaderMobile />;
+	}
+
+	if (screenWidth > 700) {
+		return <CabecalhoPadrao animRef={animRef} page={page} />;
+	}
 }

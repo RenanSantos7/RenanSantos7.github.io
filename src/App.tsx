@@ -1,11 +1,11 @@
 import { RouterProvider, ScrollRestoration } from "react-router-dom";
 import { router } from "./router";
-import { DadosProvider } from "./contexts/dadosContext";
+import { DataProvider } from "./contexts/dataContext";
 
 export default function App() {
     return (
-        <DadosProvider>
+        <DataProvider>
             <RouterProvider router={router} />
-        </DadosProvider>
+        </DataProvider>
     )
 }

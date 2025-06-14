@@ -1,7 +1,7 @@
 import styles from './Blog.module.css';
 import { useParams } from 'react-router-dom';
 import { useContext, useEffect, useState } from 'react';
-import { DadosContext } from '../../contexts/dadosContext';
+import { DataContext } from '../../contexts/dataContext';
 import Markdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 import extraiData from '../../utils/extraiData';
@@ -11,7 +11,7 @@ import rehypeHighlight from 'rehype-highlight';
 export default function Blog() {
 	const parametros = useParams();
 
-	const { posts } = useContext(DadosContext);
+	const { posts } = useContext(DataContext);
 
 	const postSelecionado = posts.find(item => item.id == parametros.id);
 

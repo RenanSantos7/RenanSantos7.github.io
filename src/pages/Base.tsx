@@ -1,6 +1,6 @@
 import { Outlet, ScrollRestoration } from "react-router-dom";
-import Rodape from "../components/Rodape/Rodape";
-import RolarParaCima from "../components/RolaParaCima/RolarParaCima";
+import Rodape from "../components/PageFooter";
+import RollToUp from "../components/RollToUp";
 
 export default function Base() {
 
@@ -8,7 +8,7 @@ export default function Base() {
         <>
             <Outlet />
             <Rodape />
-            <RolarParaCima />
+            <RollToUp />
             <ScrollRestoration />
         </>
     )

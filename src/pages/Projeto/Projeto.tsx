@@ -1,7 +1,7 @@
 import styles from './Projeto.module.css'
 import { useParams } from 'react-router-dom'
 import { useContext, useEffect, useLayoutEffect } from 'react'
-import { DadosContext } from '../../contexts/dadosContext'
+import { DataContext } from '../../contexts/dataContext'
 import Markdown from 'react-markdown'
 import rehypeRaw from 'rehype-raw'
 import Cabecalho from '../../components/Cabecalho/Cabecalho'
@@ -12,7 +12,7 @@ export default function Projeto() {
 
     const parametros = useParams()
 
-    const { projetos } = useContext(DadosContext)
+    const { projetos } = useContext(DataContext)
 
     const projetoSelecionado = projetos.find(item => (
         item.id == parametros.id
