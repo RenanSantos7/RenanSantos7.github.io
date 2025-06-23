@@ -50,6 +50,6 @@ objeto.content = corpo
 	.replace(/\t/g, '\t')
 	.replace(/"/g, '\"');
 
-fs.writeFileSync('./resultado.json', JSON.stringify(objeto, null, 2), 'utf-8');
+fs.writeFileSync('./resultado.local.json', JSON.stringify(objeto, null, 2), 'utf-8');
 
 console.log('Arquivo salvo como ./resultado.json');
