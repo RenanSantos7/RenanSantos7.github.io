@@ -1,16 +1,19 @@
-import styles from './styles.module.css';
+import { useContext, useEffect } from 'react';
+
+import { Helmet } from 'react-helmet-async';
 import { useParams } from 'react-router-dom';
-import { useContext, useEffect, useLayoutEffect } from 'react';
-import { DataContext } from '../../contexts/dataContext';
-import Markdown from 'react-markdown';
-import rehypeRaw from 'rehype-raw';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
+import Markdown from 'react-markdown';
+import rehypeHighlight from 'rehype-highlight';
+import rehypeRaw from 'rehype-raw';
+
+import { DataContext } from '../../contexts/dataContext';
 import { IProject } from '../../types';
 import PageHeader from '../../components/PageHeader';
-import rehypeHighlight from 'rehype-highlight';
+import styles from './styles.module.css';
 
-export default function Projeto() {
+export default function ProjectPage() {
 	const params = useParams();
 
 	const { projects } = useContext(DataContext);
@@ -20,11 +23,21 @@ export default function Projeto() {
 	);
 
 	useEffect(() => {
-		document.title = `Renan Santos | ${selectedProject.title}`;
+		window.scrollTo(0, 0);
 	}, []);
 
 	return (
 		<>
+			<Helmet>
+				<title>Renan Santos | {selectedProject.title}</title>
+				<meta property='og:title' content={selectedProject.title} />
+				<meta property='og:image' content={selectedProject.img} />
+				<meta
+					property='og:description'
+					content={selectedProject.description}
+				/>
+				<meta property='og:type' content='article' />
+			</Helmet>
 			<PageHeader animRef={'#capa'} />
 
 			<main className={`${styles.projeto} larguraLimitada`}>

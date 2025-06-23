@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, MouseEvent } from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
@@ -13,7 +13,7 @@ export default function PageHeaderMobile() {
 
 	const menuTop = menuAberto ? '0' : '-32rem';
 
-	function alternarMenu(evt: React.MouseEvent<HTMLButtonElement>) {
+	function alternarMenu(evt: MouseEvent<HTMLButtonElement>) {
 		evt.preventDefault();
 		setMenuAberto(!menuAberto);
 	}

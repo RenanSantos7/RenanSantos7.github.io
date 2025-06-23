@@ -1,4 +1,4 @@
-import { useContext } from 'react';
+import { useContext, ChangeEvent } from 'react';
 
 import { DataContext } from '../../../../../contexts/dataContext';
 import { TagSelectorProps } from '..';
@@ -11,7 +11,7 @@ export default function TagSelectorMobile({
 }: TagSelectorProps) {
 	const { projects } = useContext(DataContext);
 
-	const tags = projects
+	const tagList = projects
 		.map((project: IProject) => project.tagList)
 		.flat()
 		.filter(
@@ -19,7 +19,7 @@ export default function TagSelectorMobile({
 				array.indexOf(value) === indice,
 		);
 
-	function aoEscolher(evt: React.ChangeEvent<HTMLSelectElement>) {
+	function aoEscolher(evt: ChangeEvent<HTMLSelectElement>) {
 		const valor = evt.target.value;
 
 		onSelect(valor);
@@ -28,7 +28,7 @@ export default function TagSelectorMobile({
 	return (
 		<select onChange={aoEscolher} className={styles.tagSelector}>
 			<option value=''>Todos</option>
-			{tags.map((tag: string, i: number) => (
+			{tagList.map((tag: string, i: number) => (
 				<option key={i} value={tag}>
 					{tag}
 				</option>

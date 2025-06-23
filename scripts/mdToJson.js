@@ -28,7 +28,7 @@ const obj = {};
 yaml.split('\n').forEach(line => {
 	const match = line.match(/^(\w+):\s*(.*)$/);
 	if (match) {
-		const key = match[1];
+		let key = match[1];
 		let value = match[2];
 
 		// Converte listas do tipo [a, b]
@@ -43,7 +43,9 @@ yaml.split('\n').forEach(line => {
 			value = new Date(value);
 		}
 
-		obj[key] = value;
+		if (key !== 'tagList') {
+			obj[key] = value;
+		}
 	}
 });
 

@@ -50,7 +50,7 @@ export default function CabecalhoPadrao({ animRef, page }: HeaderProps) {
 		return () => {
 			gsap.killTweensOf('#cabecalho');
 		};
-	}, []);
+	}, [anim, trigger]);
 
 	return (
 		<header id='cabecalho' className={styles.cabecalho} style={bg}>
@@ -79,7 +79,7 @@ export default function CabecalhoPadrao({ animRef, page }: HeaderProps) {
 					<div className={styles.links__externos}>
 						<a
 							target='_blank'
-							rel='noopener'
+							rel='noopener noreferrer'
 							aria-label='LinkedIn'
 							id='LinkedIn'
 							href='https://www.linkedin.com/in/renan-santos-7332b5255/'
@@ -91,7 +91,7 @@ export default function CabecalhoPadrao({ animRef, page }: HeaderProps) {
 						</a>
 						<a
 							target='_blank'
-							rel='noopener'
+							rel='noopener noreferrer'
 							id='github'
 							aria-label='Github'
 							href='https://github.com/RenanSantos7'

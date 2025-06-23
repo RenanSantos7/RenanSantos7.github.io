@@ -13,7 +13,7 @@ export default function TagSelectorDefault({
 }: TagSelectorProps) {
 	const { projects } = useContext(DataContext);
 
-	const tags = projects
+	const tagList = projects
 		.map((project: IProject) => project.tagList)
 		.flat()
 		//remove repetidos
@@ -28,7 +28,7 @@ export default function TagSelectorDefault({
 				todos
 			</button>
 
-			{tags.map((tag: string, i: number) => (
+			{tagList.map((tag: string, i: number) => (
 				<button
 					key={i}
 					className={classNames(

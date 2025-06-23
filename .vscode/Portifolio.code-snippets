@@ -47,7 +47,7 @@
 			"\t\"texto\": \"$8\",",
 			"\t\"tecnologias\": [\"$9\"],",
 			"\t\"criacao\": \"AAAA-DD-MM\",",
-			"\t\"tags\":[\"${10|alura,pessoal,outros|}\"],",
+			"\t\"tagList\":[\"${10|alura,pessoal,outros|}\"],",
 			"\t\"atualizacao\": \"AAAA-DD-MM\"",
 			"}"
 		]

@@ -1,11 +1,11 @@
 import styles from './styles.module.css';
 
 interface TechnologieProps {
-    item: {
-        id: string | number;
-        name: string;
-        img: string;
-    }
+	item: {
+		id: string | number;
+		name: string;
+		img: string;
+	};
 }
 
 export default function Technologie({ item }: TechnologieProps) {

@@ -17,4 +17,3 @@ export function DataProvider({ children }: { children: ReactNode }) {
 		</DataContext.Provider>
 	);
 }
-

@@ -7,8 +7,7 @@ import AboutMe from './components/AboutMe';
 import PageHeader from '../../components/PageHeader';
 
 export default function Home() {
-    useEffect(() => {
-        //@ts-ignore
+	useEffect(() => {
 		document.title = 'Renan Santos';
 	}, []);
 
