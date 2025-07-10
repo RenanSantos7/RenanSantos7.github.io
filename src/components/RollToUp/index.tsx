@@ -29,13 +29,13 @@ export default function RollToUp() {
 	return (
 		<button
 			className={`
-                ${styles.botao}
-                ${visible ? styles.aparente : ''}
+                ${styles.button}
+                ${visible ? styles.visible : ''}
             `}
 			onClick={backToTop}
 		>
-			<span>Voltar para o topo</span>
 			<FontAwesomeIcon icon={faArrowUp} />
+			<span>Voltar para o topo</span>
 		</button>
 	);
 }

@@ -1,11 +1,11 @@
-.botao {
+.button {
     position: fixed;
     bottom: 50px;
     right: 5vw;
 
     display: flex;
     gap: 1rem;
-    justify-content: end;
+    justify-content: flex-start;
     flex-wrap: nowrap;
 
     padding: 1rem;
@@ -17,14 +17,16 @@
     width: 3rem;
     height: 3rem;
     overflow: hidden;
-    transition: all .6s ease-in-out;
     opacity: 0;
+    white-space: nowrap;
+    transition: all .6s ease-in-out;
+    
+    &:hover {
+        width: 200px;
+    }
 }
 
-.botao:hover {
-    width: max-content;
-}
 
-.aparente {
+.visible {
     opacity: 1;
 }
