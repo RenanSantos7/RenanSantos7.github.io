@@ -1,4 +1,4 @@
-.projeto {
+.project {
     margin-block: 12vh 250px;
 
 	a:hover {
@@ -31,7 +31,7 @@
 	}
 }
 
-.titulo {
+.title {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -57,12 +57,12 @@
 	}
 }
 
-.legenda {
+.caption {
 	font-weight: 300;
 	font-style: italic;
 }
 
-.texto {
+.body {
 	margin: 0;
 	padding: 0;
 	
@@ -73,11 +73,7 @@
 	}
 
 	h3 {
-<<<<<<< HEAD:src/pages/Projeto/Projeto.module.css
 		margin-block: 1.5rem 0.5rem;
-=======
-		margin-block: 1.5rem .5rem;
->>>>>>> typescript:src/pages/ProjectPage/styles.module.css
 		font-size: 1.4rem;
 	}
 

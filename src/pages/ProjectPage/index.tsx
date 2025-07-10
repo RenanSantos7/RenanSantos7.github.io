@@ -38,11 +38,11 @@ export default function ProjectPage() {
 				/>
 				<meta property='og:type' content='article' />
 			</Helmet>
-			<PageHeader animRef={'#capa'} />
+			<PageHeader animRef={'#banner'} />
 
-			<main className={`${styles.projeto} larguraLimitada`}>
+			<main className={`${styles.project} larguraLimitada`}>
 				<header className={styles.header}>
-					<div className={styles.titulo}>
+					<div className={styles.title}>
 						<h1>{selectedProject.title}</h1>
 						<div className={styles.links}>
 							{selectedProject.deployLink && (
@@ -76,17 +76,17 @@ export default function ProjectPage() {
 							)}
 						</div>
 					</div>
-					<figure id='capa'>
+					<figure id='banner'>
 						<img
 							src={selectedProject.img}
 							alt={selectedProject.alt}
 						/>
-						<figcaption className={styles.legenda}>
+						<figcaption className={styles.caption}>
 							{selectedProject.alt}
 						</figcaption>
 					</figure>
 				</header>
-				<section className={styles.texto}>
+				<section className={styles.body}>
 					<Markdown rehypePlugins={[rehypeRaw, rehypeHighlight]}>
 						{selectedProject.content}
 					</Markdown>
