@@ -1,0 +1,42 @@
+[
+	{ 
+        "id": "a1b2c3", 
+        "name": "HTML5",
+         "img": "/assets/tecnologias/html.svg" 
+    },
+	{ 
+        "id": "d4e5f6", 
+        "name": "CSS3", 
+        "img": "/assets/tecnologias/css.svg"
+    },
+	{
+		"id": "g7h8i9",
+		"name": "TypeScript",
+		"img": "/assets/tecnologias/typescript.svg"
+	},
+	{ 
+        "id": "j1k2l3", 
+        "name": "React", 
+        "img": "/assets/tecnologias/react.svg"
+     },
+	{
+		"id": "m4n5o6",
+		"name": "Expo",
+		"img": "https://camo.githubusercontent.com/4a3e29d248be84fccc77b9c3307ab91c679a6557da14452f589c694e6db78759/68747470733a2f2f69636f6e732e6578706f2e6170702f6578706f2e737667"
+	},
+	{
+		"id": "p7q8r9",
+		"name": "React Navigation",
+		"img": "https://camo.githubusercontent.com/f09401b271389975589f0dea455a1885c5867c8c5520107df74e7ad24ee0ebae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e406c61746573742f69636f6e732f72656163746e617669676174696f6e2f72656163746e617669676174696f6e2d6f726967696e616c2e737667"
+	},
+	{
+		"id": "s1t2u3",
+		"name": "Figma",
+		"img": "https://camo.githubusercontent.com/b27c50dd9ce782ba9df160d65a7923628d9d50c8137798c77f85202d93737cb6/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e406c61746573742f69636f6e732f6669676d612f6669676d612d6f726967696e616c2e737667"
+	},
+	{
+		"id": "v4w5x6",
+		"name": "Firebase",
+		"img": "/assets/tecnologias/firebase.svg"
+	}
+]
