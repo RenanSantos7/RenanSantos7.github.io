@@ -1,11 +1,11 @@
-import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 import styles from './styles.module.css';
 
-export default function Rodape() {
+export default function PageFooter() {
 	return (
 		<footer className={styles.rodape}>
 			<Link to='contato' className={styles.contato}>

@@ -1,6 +1,6 @@
 import { createContext, ReactNode } from 'react';
 import posts from '../data/blogposts.json';
-import projects from '../data/projetos.json';
+import projects from '../data/projects.json';
 
 export const DataContext = createContext(null);
 DataContext.displayName = 'Dados Portifolio';

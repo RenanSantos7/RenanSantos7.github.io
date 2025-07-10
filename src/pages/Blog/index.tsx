@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from 'react';
+import { useContext, useEffect, useLayoutEffect, useState } from 'react';
 
 import { Helmet } from 'react-helmet-async';
 import { useParams } from 'react-router-dom';
@@ -23,9 +23,9 @@ export default function Blog() {
 
 	const dataPub = formatDate(selectedPost.publication as string);
 
-	useEffect(() => {
+	/* useLayoutEffect(() => {
 		window.scrollTo(0, 0);
-	}, []);
+	}, []); */
 
 	useEffect(() => {
 		const head = document.head;

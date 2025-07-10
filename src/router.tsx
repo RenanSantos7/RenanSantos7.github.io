@@ -3,7 +3,7 @@ import Base from './pages/Base';
 import Home from './pages/Home';
 import ProjectPage from './pages/ProjectPage';
 import Blog from './pages/Blog';
-import ContactPage from './pages/Contato';
+import ContactPage from './pages/Contact';
 import Error404 from './pages/Error404';
 
 export const router = createBrowserRouter([

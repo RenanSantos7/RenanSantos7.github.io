@@ -1,5 +1,5 @@
 import { Outlet, ScrollRestoration, useLocation } from 'react-router-dom';
-import Rodape from '../components/PageFooter';
+import PageFooter from '../components/PageFooter';
 import RollToUp from '../components/RollToUp';
 import { useLayoutEffect } from 'react';
 
@@ -13,7 +13,7 @@ export default function Base() {
 	return (
 		<>
 			<Outlet />
-			<Rodape />
+			<PageFooter />
 			<RollToUp />
 		</>
 	);
