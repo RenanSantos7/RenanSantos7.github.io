@@ -11,14 +11,15 @@
 	--cinza3: hsl(0, 0%, 85%);
 	--cinza4: hsl(0, 0%, 90%);
 
-	--code-bg: #f5f5f5;
-	--code-text: #333333;
-	--code-string: #a31515;
-	--code-number: #098658;
-	--code-keyword: #0000ff;
-	--code-attr: #ff0000;
-	--code-comment: #008000;
-	--code-punctuation: #333333;
+	--code-bg: hsl(0, 0%, 100%);
+	--code-text: hsl(0, 0%, 13%);
+	--code-string: hsl(17, 100%, 32%);
+	--code-number: hsl(9, 100%, 64%);
+	--code-keyword: hsl(200, 99%, 37%);
+	--code-attr: hsl(200, 99%, 40%);
+	--code-comment: hsl(101, 29%, 47%);
+	--code-punctuation: hsl(209, 98%, 52%);
+	--code-tab-size: 3;
 
 	--bg-geral: hsl(0, 0%, 98%);
 	--bg-geral-transp: hsla(0, 0%, 98%, 50%);
@@ -44,14 +45,14 @@
 		--cinza2: hsla(0, 0%, 45%, 45%);
 		--cinza4: hsl(0, 0%, 25%);
 
-		--code-bg: #1e1e1e;
-		--code-text: #d4d4d4;
-		--code-string: #ce9178;
-		--code-number: #b5cea8;
-		--code-keyword: #569cd6;
-		--code-attr: #9cdcfe;
-		--code-comment: #6a9955;
-		--code-punctuation: #d4d4d4;
+		--code-bg: hsl(0, 0%, 12%);
+		--code-text: hsl(0, 0%, 86%);
+		--code-string: hsl(17, 47%, 64%);
+		--code-number: hsl(99, 28%, 73%);
+		--code-keyword: hsl(207, 61%, 59%);
+		--code-attr: hsl(201, 98%, 80%);
+		--code-comment: hsl(101, 29%, 47%);
+		--code-punctuation: hsl(49, 46%, 62%);
 
 		--bg-geral: hsl(0, 0%, 20%);
 		--bg-geral-transp: hsla(0, 0%, 20%, 50%);
@@ -69,11 +70,8 @@
 	}
 }
 
-* {
-	font-family: 'Lato', sans;
-}
-
 body {
+	font-family: 'Lato', sans;
 	margin-top: 1em;
 	scroll-behavior: smooth;
 	background-color: var(--bg-geral);
@@ -118,19 +116,26 @@ p code {
 
 pre {
 	margin-block: 1rem;
-	background-color: var(--bg-code);
 	padding: 1rem;
-	line-height: 1.2em;
 	position: relative;
-
+	background-color: var(--bg-code);
+	font-size: 1.1rem;
+	line-height: 1.35em;
+	
 	code, code.hljs {
 		font-family: var(--font-mono);
+		background-color: transparent;
+		tab-size: var(--code-tab-size);
+		-moz-tab-size: var(--code-tab-size);
+		-o-tab-size: var(--code-tab-size);
 
 		&[class*='language-'] {
 			&::before {
 				position: absolute;
 				top: 1rem;
 				right: 1rem;
+				font-size: 1rem;
+				color: var(--code)
 			}
 		}
 
@@ -159,6 +164,7 @@ pre {
 .hljs-punctuation {
 	color: var(--code-punctuation);
 }
+
 
 .svg-inline--fa {
 	font-size: 1.3em;
@@ -220,7 +226,7 @@ figcaption {
 	font-size: 1rem;
 	margin-block: 1.2rem;
 	border-radius: 4px;
-	color: var(--code) !important;
+	color: var(--code);
 }
 
 .inlineCode {

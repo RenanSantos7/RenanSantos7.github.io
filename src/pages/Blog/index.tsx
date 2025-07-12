@@ -1,13 +1,13 @@
-import { useContext, useEffect, useLayoutEffect, useState } from 'react';
+import { useContext, useEffect } from 'react';
 
 import { Helmet } from 'react-helmet-async';
 import { useParams } from 'react-router-dom';
+import Markdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 import rehypeHighlight from 'rehype-highlight';
 
 import { DataContext } from '../../contexts/dataContext';
 import { IPost } from '../../types';
-import Markdown from 'react-markdown';
 import PageHeader from '../../components/PageHeader';
 import formatDate from '../../utils/formatDate';
 import styles from './styles.module.css';
@@ -22,10 +22,6 @@ export default function Blog() {
 	);
 
 	const dataPub = formatDate(selectedPost.publication as string);
-
-	/* useLayoutEffect(() => {
-		window.scrollTo(0, 0);
-	}, []); */
 
 	useEffect(() => {
 		const head = document.head;
