@@ -5,7 +5,6 @@ import { useParams } from 'react-router-dom';
 import Markdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 import rehypeHighlight from 'rehype-highlight';
-import remarkGfm from 'remark-gfm';
 
 import { DataContext } from '../../contexts/dataContext';
 import { IPost } from '../../types';
@@ -61,16 +60,15 @@ export default function Blog() {
 						<time className={styles.publication}>{dataPub}</time>
 						<div className={styles.tagList}>
 							{selectedPost.tagList.map(tag => (
-								<a key={tag} className={styles.tag}>#{tag}</a>
+								<a key={tag} className={styles.tag}>
+									#{tag}
+								</a>
 							))}
 						</div>
 					</div>
 				</div>
 				<div className={styles.corpo}>
-					<Markdown
-						remarkPlugins={[remarkGfm]}
-						rehypePlugins={[rehypeRaw, rehypeHighlight]}
-					>
+					<Markdown rehypePlugins={[rehypeRaw, rehypeHighlight]}>
 						{selectedPost.content}
 					</Markdown>
 				</div>
