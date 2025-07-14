@@ -88,4 +88,9 @@
 		margin-block: 1.5rem 1rem;
 		font-size: 1.4rem;
 	}
+
+	sup {
+		font-size: 0.67em;
+		margin-left: 0.15em;
+	}
 }

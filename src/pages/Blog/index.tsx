@@ -5,6 +5,7 @@ import { useParams } from 'react-router-dom';
 import Markdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 import rehypeHighlight from 'rehype-highlight';
+import remarkGfm from 'remark-gfm';
 
 import { DataContext } from '../../contexts/dataContext';
 import { IPost } from '../../types';
@@ -66,7 +67,10 @@ export default function Blog() {
 					</div>
 				</div>
 				<div className={styles.corpo}>
-					<Markdown rehypePlugins={[rehypeRaw, rehypeHighlight]}>
+					<Markdown
+						remarkPlugins={[remarkGfm]}
+						rehypePlugins={[rehypeRaw, rehypeHighlight]}
+					>
 						{selectedPost.content}
 					</Markdown>
 				</div>
