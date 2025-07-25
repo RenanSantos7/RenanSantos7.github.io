@@ -1,7 +1,6 @@
 import { useContext, useEffect } from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Helmet } from 'react-helmet-async';
 import { useParams } from 'react-router-dom';
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 import Markdown from 'react-markdown';
@@ -12,6 +11,7 @@ import { DataContext } from '../../contexts/dataContext';
 import { IProject } from '../../types';
 import PageHeader from '../../components/PageHeader';
 import styles from './styles.module.css';
+import Metatags from '../../components/Metatags';
 
 export default function ProjectPage() {
 	const params = useParams();
@@ -28,16 +28,12 @@ export default function ProjectPage() {
 
 	return (
 		<>
-			<Helmet>
-				<title>Renan Santos | {selectedProject.title}</title>
-				<meta property='og:title' content={selectedProject.title} />
-				<meta property='og:image' content={selectedProject.img} />
-				<meta
-					property='og:description'
-					content={selectedProject.description}
-				/>
-				<meta property='og:type' content='article' />
-			</Helmet>
+			<Metatags
+				title={`Renan Santos | ${selectedProject.title}`}
+				image={selectedProject.img}
+				description={selectedProject.description}
+			/>
+
 			<PageHeader animRef={'#banner'} />
 
 			<main className={`${styles.project} larguraLimitada`}>

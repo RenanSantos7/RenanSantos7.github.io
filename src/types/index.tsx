@@ -16,5 +16,6 @@ export interface IProject extends IContent {
 	deployLink?: string;
 	alt?: string;
 	technologies: string[];
-	updated: string | Date;
+	created?: string | Date;
+	updated?: string | Date;
 }

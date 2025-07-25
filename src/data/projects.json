@@ -187,7 +187,7 @@
         "description": "Projeto pessoal feito para um amigo, motorista de aplicativo. É um landing page de vendas para centralizar informações de contato do motorista",
         "content": "Projeto pessoal feito para um amigo, motorista de aplicativo. É um landing page de vendas para centralizar informações de contato do motorista.\n\nComo uma landing page de contato, é simples e não possui muita complexidade. Procura ser breve e direta, contando com os contatos, a foto e um slogan para passar confiabilidade.\n\nNa página foi usada a biblioteca de ícones FontAwesome. Além disso, as tecnologias usadas foram HTML5 e CSS3 puros.",
         "technologies": ["html", "css"],
-        "criacao": "2024-18-02",
+        "creation": "2024-18-02",
         "updated": "2024-02-18",
         "tagList":["pessoal"]
     },

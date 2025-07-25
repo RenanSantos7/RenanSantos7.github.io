@@ -1,6 +1,5 @@
 import { useContext, useEffect } from 'react';
 
-import { Helmet } from 'react-helmet-async';
 import { useParams } from 'react-router-dom';
 import Markdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
@@ -8,6 +7,7 @@ import rehypeHighlight from 'rehype-highlight';
 
 import { DataContext } from '../../contexts/dataContext';
 import { IPost } from '../../types';
+import Metatags from '../../components/Metatags';
 import PageHeader from '../../components/PageHeader';
 import formatDate from '../../utils/formatDate';
 import styles from './styles.module.css';
@@ -37,16 +37,14 @@ export default function Blog() {
 
 	return (
 		<>
-			<Helmet>
-				<title>Renan Santos | {selectedPost.title}</title>
-				<meta property='og:title' content={selectedPost.title} />
-				<meta property='og:image' content={selectedPost.img} />
-				<meta
-					property='og:description'
-					content={selectedPost.description}
-				/>
-				<meta property='og:type' content='article' />
-			</Helmet>
+			<Metatags
+				title={`Renan Santos | ${selectedPost.title}`}
+				image={selectedPost.img}
+				description={selectedPost.description}
+				type='article'
+				published={new Date(selectedPost.publication)}
+			/>
+
 			<PageHeader page='blog' animRef={'#capa'} />
 
 			<main className={styles.post}>
