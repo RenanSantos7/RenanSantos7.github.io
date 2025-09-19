@@ -65,6 +65,10 @@ input[type="radio"] {
   padding: 0; 
 }
 
+select {
+	appearance: none;
+}
+
 img {
 	width: 100%;
 	object-fit: contain;
